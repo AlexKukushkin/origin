@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.3">
+	<echcf:Packaging>
+		<ucfd:MessageProtocolInfo>
+			<ucfd:Name value="ISA"/>
+			<ucfd:ControlNumber value="000000012"/>
+			<ucfd:Version value="00501"/>
+			<ucfd:Date value="2016-03-18"/>
+			<ucfd:Time value="03:47:00"/>
+			<ucfd:Sender>
+				<ucf:Qualifier value="14"/>
+				<ucf:Identifier value="7987886670000  "/>
+			</ucfd:Sender>
+			<ucfd:Receiver>
+				<ucf:Qualifier value="14"/>
+				<ucf:Identifier value="0499441430000  "/>
+			</ucfd:Receiver>
+		</ucfd:MessageProtocolInfo>
+		<ucfd:MessageProtocolInfo>
+			<ucfd:Name value="GS"/>
+			<ucfd:ControlNumber value="12"/>
+			<ucfd:Version value="005010X223A2"/>
+			<ucfd:Date value="2016-03-18"/>
+			<ucfd:Time value="03:47:00"/>
+			<ucfd:Sender>
+				<ucf:Qualifier value="ZZ"/>
+				<ucf:Identifier value="61101WCR"/>
+			</ucfd:Sender>
+			<ucfd:Receiver>
+				<ucf:Qualifier value="ZZ"/>
+				<ucf:Identifier value="0499441430000"/>
+			</ucfd:Receiver>
+		</ucfd:MessageProtocolInfo>
+	</echcf:Packaging>
+	<echcf:ClaimSubmitterInfo>
+		<ucfd:PersonIndicator value="2"/>
+		<ucfd:Name value="NEBO SYSTEMS INC"/>
+		<ucfd:BatchIdentifier value="1"/>
+		<ucfd:BatchDate value="2016-03-18"/>
+		<ucfd:BatchTime value="03:47:18"/>
+		<ucfd:BatchPurpose value="00"/>
+		<ucfd:ElectronicIdentificationNumber value="7987886670000"/>
+		<ucfd:ContactInfo>
+			<ucfd:ContactType value="IC"/>
+			<ucfd:ContactName value="JOHN BUSH"/>
+			<ucfd:CommunicationNumber>
+				<ucf:Qualifier value="EM"/>
+				<ucf:Identifier value="ecaresupport@passporthealth.com"/>
+			</ucfd:CommunicationNumber>
+		</ucfd:ContactInfo>
+	</echcf:ClaimSubmitterInfo>
+	<echcf:ClaimReceiverInfo>
+		<ucfd:Name value="HUMANA"/>
+		<ucfd:ElectronicIdentificationNumber value="0499441430000"/>
+	</echcf:ClaimReceiverInfo>
+	<echcf:OriginalClaimID value="$TargetTrackingID"/>
+	<echcf:SubmittedClaimID value="$TargetTrackingID"/>
+	<echcf:InternalClaimID value="$TargetTrackingID"/>
+	<echcf:ClaimProcessorID value="CE1"/>
+	<echcf:Classifications>
+		<ucf:Property name="IsDME" valueType="BOOLEAN" value="false"/>
+		<hcfd:IsCapitated value="false"/>
+		<hcfd:IsPaperClaimOriginated value="false"/>
+	</echcf:Classifications>
+	<echcf:PatientInfo>
+		<ucfd:FirstName value="JOHN"/>
+		<ucfd:LastName value="ASHFORD"/>
+		<ucfd:MiddleName value="A"/>
+		<ucfd:PrimaryIdentifier>
+			<ucf:Qualifier value="MI"/>
+			<ucf:Identifier value="157045469"/>
+		</ucfd:PrimaryIdentifier>
+		<ucfd:AddressInfo>
+			<ucfd:AddressLine1 value="2451 W TOUHY AVE"/>
+			<ucfd:City value="CHICAGO"/>
+			<ucfd:State value="IL"/>
+			<ucfd:PostalCode value="606453309"/>
+		</ucfd:AddressInfo>
+		<ucfd:DemographicsInfo>
+			<ucfd:BirthDate value="1959-10-09"/>
+			<ucfd:Gender value="M"/>
+		</ucfd:DemographicsInfo>
+		<hcfd:PatientStatus value="03"/>
+		<hcfd:EnrollmentInfo>
+			<hcfd:RelationshipToSubscriber value="18"/>
+		</hcfd:EnrollmentInfo>
+	</echcf:PatientInfo>
+	<!--<echcf:SubscriberInfo>
+		<ucfd:FirstName value="JOHN"/>
+		<ucfd:LastName value="ASHFORD"/>
+		<ucfd:MiddleName value="A"/>
+		<ucfd:PrimaryIdentifier>
+			<ucf:Qualifier value="MI"/>
+			<ucf:Identifier value="157045469"/>
+		</ucfd:PrimaryIdentifier>
+		<ucfd:AddressInfo>
+			<ucfd:AddressLine1 value="2451 W TOUHY AVE"/>
+			<ucfd:City value="CHICAGO"/>
+			<ucfd:State value="IL"/>
+			<ucfd:PostalCode value="606453309"/>
+		</ucfd:AddressInfo>
+		<ucfd:DemographicsInfo>
+			<ucfd:BirthDate value="1959-10-09"/>
+			<ucfd:Gender value="M"/>
+		</ucfd:DemographicsInfo>
+		<hcfd:HealthInsuranceClaimIdentifier value="157045469"/>
+		<hcfd:InsuranceInfo>
+			<hcfd:FilingIndicatorCode value="CI"/>
+			<hcfd:PayerSequenceCode value="P"/>
+			<hcfd:AssignmentPlanParticipationCode value="A"/>
+			<hcfd:BenefitsAssignmentIndicator value="Y"/>
+			<hcfd:ReleaseOfInformation value="Y"/>
+			<hcfd:PayerInfo>
+				<ucfd:PersonIndicator value="2"/>
+				<ucfd:Name value="HUMANA HEALTH PLAN, IN"/>
+				<ucfd:PrimaryIdentifier>
+					<ucf:Qualifier value="PI"/>
+					<ucf:Identifier value="61101WCR"/>
+				</ucfd:PrimaryIdentifier>
+			</hcfd:PayerInfo>
+		</hcfd:InsuranceInfo>
+		<hcfd:EnrollmentInfo>
+			<hcfd:PolicyIdentifier value="T0660006"/>
+			<hcfd:RelationshipToSubscriber value="18"/>
+		</hcfd:EnrollmentInfo>
+	</echcf:SubscriberInfo>-->
+	<echcf:ClaimIdentificationInfo>
+		<hcfd:ProviderClaimNumber value="V000041784891"/>
+		<hcfd:ClearinghouseTraceNumber value="V000041784891"/>
+		<hcfd:MedicalRecordNumber value="M000147585"/>
+		<hcfd:ClaimType value="InstClaim"/>
+		<hcfd:ClaimPurpose value="Encounter"/>
+		<hcfd:TypeOfBill value="11"/>
+		<hcfd:ClaimFrequencyCode value="1"/>
+	</echcf:ClaimIdentificationInfo>
+	<echcf:ClaimDetails >
+		<hcfd:AdmissionSource  value="6"/>
+		<hcfd:AdmissionType  value="1"/>
+		<hcfd:HealthInformation >
+			<hcfd:AdmittingDiagnosis >
+				<hcfd:SequenceNumber  value="1"/>
+				<hcfd:DiagnosisCode  value="A009"/>
+				<hcfd:DiagnosisCodeType  value="ABJ"/>
+			</hcfd:AdmittingDiagnosis>
+			<hcfd:PrincipalDiagnosis >
+				<hcfd:SequenceNumber  value="1"/>
+				<hcfd:DiagnosisCode  value="A0100"/>
+				<hcfd:DiagnosisCodeType  value="ABK"/>
+				<hcfd:PresentOnAdmissionIndicator  value="Y"/>
+			</hcfd:PrincipalDiagnosis>
+			<hcfd:OtherDiagnosis >
+				<hcfd:SequenceNumber  value="1"/>
+				<hcfd:DiagnosisCode  value="A0101"/>
+				<hcfd:DiagnosisCodeType  value="ABF"/>
+				<hcfd:PresentOnAdmissionIndicator  value="Y"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:OtherDiagnosis >
+				<hcfd:SequenceNumber  value="2"/>
+				<hcfd:DiagnosisCode  value="A0103"/>
+				<hcfd:DiagnosisCodeType  value="ABF"/>
+				<hcfd:PresentOnAdmissionIndicator  value="Y"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:OtherDiagnosis >
+				<hcfd:SequenceNumber  value="3"/>
+				<hcfd:DiagnosisCode  value="A0102"/>
+				<hcfd:DiagnosisCodeType  value="ABF"/>
+				<hcfd:PresentOnAdmissionIndicator  value="Y"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:OtherDiagnosis >
+				<hcfd:SequenceNumber  value="4"/>
+				<hcfd:DiagnosisCode  value="A0105"/>
+				<hcfd:DiagnosisCodeType  value="ABF"/>
+			</hcfd:OtherDiagnosis>
+			<hcfd:DiagnosisRelatedGroup  value="208"/>
+			<hcfd:Value >
+				<hcfd:SequenceNumber  value="1"/>
+				<hcfd:Value  value="01"/>
+				<hcfd:RelatedAmount  value="730"/>
+			</hcfd:Value>
+			<hcfd:Value >
+				<hcfd:SequenceNumber  value="2"/>
+				<hcfd:Value  value="80"/>
+				<hcfd:RelatedAmount  value="4"/>
+			</hcfd:Value>
+			<hcfd:Condition >
+				<hcfd:SequenceNumber  value="1"/>
+				<hcfd:Code  value="C1"/>
+			</hcfd:Condition>
+		</hcfd:HealthInformation>
+		<hcfd:PriorAuthorizationNumber  value="071849933"/>
+	</echcf:ClaimDetails>
+	<echcf:ClaimDates>
+		<hcfd:AdmissionDate value="2016-03-01"/>
+		<hcfd:AdmissionHour value="21:00:00"/>
+		<hcfd:ClaimReceivedDate value="2016-03-18"/>
+		<hcfd:ClaimProcessorReceivedDate value="2016-07-08"/>
+		<hcfd:DischargeHour value="23:00:00"/>
+		<hcfd:ServiceDates>
+			<ucf:BeginDate value="2016-03-01"/>
+			<ucf:EndDate value="2016-03-05"/>
+		</hcfd:ServiceDates>
+	</echcf:ClaimDates>
+	<echcf:ClaimAmounts>
+		<hcfd:TotalClaimCharge value="25908.11"/>
+	</echcf:ClaimAmounts>
+	<echcf:RelatedProvidersInfo>
+		<hcfd:BillingProvider>
+			<ucfd:PersonIndicator value="2"/>
+			<ucfd:Name value="BETHANY HOMES AND METHODIST"/>
+			<ucfd:PrimaryIdentifier>
+				<ucf:Qualifier value="XX"/>
+				<ucf:Identifier value="1891755351"/>
+			</ucfd:PrimaryIdentifier>
+			<ucfd:TaxID value="362012788"/>
+			<ucfd:AddressInfo>
+				<ucfd:AddressLine1 value="5025 NORTH PAULINA ST"/>
+				<ucfd:City value="CHICAGO"/>
+				<ucfd:State value="IL"/>
+				<ucfd:PostalCode value="606402772"/>
+			</ucfd:AddressInfo>
+			<ucfd:ContactInfo>
+				<ucfd:ContactType value="IC"/>
+				<ucfd:ContactName value="PATIENT ACCOUNTS"/>
+				<ucfd:CommunicationNumber>
+					<ucf:Qualifier value="TE"/>
+					<ucf:Identifier value="7732719040"/>
+				</ucfd:CommunicationNumber>
+			</ucfd:ContactInfo>
+			<hcfd:NPI value="1891755351"/>
+			<hcfd:TaxonomyCode value="282N00000X"/>
+		</hcfd:BillingProvider>
+		<hcfd:OperatingProviderInfo>
+			<ucfd:PersonIndicator value="1"/>
+			<ucfd:Role value="72"/>
+			<ucfd:FirstName value="MAHER"/>
+			<ucfd:LastName value="NAJJAR"/>
+			<ucfd:PrimaryIdentifier>
+				<ucf:Qualifier value="XX"/>
+				<ucf:Identifier value="1407875180"/>
+			</ucfd:PrimaryIdentifier>
+			<hcfd:NPI value="1407875180"/>
+		</hcfd:OperatingProviderInfo>
+		<hcfd:AttendingProviderInfo>
+			<ucfd:PersonIndicator value="1"/>
+			<ucfd:Role value="71"/>
+			<ucfd:FirstName value="MAHER"/>
+			<ucfd:LastName value="ALKOUBAYTARI"/>
+			<ucfd:PrimaryIdentifier>
+				<ucf:Qualifier value="XX"/>
+				<ucf:Identifier value="1437124419"/>
+			</ucfd:PrimaryIdentifier>
+			<hcfd:NPI value="1437124419"/>
+		</hcfd:AttendingProviderInfo>
+	</echcf:RelatedProvidersInfo>
+	<echcf:ClaimPricingInfo>
+		<hcfd:PricingMethodology value="08"/>
+	</echcf:ClaimPricingInfo>
+	<echcf:ClaimCOBInfo>
+		<hcfd:ClaimCOBPayerID value="12M08"/>
+		<hcfd:OtherSubscriberInfo>
+			<ucfd:Role value="IL"/>
+			<ucfd:FirstName value="JOHN"/>
+			<ucfd:LastName value="ASHFORD"/>
+			<ucfd:MiddleName value="A"/>
+			<ucfd:PrimaryIdentifier>
+				<ucf:Qualifier value="MI"/>
+				<ucf:Identifier value="335589163T"/>
+			</ucfd:PrimaryIdentifier>
+			<hcfd:PersonIndicator value="1"/>
+			<hcfd:InsuranceInfo>
+				<hcfd:FilingIndicatorCode value="MA"/>
+				<hcfd:PayerSequenceCode value="S"/>
+				<hcfd:BenefitsAssignmentIndicator value="Y"/>
+				<hcfd:ReleaseOfInformation value="Y"/>
+				<hcfd:PayerInfo>
+					<ucfd:PersonIndicator value="2"/>
+					<ucfd:Role value="PR"/>
+					<ucfd:Name value="MEDICARE MSP"/>
+					<ucfd:PrimaryIdentifier>
+						<ucf:Qualifier value="PI"/>
+						<ucf:Identifier value="12M08"/>
+					</ucfd:PrimaryIdentifier>
+				</hcfd:PayerInfo>
+			</hcfd:InsuranceInfo>
+			<hcfd:EnrollmentInfo>
+				<hcfd:RelationshipToSubscriber value="18"/>
+			</hcfd:EnrollmentInfo>
+		</hcfd:OtherSubscriberInfo>
+		<hcfd:OtherPayerPriorAuthorizationNumber value="071849933"/>
+	</echcf:ClaimCOBInfo>
+	<echcf:ClaimCOBInfo>
+		<hcfd:ClaimCOBPayerID value="SKIL0"/>
+		<hcfd:OtherSubscriberInfo>
+			<ucfd:Role value="IL"/>
+			<ucfd:FirstName value="JOHN"/>
+			<ucfd:LastName value="ASHFORD"/>
+			<ucfd:PrimaryIdentifier>
+				<ucf:Qualifier value="MI"/>
+				<ucf:Identifier value="157045469"/>
+			</ucfd:PrimaryIdentifier>
+			<hcfd:PersonIndicator value="1"/>
+			<hcfd:InsuranceInfo>
+				<hcfd:FilingIndicatorCode value="MC"/>
+				<hcfd:PayerSequenceCode value="T"/>
+				<hcfd:BenefitsAssignmentIndicator value="Y"/>
+				<hcfd:ReleaseOfInformation value="Y"/>
+				<hcfd:PayerInfo>
+					<ucfd:PersonIndicator value="2"/>
+					<ucfd:Role value="PR"/>
+					<ucfd:Name value="ILLINOIS MEDICAID"/>
+					<ucfd:PrimaryIdentifier>
+						<ucf:Qualifier value="PI"/>
+						<ucf:Identifier value="SKIL0"/>
+					</ucfd:PrimaryIdentifier>
+				</hcfd:PayerInfo>
+			</hcfd:InsuranceInfo>
+			<hcfd:EnrollmentInfo>
+				<hcfd:RelationshipToSubscriber value="18"/>
+			</hcfd:EnrollmentInfo>
+		</hcfd:OtherSubscriberInfo>
+		<hcfd:OtherPayerPriorAuthorizationNumber value="071849933"/>
+	</echcf:ClaimCOBInfo>
+	<echcf:ClaimStatus>
+		<hcfd:CurrentState value="Paid"/>
+	</echcf:ClaimStatus>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="1"/>
+		<hcfd:AssignedNumber value="1"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0200"/>
+			<hcfd:LineChargeAmount value="5992"/>
+			<hcfd:UnitMeasurementCode value="DA"/>
+			<hcfd:Quantity value="4"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="1"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="2"/>
+		<hcfd:AssignedNumber value="2"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0250"/>
+			<hcfd:LineChargeAmount value="3627.23"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="92"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="2"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="3"/>
+		<hcfd:AssignedNumber value="3"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0258"/>
+			<hcfd:LineChargeAmount value="68.12"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="6"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="3"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="4"/>
+		<hcfd:AssignedNumber value="4"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0259"/>
+			<hcfd:LineChargeAmount value="508.31"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="44"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="4"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="5"/>
+		<hcfd:AssignedNumber value="5"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0270"/>
+			<hcfd:LineChargeAmount value="208"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="8"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="5"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="6"/>
+		<hcfd:AssignedNumber value="6"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0271"/>
+			<hcfd:LineChargeAmount value="118"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="3"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="6"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="7"/>
+		<hcfd:AssignedNumber value="7"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0272"/>
+			<hcfd:LineChargeAmount value="245.75"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="14"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="7"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="8"/>
+		<hcfd:AssignedNumber value="8"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0279"/>
+			<hcfd:LineChargeAmount value="72"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="2"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="8"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="9"/>
+		<hcfd:AssignedNumber value="9"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0324"/>
+			<hcfd:LineChargeAmount value="111"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="9"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="10"/>
+		<hcfd:AssignedNumber value="10"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0410"/>
+			<hcfd:LineChargeAmount value="7939"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="32"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="10"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="11"/>
+		<hcfd:AssignedNumber value="11"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0981"/>
+			<hcfd:LineChargeAmount value="155"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="11"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="12"/>
+		<hcfd:AssignedNumber value="12"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0636"/>
+			<hcfd:LineChargeAmount value="342.66"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="12"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="13"/>
+		<hcfd:AssignedNumber value="13"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0730"/>
+			<hcfd:LineChargeAmount value="130"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="13"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="14"/>
+		<hcfd:AssignedNumber value="14"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0801"/>
+			<hcfd:LineChargeAmount value="1169.54"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="2"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="14"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="15"/>
+		<hcfd:AssignedNumber value="15"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0985"/>
+			<hcfd:LineChargeAmount value="11"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="15"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="16"/>
+		<hcfd:AssignedNumber value="16"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0450"/>
+			<hcfd:LineChargeAmount value="657"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:SubmittedServiceLineID value="16"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="17"/>
+		<hcfd:AssignedNumber value="17"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0300"/>
+			<hcfd:LineChargeAmount value="5"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-01"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="17"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="18"/>
+		<hcfd:AssignedNumber value="18"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0301"/>
+			<hcfd:LineChargeAmount value="1035"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="6"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-01"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="18"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="19"/>
+		<hcfd:AssignedNumber value="19"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0305"/>
+			<hcfd:LineChargeAmount value="152"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="2"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-01"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="19"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="20"/>
+		<hcfd:AssignedNumber value="20"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0306"/>
+			<hcfd:LineChargeAmount value="949.5"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="12"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-01"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="20"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="21"/>
+		<hcfd:AssignedNumber value="21"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0307"/>
+			<hcfd:LineChargeAmount value="64"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-01"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="21"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="22"/>
+		<hcfd:AssignedNumber value="22"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0300"/>
+			<hcfd:LineChargeAmount value="5"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-02"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="22"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="23"/>
+		<hcfd:AssignedNumber value="23"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0301"/>
+			<hcfd:LineChargeAmount value="140"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-02"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="23"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="24"/>
+		<hcfd:AssignedNumber value="24"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0306"/>
+			<hcfd:LineChargeAmount value="166"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="2"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-02"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="24"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="25"/>
+		<hcfd:AssignedNumber value="25"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0300"/>
+			<hcfd:LineChargeAmount value="5"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-03"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="25"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="26"/>
+		<hcfd:AssignedNumber value="26"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0301"/>
+			<hcfd:LineChargeAmount value="583"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="3"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-03"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="26"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="27"/>
+		<hcfd:AssignedNumber value="27"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0305"/>
+			<hcfd:LineChargeAmount value="87"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-03"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="27"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="28"/>
+		<hcfd:AssignedNumber value="28"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0306"/>
+			<hcfd:LineChargeAmount value="258"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-03"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="28"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="29"/>
+		<hcfd:AssignedNumber value="29"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0300"/>
+			<hcfd:LineChargeAmount value="5"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-04"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="29"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="30"/>
+		<hcfd:AssignedNumber value="30"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0301"/>
+			<hcfd:LineChargeAmount value="443"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="2"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-04"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="30"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="31"/>
+		<hcfd:AssignedNumber value="31"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0305"/>
+			<hcfd:LineChargeAmount value="87"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-04"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="31"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="32"/>
+		<hcfd:AssignedNumber value="32"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0300"/>
+			<hcfd:LineChargeAmount value="5"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-05"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="32"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="33"/>
+		<hcfd:AssignedNumber value="33"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0301"/>
+			<hcfd:LineChargeAmount value="758"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="3"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-05"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="33"/>
+	</echcf:ServiceLineInfo>
+	<echcf:ServiceLineInfo>
+		<hcfd:ClaimProcessorServiceLineID value="34"/>
+		<hcfd:AssignedNumber value="34"/>
+		<hcfd:ServiceInfo>
+			<hcfd:RevenueCode value="0305"/>
+			<hcfd:LineChargeAmount value="87"/>
+			<hcfd:UnitMeasurementCode value="UN"/>
+			<hcfd:Quantity value="1"/>
+		</hcfd:ServiceInfo>
+		<hcfd:ServiceRelatedDates>
+			<hcfd:ServiceDates>
+				<ucf:BeginDate value="2016-03-05"/>
+			</hcfd:ServiceDates>
+		</hcfd:ServiceRelatedDates>
+		<hcfd:SubmittedServiceLineID value="34"/>
+	</echcf:ServiceLineInfo>
+</echcf:Claim>

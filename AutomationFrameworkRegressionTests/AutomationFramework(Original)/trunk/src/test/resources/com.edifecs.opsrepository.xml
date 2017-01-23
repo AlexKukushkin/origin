@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<registry>
+  <product name="OpsRepository">
+    <component name="persistence">
+      <property name="database.type">
+        <value>mssql</value>
+      </property>
+      <property name="driver">
+        <value>net.sourceforge.jtds.jdbc.Driver</value>
+      </property>
+      <property name="initconns">
+        <value>0</value>
+      </property>
+      <property name="maxconns">
+        <value>10</value>
+      </property>
+      <property name="querytimeout">
+        <value>120</value>
+      </property>
+      <component name="databases">
+        <component name="OpsRepository00">
+          <property name="url">
+            <value>jdbc:jtds:sqlserver://localhost/operrepo00;sendStringParametersAsUnicode=false</value>
+          </property>
+          <property name="username">
+            <value>CDWeb</value>
+          </property>
+          <property name="password">
+            <value>manager</value>
+          </property>
+        </component>
+      </component>
+    </component>
+  </product>
+</registry>

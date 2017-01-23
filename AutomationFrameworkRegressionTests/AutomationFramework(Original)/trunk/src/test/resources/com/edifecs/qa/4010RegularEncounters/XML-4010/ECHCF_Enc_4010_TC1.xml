@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ns0:Claim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://xml.edifecs.com/schema/ECHCF"
+           xmlns:ns1="http://xml.edifecs.com/schema/UCF" xmlns:ns2="http://xml.edifecs.com/schema/UCFD"
+           xmlns:ns3="http://xml.edifecs.com/schema/HCFD" change="UNCHANGED" version="1.1.1.3">
+    <ns0:InternalClaimID change="UNCHANGED" value="$TargetTrackingID"></ns0:InternalClaimID>
+    <ns0:ClaimProcessorID change="UNCHANGED" value="CE1"></ns0:ClaimProcessorID>
+     <ns0:SubscriberInfo change="UNCHANGED">
+        <ns3:HealthInsuranceClaimIdentifier change="UNCHANGED" value="555121234A"></ns3:HealthInsuranceClaimIdentifier>
+    </ns0:SubscriberInfo>
+    <ns0:ClaimDetails change="UNCHANGED">
+        <ns3:ClaimContractInfo change="UNCHANGED">
+            <ns3:ContractIdentifier change="UNCHANGED" value="R5826"></ns3:ContractIdentifier>
+        </ns3:ClaimContractInfo>
+    </ns0:ClaimDetails>
+    <ns0:ClaimPaymentInfo change="UNCHANGED">
+        <ns3:PaymentIssueDate change="UNCHANGED" value="2013-06-29"></ns3:PaymentIssueDate>
+        <ns3:PaymentMethod change="UNCHANGED" value="CHK"></ns3:PaymentMethod>
+        <ns3:CheckorEFTNumber change="UNCHANGED" value="007869903"></ns3:CheckorEFTNumber>
+        <ns3:ProductionDate change="UNCHANGED" value="2013-06-29"></ns3:ProductionDate>
+        <ns3:OriginalPayerClaimControlNumber change="UNCHANGED" value="346286123"></ns3:OriginalPayerClaimControlNumber>
+        <ns3:PayerTotalClaimCharge change="UNCHANGED" value="900"></ns3:PayerTotalClaimCharge>
+        <ns3:TotalClaimPaidAmount change="UNCHANGED" value="900"></ns3:TotalClaimPaidAmount>
+        <ns3:ClaimStatusCode change="UNCHANGED" value="1"></ns3:ClaimStatusCode>
+        <ns3:PaymentOrAdjudicationDate change="UNCHANGED" value="2013-06-29"></ns3:PaymentOrAdjudicationDate>
+        <ns3:RenderingServiceProviderInfo change="UNCHANGED">
+            <ns2:FirstName change="UNCHANGED" value="GARY"></ns2:FirstName>
+            <ns2:LastName change="UNCHANGED" value="SINGH"></ns2:LastName>
+            <ns2:PrimaryIdentifier change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="XX"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="1730207317"></ns1:Identifier>
+            </ns2:PrimaryIdentifier>
+        </ns3:RenderingServiceProviderInfo>
+    </ns0:ClaimPaymentInfo>
+    <ns0:ClaimStatus change="UNCHANGED">
+        <ns3:CurrentState change="UNCHANGED" value="paid"></ns3:CurrentState>
+        <ns3:ReportDate change="UNCHANGED" value="2013-12-26"></ns3:ReportDate>
+        <ns3:ReportTime change="UNCHANGED" value="10:58:42"></ns3:ReportTime>
+    </ns0:ClaimStatus>
+    <ns0:ServiceLineInfo change="UNCHANGED">
+        <ns3:ServiceInfo change="UNCHANGED">
+            <ns3:ServiceCodeInfo change="UNCHANGED">
+                <ns3:Qualifier change="UNCHANGED" value="HC"></ns3:Qualifier>
+                <ns3:Value change="UNCHANGED" value="99213"></ns3:Value>
+            </ns3:ServiceCodeInfo>
+        </ns3:ServiceInfo>
+        <ns3:ServiceRelatedDates change="UNCHANGED">
+            <ns3:ServiceDates change="UNCHANGED">
+                <ns1:BeginDate change="UNCHANGED" value="2013-03-30"></ns1:BeginDate>
+            </ns3:ServiceDates>
+        </ns3:ServiceRelatedDates>
+        <ns3:ServiceLineStatus change="UNCHANGED">
+            <ns3:CurrentState change="UNCHANGED" value="paid"></ns3:CurrentState>
+            <!--<ns3:StatusCode change="UNCHANGED">-->
+                <!--<ns3:StatusCategoryCode change="UNCHANGED" value="A1"></ns3:StatusCategoryCode>-->
+                <!--<ns3:StatusCategoryCodeDescription change="UNCHANGED"
+                                                   value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."></ns3:StatusCategoryCodeDescription>-->
+                <!--<ns3:StatusCode change="UNCHANGED" value="61"></ns3:StatusCode>
+                <ns3:StatusCodeDescription change="UNCHANGED"
+                                           value="Finalized/Payment-The claim/line has been paid."></ns3:StatusCodeDescription>
+                <ns3:StatusDate change="UNCHANGED" value="2013-12-26"></ns3:StatusDate>
+                <ns3:StatusTime change="UNCHANGED" value="10:58:42"></ns3:StatusTime>
+            </ns3:StatusCode>-->
+        </ns3:ServiceLineStatus>
+        <ns3:ServicePaymentHistory change="UNCHANGED">
+            <ns3:ProcessedServiceInfo change="UNCHANGED">
+                <ns3:ServiceCodeInfo change="UNCHANGED">
+                    <ns3:Qualifier change="UNCHANGED" value="HC"></ns3:Qualifier>
+                    <ns3:Value change="UNCHANGED" value="99213"></ns3:Value>
+                </ns3:ServiceCodeInfo>
+                <ns3:LineChargeAmount change="UNCHANGED" value="900"></ns3:LineChargeAmount>
+            </ns3:ProcessedServiceInfo>
+            <ns3:LinePaidAmount change="UNCHANGED" value="900"></ns3:LinePaidAmount>
+            <ns3:ProcessedQuantity change="UNCHANGED" value="1"></ns3:ProcessedQuantity>
+            <ns3:PaymentOrAdjudicationDate change="UNCHANGED" value="2013-06-29"></ns3:PaymentOrAdjudicationDate>
+            <ns3:ServiceRemarkCode change="UNCHANGED">
+                <ns3:ServiceRemarkCode change="UNCHANGED" value="N111"></ns3:ServiceRemarkCode>
+            </ns3:ServiceRemarkCode>
+        </ns3:ServicePaymentHistory>
+    </ns0:ServiceLineInfo>
+</ns0:Claim>

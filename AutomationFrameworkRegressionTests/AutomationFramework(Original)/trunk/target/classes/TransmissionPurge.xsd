@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="transmission" type="transmissionType">
+		<xs:unique name="uniquePurgeName">
+			<xs:selector xpath="purge" />
+			<xs:field xpath="@name" />
+		</xs:unique>
+		<xs:unique name="uniqueCriteria">
+			<xs:selector xpath="purge" />
+			<xs:field xpath="criteria" />
+		</xs:unique>
+	</xs:element>
+	<xs:complexType name="transmissionType">
+		<xs:sequence>
+			<xs:element type="purgeType" name="purge" minOccurs="1"	maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="purgeType">
+		<xs:sequence>
+			<xs:element type="xs:string" name="description" minOccurs="1" />
+			<xs:element type="xs:string" name="criteria" minOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						BatchSize defines the number of Transmissions to
+						be processed at a time. This value is used for selection of records
+						at the top level on the Transmission table.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EntityName" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="HqlStatement" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="PurgeTaskClass" type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="BatchSize" type="xs:integer" minOccurs="0" maxOccurs="1" />
+			<xs:element name="IterationSize" type="xs:integer" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						IterationSize defines the number of records to be
+						scanned in every table to delete the transmissions selected
+						based on BatchSize. This value should be carefully selected
+						to balance between performance requirements and database
+						resource consumption.
+
+						Please make a note that higher IterationSize value will give
+						better performance, but will consume large amount of database
+						resources. Lower IterationSize value will reduce database
+						resource consumption, but will also decrease performance.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DeleteTransmissionRecord" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+			<xs:element name="DeleteTransmissionAttachments" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+			<xs:element name="NotDeletedAttachmentUsages" type="xs:string" minOccurs="0" maxOccurs="1" />
+		</xs:sequence>
+		<xs:attribute type="xs:string" name="name" use="required" />
+	</xs:complexType>
+</xs:schema>

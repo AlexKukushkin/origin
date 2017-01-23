@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:broker="http://activemq.apache.org/schema/core"
+    xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+       http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core-5.2.0.xsd">
+
+    <camelContext trace="false" id="EIP_CamelConext" xmlns="http://camel.apache.org/schema/spring">
+        <!-- Queue Based TrackingInfo listener -->
+        <!-- You can customize to use either activemq, webspheremq, or filesystem routes. Enable the appropriate beans for what you are using. Filesystem routes are enabled by default but should be commented out if you enable one of the others. -->
+        <route id="SecondRoute">
+            <from uri="tracking:xyz" />
+            <choice>
+                <when>
+                    <header>ProcessSuccessful</header>
+                    <!--<to uri="jmsActiveMQ:queue:XES_TRACKINGINFO_SUCCESSFUL" />-->
+                    <to uri="mqjms:queue:XES_TRACKINGINFO_SUCCESS" />
+                    <!--<to uri="file:/Edifecs/TrackingInfoSuccess" />-->
+                </when>
+                <when>
+                    <header>ProcessFailed</header>
+                    <!--<to uri="jmsActiveMQ:queue:XES_TRACKINGINFO_FAILED" />-->
+                    <!--<to uri="mqjms:queue:XES_TRACKINGINFO_FAILED" />-->
+                    <to uri="file:/Edifecs/TrackingInfoFailed" />
+                </when>
+                <otherwise>
+                    <!--<to uri="jmsActiveMQ:queue:XES_TRACKINGINFO_BAD" />-->
+                    <!--<to uri="mqjms:queue:XES_TRACKINGINFO_BAD" />-->
+                    <to uri="file:/Edifecs/TrackingInfoBad" />
+                </otherwise>
+            </choice>
+        </route>
+        <route id="FirstRoute">
+            <!--<from uri="jmsActiveMQ:TrackingInfo" />-->
+            <from uri="mqjms:queue:TrackingInfo" />
+            <to uri="tracking:xyz" />
+            <to uri="log:com.edifecs.trackinginfo.FilesProcessed?groupSize=500" />
+        </route>
+    </camelContext>
+
+    <bean id="tracking" class="com.edifecs.trackinginfo.eip.TrackingInfoComponent">
+        <!-- Valid values: HTR, GBD or HTR_BATCH -->
+        <property name="mode" value="HTR" />
+
+        <property name="jmxDisabled" value="true" />
+        <property name="parallelSplitter" value="false" />
+        <property name="splitterCorePoolSize" value="5" />
+        <property name="splitterMaxPoolSize" value="20" />
+        <property name="splitterKeepAliveSeconds" value="60" />
+        <property name="splitterQueueCapacity" value="50" />
+        <property name="validateXML" value="false" />
+
+        <!-- These properties are only for HTR_BATCH mode. -->
+        <property name="mergeBatchSizeHtr" value="500" />
+        <property name="mergeBatchTimeout" value="1000" />
+
+        <!-- These properties are only for non-batch modes, HTR or GBD. -->
+        <property name="messageCorePoolSize" value="5" />
+        <property name="messageMaxPoolSize" value="5" />
+        <property name="retryLimit" value="3" />
+        <property name="retryDelay" value="30000" />
+    </bean>
+
+	<!-- ActiveMQ connection configuration -->
+<!--    <bean id="jmsActiveMQ" class="org.apache.activemq.camel.component.ActiveMQComponent">
+        <property name="brokerURL" value="tcp://localhost:61617" />
+    </bean>
+-->
+    <!-- IBM WebSphere MQ connection configuration -->
+    
+    <bean id="mqjms" class="org.apache.camel.component.jms.JmsComponent">
+        <property name="connectionFactory" ref="credentialsConnectionFactory"/>
+        <property name="concurrentConsumers" value="10"/>
+    </bean>
+    <bean id="credentialsConnectionFactory" class="org.springframework.jms.connection.UserCredentialsConnectionFactoryAdapter">
+        <property name="targetConnectionFactory" ref="mqConnectionFactory"/>
+        <property name="username" value=""/>
+        <property name="password" value=""/>
+    </bean>
+    <bean id="mqConnectionFactory" class="com.ibm.mq.jms.MQConnectionFactory">
+        <property name="transportType" value="1"/>
+        <property name="CCSID" value="1208"/>
+        <property name="channel" value="SYSTEM.DEF.SVRCONN"/>
+        <property name="queueManager" value="TM.QM"/>
+        <property name="hostName" value="localhost"/>
+        <property name="port" value="1414"/>
+    </bean>
+    
+</beans>

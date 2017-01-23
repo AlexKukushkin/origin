@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.3">
+  <echcf:Packaging>
+    <ucfd:MessageProtocolInfo>
+      <ucfd:Name value="ISA"/>
+      <ucfd:ControlNumber value="156439000"/>
+      <ucfd:Version value="00501"/>
+      <ucfd:Date value="2015-12-09"/>
+      <ucfd:Time value="01:43:00"/>
+      <ucfd:Sender>
+        <ucf:Qualifier value="01"/>
+        <ucf:Identifier value="030240928      "/>
+      </ucfd:Sender>
+      <ucfd:Receiver>
+        <ucf:Qualifier value="14"/>
+        <ucf:Identifier value="0499441430000  "/>
+      </ucfd:Receiver>
+    </ucfd:MessageProtocolInfo>
+    <ucfd:MessageProtocolInfo>
+      <ucfd:Name value="GS"/>
+      <ucfd:ControlNumber value="1"/>
+      <ucfd:Version value="005010X222A1"/>
+      <ucfd:Date value="2015-12-09"/>
+      <ucfd:Time value="01:43:26"/>
+      <ucfd:Sender>
+        <ucf:Qualifier value="ZZ"/>
+        <ucf:Identifier value="61101WCB"/>
+      </ucfd:Sender>
+      <ucfd:Receiver>
+        <ucf:Qualifier value="ZZ"/>
+        <ucf:Identifier value="0499441430000"/>
+      </ucfd:Receiver>
+    </ucfd:MessageProtocolInfo>
+  </echcf:Packaging>
+  <echcf:ClaimSubmitterInfo>
+    <ucfd:PersonIndicator value="2"/>
+    <ucfd:Name value="PROXYMED"/>
+    <ucfd:BatchIdentifier value="3298576200"/>
+    <ucfd:BatchDate value="2015-12-08"/>
+    <ucfd:BatchTime value="20:18:00"/>
+    <ucfd:BatchPurpose value="00"/>
+    <ucfd:ElectronicIdentificationNumber value="G6052"/>
+    <ucfd:ContactInfo>
+      <ucfd:ContactType value="IC"/>
+      <ucfd:ContactName value="CAPARIO PAYER SERVICES"/>
+      <ucfd:CommunicationNumber>
+        <ucf:Qualifier value="TE"/>
+        <ucf:Identifier value="8005866938"/>
+      </ucfd:CommunicationNumber>
+      <ucfd:CommunicationNumber>
+        <ucf:Qualifier value="EM"/>
+        <ucf:Identifier value="PAYERSERVICES@CAPARIO.COM"/>
+      </ucfd:CommunicationNumber>
+    </ucfd:ContactInfo>
+  </echcf:ClaimSubmitterInfo>
+  <echcf:ClaimReceiverInfo>
+    <ucfd:Name value="HUMANA"/>
+    <ucfd:ElectronicIdentificationNumber value="049944143"/>
+  </echcf:ClaimReceiverInfo>
+  <echcf:OriginalClaimID value="0000030874103590010000100001"/>
+  <echcf:SubmittedClaimID value="0000030874103590010000100001"/>
+  <echcf:InternalClaimID value="$TargetTrackingID"/>
+  <echcf:ClaimProcessorID value="CE1"/>
+  <echcf:Classifications>
+    <ucf:Property name="IsDME" valueType="BOOLEAN" value="false"/>
+    <hcfd:IsCapitated value="false"/>
+    <hcfd:IsPaperClaimOriginated value="false"/>
+  </echcf:Classifications>
+  <echcf:PatientInfo>
+    <ucfd:Role value="IL"/>
+    <ucfd:FirstName value="JANICE"/>
+    <ucfd:LastName value="HAGAN"/>
+    <ucfd:PrimaryIdentifier>
+      <ucf:Qualifier value="MI"/>
+      <ucf:Identifier value="997603663"/>
+    </ucfd:PrimaryIdentifier>
+    <ucfd:AddressInfo>
+      <ucfd:AddressLine1 value="281 CANNON FARM  RD"/>
+      <ucfd:City value="OXFORD"/>
+      <ucfd:State value="GA"/>
+      <ucfd:PostalCode value="30054"/>
+    </ucfd:AddressInfo>
+    <ucfd:DemographicsInfo>
+      <ucfd:BirthDate value="1942-07-11"/>
+      <ucfd:Gender value="F"/>
+    </ucfd:DemographicsInfo>
+    <hcfd:EnrollmentInfo>
+      <hcfd:RelationshipToSubscriber value="18"/>
+    </hcfd:EnrollmentInfo>
+  </echcf:PatientInfo>
+  <echcf:SubscriberInfo>
+    <ucfd:FirstName value="JANICE"/>
+    <ucfd:LastName value="HAGAN"/>
+    <ucfd:PrimaryIdentifier>
+      <ucf:Qualifier value="MI"/>
+      <ucf:Identifier value="997603663"/>
+    </ucfd:PrimaryIdentifier>
+    <ucfd:AddressInfo>
+      <ucfd:AddressLine1 value="281 CANNON FARM  RD"/>
+      <ucfd:City value="OXFORD"/>
+      <ucfd:State value="GA"/>
+      <ucfd:PostalCode value="30054"/>
+    </ucfd:AddressInfo>
+    <ucfd:DemographicsInfo>
+      <ucfd:BirthDate value="1942-07-11"/>
+      <ucfd:Gender value="F"/>
+    </ucfd:DemographicsInfo>
+    <hcfd:HealthInsuranceClaimIdentifier value="997603663"/>
+    <hcfd:InsuranceInfo>
+      <hcfd:FilingIndicatorCode value="CI"/>
+      <hcfd:PayerSequenceCode value="P"/>
+      <hcfd:AssignmentPlanParticipationCode value="A"/>
+      <hcfd:BenefitsAssignmentIndicator value="Y"/>
+      <hcfd:ReleaseOfInformation value="Y"/>
+      <hcfd:PayerInfo>
+        <ucfd:PersonIndicator value="2"/>
+        <ucfd:Name value="HUMANA"/>
+        <ucfd:PrimaryIdentifier>
+          <ucf:Qualifier value="PI"/>
+          <ucf:Identifier value="61101"/>
+        </ucfd:PrimaryIdentifier>
+        <ucfd:AddressInfo>
+          <ucfd:AddressLine1 value="PO BOX 14601"/>
+          <ucfd:City value="LEXINGTON"/>
+          <ucfd:State value="KY"/>
+          <ucfd:PostalCode value="405124601"/>
+        </ucfd:AddressInfo>
+      </hcfd:PayerInfo>
+    </hcfd:InsuranceInfo>
+    <hcfd:EnrollmentInfo>
+      <hcfd:RelationshipToSubscriber value="18"/>
+    </hcfd:EnrollmentInfo>
+  </echcf:SubscriberInfo>
+  <echcf:ClaimIdentificationInfo>
+    <hcfd:ProviderClaimNumber value="69529"/>
+    <hcfd:ClearinghouseTraceNumber value="3298576200"/>
+    <hcfd:ClaimType value="ProfClaim"/>
+    <hcfd:ClaimPurpose value="Encounter"/>
+    <hcfd:FacilityType value="21"/>
+    <hcfd:ClaimFrequencyCode value="1"/>
+  </echcf:ClaimIdentificationInfo>
+  <echcf:ClaimDetails>
+    <hcfd:ClaimContractInfo>
+      <hcfd:ContractIdentifier value="1011"/>
+    </hcfd:ClaimContractInfo>
+    <hcfd:HealthInformation>
+      <hcfd:PrincipalDiagnosis>
+        <hcfd:SequenceNumber value="1"/>
+        <hcfd:DiagnosisCode value="I748"/>
+        <hcfd:DiagnosisCodeType value="ABK"/>
+      </hcfd:PrincipalDiagnosis>
+      <hcfd:OtherDiagnosis>
+        <hcfd:SequenceNumber value="1"/>
+        <hcfd:DiagnosisCode value="R64"/>
+        <hcfd:DiagnosisCodeType value="ABF"/>
+      </hcfd:OtherDiagnosis>
+      <hcfd:OtherDiagnosis>
+        <hcfd:SequenceNumber value="2"/>
+        <hcfd:DiagnosisCode value="N390"/>
+        <hcfd:DiagnosisCodeType value="ABF"/>
+      </hcfd:OtherDiagnosis>
+      <hcfd:OtherDiagnosis>
+        <hcfd:SequenceNumber value="3"/>
+        <hcfd:DiagnosisCode value="A020"/>
+        <hcfd:DiagnosisCodeType value="ABF"/>
+      </hcfd:OtherDiagnosis>
+    </hcfd:HealthInformation>
+    <hcfd:PriorAuthorizationNumber value="079138218"/>
+  </echcf:ClaimDetails>
+  <echcf:ClaimDates>
+    <hcfd:AdmissionDate value="2015-11-08"/>
+    <hcfd:ClaimReceivedDate value="2015-12-09"/>
+    <hcfd:ClaimProcessorReceivedDate value="2015-02-22"/>
+    <hcfd:DischargeDate value="2015-11-24"/>
+    <hcfd:ServiceDates>
+      <ucf:BeginDate value="2015-11-08"/>
+      <ucf:EndDate value="2015-11-15"/>
+    </hcfd:ServiceDates>
+  </echcf:ClaimDates>
+  <echcf:ClaimAmounts>
+    <hcfd:TotalClaimCharge value="230"/>
+  </echcf:ClaimAmounts>
+  <echcf:RelatedProvidersInfo>
+    <hcfd:BillingProvider>
+      <ucfd:PersonIndicator value="1"/>
+      <ucfd:FirstName value="BASSAM"/>
+      <ucfd:LastName value="TOME"/>
+      <ucfd:PrimaryIdentifier>
+        <ucf:Qualifier value="XX"/>
+        <ucf:Identifier value="1689730244"/>
+      </ucfd:PrimaryIdentifier>
+      <ucfd:OtherIdentifier>
+        <ucf:Qualifier value="EI"/>
+        <ucf:Identifier value="581912919"/>
+      </ucfd:OtherIdentifier>
+      <ucfd:TaxID value="581912919"/>
+      <ucfd:AddressInfo>
+        <ucfd:AddressLine1 value="1277 C WELLBROOK CIR"/>
+        <ucfd:City value="CONYERS"/>
+        <ucfd:State value="GA"/>
+        <ucfd:PostalCode value="300123973"/>
+      </ucfd:AddressInfo>
+      <ucfd:ContactInfo>
+        <ucfd:ContactType value="IC"/>
+        <ucfd:ContactName value="BASSAM TOME"/>
+        <ucfd:CommunicationNumber>
+          <ucf:Qualifier value="TE"/>
+          <ucf:Identifier value="7709226669"/>
+        </ucfd:CommunicationNumber>
+        <ucfd:CommunicationNumber>
+          <ucf:Qualifier value="EM"/>
+          <ucf:Identifier value="BASSAMTOME@EARTHLINK.NET"/>
+        </ucfd:CommunicationNumber>
+      </ucfd:ContactInfo>
+      <hcfd:NPI value="1689730244"/>
+      <hcfd:TaxonomyCode value="207R00000X"/>
+      <hcfd:ProviderSignatureOnFile value="Y"/>
+    </hcfd:BillingProvider>
+    <hcfd:ServiceFacilityInfo>
+      <ucfd:PersonIndicator value="2"/>
+      <ucfd:Role value="77"/>
+      <ucfd:Name value="ROCKDALE HOSPITAL"/>
+      <ucfd:PrimaryIdentifier>
+        <ucf:Qualifier value="XX"/>
+        <ucf:Identifier value="1689730244"/>
+      </ucfd:PrimaryIdentifier>
+      <ucfd:AddressInfo>
+        <ucfd:AddressLine1 value="1412 MILSTEAD AVE"/>
+        <ucfd:City value="CONYERS"/>
+        <ucfd:State value="GA"/>
+        <ucfd:PostalCode value="300129998"/>
+      </ucfd:AddressInfo>
+      <hcfd:NPI value="1689730244"/>
+    </hcfd:ServiceFacilityInfo>
+    <hcfd:ReferringProviderInfo>
+      <ucfd:PersonIndicator value="1"/>
+      <ucfd:Role value="DN"/>
+      <ucfd:FirstName value="BASSAM"/>
+      <ucfd:LastName value="TOME"/>
+      <ucfd:PrimaryIdentifier>
+        <ucf:Qualifier value="XX"/>
+        <ucf:Identifier value="1689730244"/>
+      </ucfd:PrimaryIdentifier>
+      <hcfd:NPI value="1689730244"/>
+    </hcfd:ReferringProviderInfo>
+  </echcf:RelatedProvidersInfo>
+  <echcf:ClaimStatus>
+    <hcfd:CurrentState value="Paid"/>
+  </echcf:ClaimStatus>
+  <echcf:ServiceLineInfo>
+    <ucf:Property name="ServiceCodeFrom837" valueType="STRING" value="99223"/>
+    <hcfd:ClaimProcessorServiceLineID value="1"/>
+    <hcfd:AssignedNumber value="1"/>
+    <hcfd:LineItemControlNumber value="530264"/>
+    <hcfd:ServiceInfo>
+      <hcfd:ServiceCodeInfo>
+        <hcfd:Qualifier value="HC"/>
+        <hcfd:Value value="99223"/>
+        <hcfd:Description value="HOSP ADMISSION LEVEL 3"/>
+      </hcfd:ServiceCodeInfo>
+      <hcfd:LineChargeAmount value="230"/>
+      <hcfd:UnitMeasurementCode value="UN"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2015-11-08"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="1"/>
+      <hcfd:DiagnosisCode value="I748"/>
+      <hcfd:DiagnosisCodeType value="ABK"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="2"/>
+      <hcfd:DiagnosisCode value="R64"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="3"/>
+      <hcfd:DiagnosisCode value="N390"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="4"/>
+      <hcfd:DiagnosisCode value="A020"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:SubmittedServiceLineID value="1"/>
+  </echcf:ServiceLineInfo>
+</echcf:Claim>

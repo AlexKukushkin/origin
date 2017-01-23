@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ns0:Claim xmlns:ns0="http://xml.edifecs.com/schema/ECHCF"
+           xmlns:ns1="http://xml.edifecs.com/schema/UCF" xmlns:ns2="http://xml.edifecs.com/schema/UCFD"
+           xmlns:ns3="http://xml.edifecs.com/schema/HCFD" change="UNCHANGED" version="1.1.1.3">
+    <ns0:Packaging change="UNCHANGED">
+        <ns2:MessageProtocolInfo change="UNCHANGED">
+            <ns2:Name change="UNCHANGED" value="ISA"></ns2:Name>
+            <ns2:ControlNumber change="UNCHANGED" value="009518151"></ns2:ControlNumber>
+            <ns2:Version change="UNCHANGED" value="00501"></ns2:Version>
+            <ns2:Date change="UNCHANGED" value="2015-05-26"></ns2:Date>
+            <ns2:Time change="UNCHANGED" value="19:54:00"></ns2:Time>
+            <ns2:Sender change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="01"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="REGIONALHEALTH "></ns1:Identifier>
+            </ns2:Sender>
+            <ns2:Receiver change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="01"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="HEALTHYLIFEPLAN"></ns1:Identifier>
+            </ns2:Receiver>
+        </ns2:MessageProtocolInfo>
+        <ns2:MessageProtocolInfo change="UNCHANGED">
+            <ns2:Name change="UNCHANGED" value="GS"></ns2:Name>
+            <ns2:ControlNumber change="UNCHANGED" value="2"></ns2:ControlNumber>
+            <ns2:Version change="UNCHANGED" value="005010X223A2"></ns2:Version>
+            <ns2:Date change="UNCHANGED" value="2015-05-26"></ns2:Date>
+            <ns2:Time change="UNCHANGED" value="19:54:32"></ns2:Time>
+            <ns2:Sender change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="ZZ"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="REGIONALHEALTH"></ns1:Identifier>
+            </ns2:Sender>
+            <ns2:Receiver change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="ZZ"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="HEALTHYLIFEPLAN"></ns1:Identifier>
+            </ns2:Receiver>
+        </ns2:MessageProtocolInfo>
+    </ns0:Packaging>
+    <ns0:ClaimSubmitterInfo change="UNCHANGED">
+        <ns2:PersonIndicator change="UNCHANGED" value="2"></ns2:PersonIndicator>
+        <ns2:Name change="UNCHANGED" value="WEBMD"></ns2:Name>
+        <ns2:BatchIdentifier change="UNCHANGED" value="85252"></ns2:BatchIdentifier>
+        <ns2:BatchDate change="UNCHANGED" value="2012-04-05"></ns2:BatchDate>
+        <ns2:BatchTime change="UNCHANGED" value="22:18:00"></ns2:BatchTime>
+        <ns2:BatchPurpose change="UNCHANGED" value="00"></ns2:BatchPurpose>
+        <ns2:ElectronicIdentificationNumber change="UNCHANGED" value="H0351"></ns2:ElectronicIdentificationNumber>
+        <ns2:ContactInfo change="UNCHANGED">
+            <ns2:ContactType change="UNCHANGED" value="IC"></ns2:ContactType>
+            <ns2:ContactName change="UNCHANGED" value="AVAILITY LLC"></ns2:ContactName>
+            <ns2:CommunicationNumber change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="TE"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="8002824548"></ns1:Identifier>
+            </ns2:CommunicationNumber>
+            <ns2:CommunicationNumber change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="FX"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="9044702187"></ns1:Identifier>
+            </ns2:CommunicationNumber>
+            <ns2:CommunicationNumber change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="EM"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="INFO@AVAILITY.COM"></ns1:Identifier>
+            </ns2:CommunicationNumber>
+        </ns2:ContactInfo>
+    </ns0:ClaimSubmitterInfo>
+    <ns0:ClaimReceiverInfo change="UNCHANGED">
+        <ns2:Name change="UNCHANGED" value="HUMANA"></ns2:Name>
+        <ns2:ElectronicIdentificationNumber change="UNCHANGED" value="049944143"></ns2:ElectronicIdentificationNumber>
+    </ns0:ClaimReceiverInfo>
+    <ns0:OriginalClaimID change="UNCHANGED" value="$TargetTrackingID"></ns0:OriginalClaimID>
+    <ns0:SubmittedClaimID change="UNCHANGED" value="$TargetTrackingID"></ns0:SubmittedClaimID>
+    <ns0:InternalClaimID change="UNCHANGED" value="$TargetTrackingID"></ns0:InternalClaimID>
+    <ns0:ClaimProcessorID change="UNCHANGED" value="CE1"></ns0:ClaimProcessorID>
+    <ns0:PatientInfo change="UNCHANGED">
+        <ns2:FirstName change="UNCHANGED" value="JANE"></ns2:FirstName>
+        <ns2:LastName change="UNCHANGED" value="SMITH"></ns2:LastName>
+        <ns2:PrimaryIdentifier change="UNCHANGED">
+            <ns1:Qualifier change="UNCHANGED" value="MI"></ns1:Qualifier>
+            <ns1:Identifier change="UNCHANGED" value="555121234A"></ns1:Identifier>
+        </ns2:PrimaryIdentifier>
+        <ns2:OtherIdentifier change="UNCHANGED">
+            <ns1:Qualifier change="UNCHANGED" value="SY"></ns1:Qualifier>
+            <ns1:Identifier change="UNCHANGED" value="555121234"></ns1:Identifier>
+        </ns2:OtherIdentifier>
+        <ns2:TaxID change="UNCHANGED" value="555121234"></ns2:TaxID>
+        <ns2:AddressInfo change="UNCHANGED">
+            <ns2:AddressLine1 change="UNCHANGED" value="12345 DENSMORE"></ns2:AddressLine1>
+            <ns2:City change="UNCHANGED" value="Seattle"></ns2:City>
+            <ns2:State change="UNCHANGED" value="WA"></ns2:State>
+            <ns2:PostalCode change="UNCHANGED" value="985019999"></ns2:PostalCode>
+        </ns2:AddressInfo>
+        <ns2:DemographicsInfo change="UNCHANGED">
+            <ns2:BirthDate change="UNCHANGED" value="2003-08-08"></ns2:BirthDate>
+            <ns2:Gender change="UNCHANGED" value="F"></ns2:Gender>
+        </ns2:DemographicsInfo>
+        <ns3:PatientStatus change="UNCHANGED" value="09"></ns3:PatientStatus>
+        <ns3:EnrollmentInfo change="UNCHANGED">
+            <ns3:RelationshipToSubscriber change="UNCHANGED" value="18"></ns3:RelationshipToSubscriber>
+        </ns3:EnrollmentInfo>
+    </ns0:PatientInfo>
+    <ns0:SubscriberInfo change="UNCHANGED">
+        <ns2:FirstName change="UNCHANGED" value="JANE"></ns2:FirstName>
+        <ns2:LastName change="UNCHANGED" value="SMITH"></ns2:LastName>
+        <ns2:PrimaryIdentifier change="UNCHANGED">
+            <ns1:Qualifier change="UNCHANGED" value="MI"></ns1:Qualifier>
+            <ns1:Identifier change="UNCHANGED" value="555121234A"></ns1:Identifier>
+        </ns2:PrimaryIdentifier>
+        <ns2:OtherIdentifier change="UNCHANGED">
+            <ns1:Qualifier change="UNCHANGED" value="SY"></ns1:Qualifier>
+            <ns1:Identifier change="UNCHANGED" value="555121234"></ns1:Identifier>
+        </ns2:OtherIdentifier>
+        <ns2:TaxID change="UNCHANGED" value="555121234"></ns2:TaxID>
+        <ns2:AddressInfo change="UNCHANGED">
+            <ns2:AddressLine1 change="UNCHANGED" value="12345 DENSMORE"></ns2:AddressLine1>
+            <ns2:City change="UNCHANGED" value="Seattle"></ns2:City>
+            <ns2:State change="UNCHANGED" value="WA"></ns2:State>
+            <ns2:PostalCode change="UNCHANGED" value="985019999"></ns2:PostalCode>
+        </ns2:AddressInfo>
+        <ns2:DemographicsInfo change="UNCHANGED">
+            <ns2:BirthDate change="UNCHANGED" value="2003-08-08"></ns2:BirthDate>
+            <ns2:Gender change="UNCHANGED" value="F"></ns2:Gender>
+        </ns2:DemographicsInfo>
+        <ns3:HealthInsuranceClaimIdentifier change="UNCHANGED" value="555121234A"></ns3:HealthInsuranceClaimIdentifier>
+        <ns3:InsuranceInfo change="UNCHANGED">
+            <ns3:FilingIndicatorCode change="UNCHANGED" value="11"></ns3:FilingIndicatorCode>
+            <ns3:PayerSequenceCode change="UNCHANGED" value="P"></ns3:PayerSequenceCode>
+            <ns3:AssignmentPlanParticipationCode change="UNCHANGED" value="A"></ns3:AssignmentPlanParticipationCode>
+            <ns3:BenefitsAssignmentIndicator change="UNCHANGED" value="Y"></ns3:BenefitsAssignmentIndicator>
+            <ns3:ReleaseOfInformation change="UNCHANGED" value="I"></ns3:ReleaseOfInformation>
+            <ns3:PayerInfo change="UNCHANGED">
+                <ns2:PersonIndicator change="UNCHANGED" value="2"></ns2:PersonIndicator>
+                <ns2:Name change="UNCHANGED" value="HUMANA"></ns2:Name>
+                <ns2:PrimaryIdentifier change="UNCHANGED">
+                    <ns1:Qualifier change="UNCHANGED" value="PI"></ns1:Qualifier>
+                    <ns1:Identifier change="UNCHANGED" value="61102"></ns1:Identifier>
+                </ns2:PrimaryIdentifier>
+                <ns2:OtherIdentifier change="UNCHANGED">
+                    <ns1:Qualifier change="UNCHANGED" value="FY"></ns1:Qualifier>
+                    <ns1:Identifier change="UNCHANGED" value="H1234"></ns1:Identifier>
+                </ns2:OtherIdentifier>
+            </ns3:PayerInfo>
+        </ns3:InsuranceInfo>
+        <ns3:EnrollmentInfo change="UNCHANGED">
+            <ns3:PolicyIdentifier change="UNCHANGED" value="Reference Identification"></ns3:PolicyIdentifier>
+            <ns3:RelationshipToSubscriber change="UNCHANGED" value="18"></ns3:RelationshipToSubscriber>
+        </ns3:EnrollmentInfo>
+    </ns0:SubscriberInfo>
+    <ns0:ClaimIdentificationInfo change="UNCHANGED">
+        <ns3:ProviderClaimNumber change="UNCHANGED" value="12334455"></ns3:ProviderClaimNumber>
+        <ns3:MedicalRecordNumber change="UNCHANGED" value="11223344"></ns3:MedicalRecordNumber>
+        <ns3:ClaimType change="UNCHANGED" value="InstClaim"></ns3:ClaimType>
+        <ns3:ClaimPurpose change="UNCHANGED" value="Claim"></ns3:ClaimPurpose>
+        <ns3:TypeOfBill change="UNCHANGED" value="21"></ns3:TypeOfBill>
+        <ns3:ClaimFrequencyCode change="UNCHANGED" value="1"></ns3:ClaimFrequencyCode>
+    </ns0:ClaimIdentificationInfo>
+    <ns0:ClaimDetails change="UNCHANGED">
+        <ns3:AdmissionSource change="UNCHANGED" value="1"></ns3:AdmissionSource>
+        <ns3:AdmissionType change="UNCHANGED" value="1"></ns3:AdmissionType>
+        <ns3:ClaimAttachmentInfo change="UNCHANGED">
+            <ns3:ReportType change="UNCHANGED" value="03"></ns3:ReportType>
+            <ns3:AttachmentTransmissionCode change="UNCHANGED" value="AA"></ns3:AttachmentTransmissionCode>
+        </ns3:ClaimAttachmentInfo>
+        <ns3:ClaimContractInfo change="UNCHANGED">
+            <ns3:ContractIdentifier change="UNCHANGED" value="H222"></ns3:ContractIdentifier>
+        </ns3:ClaimContractInfo>
+        <ns3:ClaimNote change="UNCHANGED">
+            <ns1:Qualifier change="UNCHANGED" value="ADD"></ns1:Qualifier>
+            <ns1:Value change="UNCHANGED" value="Description"></ns1:Value>
+        </ns3:ClaimNote>
+        <ns3:HealthInformation change="UNCHANGED">
+            <ns3:AdmittingDiagnosis change="UNCHANGED">
+                <ns3:SequenceNumber change="UNCHANGED" value="1"></ns3:SequenceNumber>
+                <ns3:DiagnosisCode change="UNCHANGED" value="A0103"></ns3:DiagnosisCode>
+                <ns3:DiagnosisCodeType change="UNCHANGED" value="ABJ"></ns3:DiagnosisCodeType>
+            </ns3:AdmittingDiagnosis>
+            <ns3:PrincipalDiagnosis change="UNCHANGED">
+                <ns3:SequenceNumber change="UNCHANGED" value="1"></ns3:SequenceNumber>
+                <ns3:DiagnosisCode change="UNCHANGED" value="H00011"></ns3:DiagnosisCode>
+                <ns3:DiagnosisCodeType change="UNCHANGED" value="ABK"></ns3:DiagnosisCodeType>
+                <ns3:PresentOnAdmissionIndicator change="UNCHANGED" value="N"></ns3:PresentOnAdmissionIndicator>
+            </ns3:PrincipalDiagnosis>
+            <ns3:OtherDiagnosis change="UNCHANGED">
+                <ns3:SequenceNumber change="UNCHANGED" value="1"></ns3:SequenceNumber>
+                <ns3:DiagnosisCode change="UNCHANGED" value="K700"></ns3:DiagnosisCode>
+                <ns3:DiagnosisCodeType change="UNCHANGED" value="ABF"></ns3:DiagnosisCodeType>
+                <ns3:PresentOnAdmissionIndicator change="UNCHANGED" value="N"></ns3:PresentOnAdmissionIndicator>
+            </ns3:OtherDiagnosis>
+            <ns3:DiagnosisRelatedGroup change="UNCHANGED" value="001"></ns3:DiagnosisRelatedGroup>
+            <ns3:Condition change="UNCHANGED">
+                <ns3:SequenceNumber change="UNCHANGED" value="1"></ns3:SequenceNumber>
+                <ns3:Code change="UNCHANGED" value="15"></ns3:Code>
+            </ns3:Condition>
+            <ns3:TreatmentCode change="UNCHANGED">
+                <ns3:SequenceNumber change="UNCHANGED" value="1"></ns3:SequenceNumber>
+                <ns3:Code change="UNCHANGED" value="A1"></ns3:Code>
+            </ns3:TreatmentCode>
+        </ns3:HealthInformation>
+        <ns3:PriorAuthorizationNumber change="UNCHANGED" value="90909090"></ns3:PriorAuthorizationNumber>
+    </ns0:ClaimDetails>
+    <ns0:ClaimDates change="UNCHANGED">
+        <ns3:AdmissionDate change="UNCHANGED" value="2011-01-01"></ns3:AdmissionDate>
+        <ns3:AdmissionHour change="UNCHANGED" value="01:05:00"></ns3:AdmissionHour>
+        <ns3:ClaimReceivedDate change="UNCHANGED" value="2014-02-10"></ns3:ClaimReceivedDate>
+        <ns3:ClaimProcessorReceivedDate change="UNCHANGED" value="2014-02-10"></ns3:ClaimProcessorReceivedDate>
+        <ns3:DischargeHour change="UNCHANGED" value="12:02:00"></ns3:DischargeHour>
+        <ns3:ServiceDates change="UNCHANGED">
+            <ns1:BeginDate change="UNCHANGED" value="2012-01-01"></ns1:BeginDate>
+            <ns1:EndDate change="UNCHANGED" value="2014-01-05"></ns1:EndDate>
+        </ns3:ServiceDates>
+    </ns0:ClaimDates>
+    <ns0:ClaimAmounts change="UNCHANGED">
+        <ns3:TotalClaimCharge change="UNCHANGED" value="1239"></ns3:TotalClaimCharge>
+        <ns3:PatientEstimatedAmountDue change="UNCHANGED" value="100"></ns3:PatientEstimatedAmountDue>
+    </ns0:ClaimAmounts>
+    <ns0:RelatedProvidersInfo change="UNCHANGED">
+        <ns3:BillingProvider change="UNCHANGED">
+            <ns2:PersonIndicator change="UNCHANGED" value="2"></ns2:PersonIndicator>
+            <ns2:Name change="UNCHANGED" value="Swedish Hospital"></ns2:Name>
+            <ns2:PrimaryIdentifier change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="XX"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="1821205840"></ns1:Identifier>
+            </ns2:PrimaryIdentifier>
+            <ns2:TaxID change="UNCHANGED" value="911111111"></ns2:TaxID>
+            <ns2:AddressInfo change="UNCHANGED">
+                <ns2:AddressLine1 change="UNCHANGED" value="12345 Madison"></ns2:AddressLine1>
+                <ns2:City change="UNCHANGED" value="Seattle"></ns2:City>
+                <ns2:State change="UNCHANGED" value="WA"></ns2:State>
+                <ns2:PostalCode change="UNCHANGED" value="985019999"></ns2:PostalCode>
+            </ns2:AddressInfo>
+            <ns2:ContactInfo change="UNCHANGED">
+                <ns2:ContactType change="UNCHANGED" value="IC"></ns2:ContactType>
+                <ns2:ContactName change="UNCHANGED" value="Laurie Fawn"></ns2:ContactName>
+                <ns2:CommunicationNumber change="UNCHANGED">
+                    <ns1:Qualifier change="UNCHANGED" value="EM"></ns1:Qualifier>
+                    <ns1:Identifier change="UNCHANGED" value="info@swedish.org"></ns1:Identifier>
+                </ns2:CommunicationNumber>
+            </ns2:ContactInfo>
+            <ns3:NPI change="UNCHANGED" value="1821205840"></ns3:NPI>
+            <ns3:TaxonomyCode change="UNCHANGED" value="101Y00000X"></ns3:TaxonomyCode>
+        </ns3:BillingProvider>
+        <ns3:OperatingProviderInfo change="UNCHANGED">
+            <ns2:PersonIndicator change="UNCHANGED" value="1"></ns2:PersonIndicator>
+            <ns2:Role change="UNCHANGED" value="72"></ns2:Role>
+            <ns2:FirstName change="UNCHANGED" value="GARY"></ns2:FirstName>
+            <ns2:LastName change="UNCHANGED" value="SWANSON"></ns2:LastName>
+            <ns2:PrimaryIdentifier change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="XX"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="1821205840"></ns1:Identifier>
+            </ns2:PrimaryIdentifier>
+            <ns3:NPI change="UNCHANGED" value="1821205840"></ns3:NPI>
+        </ns3:OperatingProviderInfo>
+        <ns3:AttendingProviderInfo change="UNCHANGED">
+            <ns2:PersonIndicator change="UNCHANGED" value="1"></ns2:PersonIndicator>
+            <ns2:Role change="UNCHANGED" value="71"></ns2:Role>
+            <ns2:FirstName change="UNCHANGED" value="GURPREET"></ns2:FirstName>
+            <ns2:LastName change="UNCHANGED" value="SINGH"></ns2:LastName>
+            <ns2:Suffix change="UNCHANGED" value="IV"></ns2:Suffix>
+            <ns2:PrimaryIdentifier change="UNCHANGED">
+                <ns1:Qualifier change="UNCHANGED" value="XX"></ns1:Qualifier>
+                <ns1:Identifier change="UNCHANGED" value="1821205840"></ns1:Identifier>
+            </ns2:PrimaryIdentifier>
+            <ns3:NPI change="UNCHANGED" value="1821205840"></ns3:NPI>
+            <ns3:TaxonomyCode change="UNCHANGED" value="101Y00000X"></ns3:TaxonomyCode>
+        </ns3:AttendingProviderInfo>
+    </ns0:RelatedProvidersInfo>
+    <ns0:CurrencyCode change="UNCHANGED" value="MDL"></ns0:CurrencyCode>
+    <ns0:ClaimStatus change="UNCHANGED">
+        <ns3:CurrentState change="UNCHANGED" value="Received"></ns3:CurrentState>
+    </ns0:ClaimStatus>
+    <ns0:ServiceLineInfo change="UNCHANGED">
+        <ns3:ClaimProcessorServiceLineID change="UNCHANGED" value="1"></ns3:ClaimProcessorServiceLineID>
+        <ns3:AssignedNumber change="UNCHANGED" value="1"></ns3:AssignedNumber>
+        <ns3:LineItemControlNumber change="UNCHANGED" value="Reference Identification"></ns3:LineItemControlNumber>
+        <ns3:ServiceInfo change="UNCHANGED">
+            <ns3:RevenueCode change="UNCHANGED" value="0250"></ns3:RevenueCode>
+            <ns3:ServiceCodeInfo change="UNCHANGED">
+                <ns3:Qualifier change="UNCHANGED" value="HC"></ns3:Qualifier>
+                <ns3:Value change="UNCHANGED" value="A0021"></ns3:Value>
+            </ns3:ServiceCodeInfo>
+            <ns3:LineChargeAmount change="UNCHANGED" value="1239"></ns3:LineChargeAmount>
+            <ns3:NonCoveredChargeAmount change="UNCHANGED" value="300"></ns3:NonCoveredChargeAmount>
+            <ns3:UnitMeasurementCode change="UNCHANGED" value="DA"></ns3:UnitMeasurementCode>
+            <ns3:Quantity change="UNCHANGED" value="5"></ns3:Quantity>
+        </ns3:ServiceInfo>
+        <ns3:ServiceRelatedDates change="UNCHANGED">
+            <ns3:ServiceDates change="UNCHANGED">
+                <ns1:BeginDate change="UNCHANGED" value="2011-01-01"></ns1:BeginDate>
+                <ns1:EndDate change="UNCHANGED" value="2012-01-05"></ns1:EndDate>
+            </ns3:ServiceDates>
+        </ns3:ServiceRelatedDates>
+        <ns3:SubmittedServiceLineID change="UNCHANGED" value="1"></ns3:SubmittedServiceLineID>
+    </ns0:ServiceLineInfo>
+</ns0:Claim>

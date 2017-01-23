@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<transmission
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="TransmissionPurge.xsd">
+
+ <purge name="All">
+
+  <description>Purge all transmissions</description>
+ 
+  <criteria>SELECT TransmissionSID FROM Transmission</criteria>
+
+ </purge>
+</transmission>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.3">
+  <echcf:Packaging>
+    <ucfd:MessageProtocolInfo>
+      <ucfd:Name value="ISA"/>
+      <ucfd:ControlNumber value="576568747"/>
+      <ucfd:Version value="00501"/>
+      <ucfd:Date value="2016-04-13"/>
+      <ucfd:Time value="23:26:00"/>
+      <ucfd:Sender>
+        <ucf:Qualifier value="01"/>
+        <ucf:Identifier value="030240928      "/>
+      </ucfd:Sender>
+      <ucfd:Receiver>
+        <ucf:Qualifier value="14"/>
+        <ucf:Identifier value="0499441430000  "/>
+      </ucfd:Receiver>
+    </ucfd:MessageProtocolInfo>
+    <ucfd:MessageProtocolInfo>
+      <ucfd:Name value="GS"/>
+      <ucfd:ControlNumber value="1"/>
+      <ucfd:Version value="005010X222A1"/>
+      <ucfd:Date value="2016-04-13"/>
+      <ucfd:Time value="23:26:02"/>
+      <ucfd:Sender>
+        <ucf:Qualifier value="ZZ"/>
+        <ucf:Identifier value="61101WCB"/>
+      </ucfd:Sender>
+      <ucfd:Receiver>
+        <ucf:Qualifier value="ZZ"/>
+        <ucf:Identifier value="0499441430000"/>
+      </ucfd:Receiver>
+    </ucfd:MessageProtocolInfo>
+  </echcf:Packaging>
+  <echcf:ClaimSubmitterInfo>
+    <ucfd:PersonIndicator value="2"/>
+    <ucfd:Name value="Availity"/>
+    <ucfd:BatchIdentifier value="3738132746"/>
+    <ucfd:BatchDate value="2016-04-13"/>
+    <ucfd:BatchTime value="18:10:00"/>
+    <ucfd:BatchPurpose value="00"/>
+    <ucfd:ElectronicIdentificationNumber value="030240928"/>
+    <ucfd:ContactInfo>
+      <ucfd:ContactType value="IC"/>
+      <ucfd:ContactName value="HAIM MODIANO"/>
+      <ucfd:CommunicationNumber>
+        <ucf:Qualifier value="TE"/>
+        <ucf:Identifier value="7145298560"/>
+      </ucfd:CommunicationNumber>
+    </ucfd:ContactInfo>
+  </echcf:ClaimSubmitterInfo>
+  <echcf:ClaimReceiverInfo>
+    <ucfd:Name value="HUMANA"/>
+    <ucfd:ElectronicIdentificationNumber value="0499441430000"/>
+  </echcf:ClaimReceiverInfo>
+  <echcf:OriginalClaimID value="$TargetTrackingID"/>
+  <echcf:SubmittedClaimID value="$TargetTrackingID"/>
+  <echcf:InternalClaimID value="$TargetTrackingID"/>
+  <echcf:ClaimProcessorID value="CE1"/>
+  <echcf:Classifications>
+    <hcfd:IsCapitated value="false"/>
+    <hcfd:IsPaperClaimOriginated value="false"/>
+  </echcf:Classifications>
+  <echcf:PatientInfo>
+    <ucfd:Role value="IL"/>
+    <ucfd:FirstName value="ENCARNACIO"/>
+    <ucfd:LastName value="ESCAMILLA"/>
+    <ucfd:PrimaryIdentifier>
+      <ucf:Qualifier value="MI"/>
+      <ucf:Identifier value="459842233"/>
+    </ucfd:PrimaryIdentifier>
+    <ucfd:AddressInfo>
+      <ucfd:AddressLine1 value="PO BOX 392"/>
+      <ucfd:City value="MERCEDES"/>
+      <ucfd:State value="TX"/>
+      <ucfd:PostalCode value="78570"/>
+    </ucfd:AddressInfo>
+    <ucfd:DemographicsInfo>
+      <ucfd:BirthDate value="1949-11-21"/>
+      <ucfd:Gender value="M"/>
+    </ucfd:DemographicsInfo>
+    <hcfd:EnrollmentInfo>
+      <hcfd:RelationshipToSubscriber value="18"/>
+    </hcfd:EnrollmentInfo>
+  </echcf:PatientInfo>
+  <echcf:SubscriberInfo>
+    <ucfd:FirstName value="ENCARNACIO"/>
+    <ucfd:LastName value="ESCAMILLA"/>
+    <ucfd:PrimaryIdentifier>
+      <ucf:Qualifier value="MI"/>
+      <ucf:Identifier value="459842233"/>
+    </ucfd:PrimaryIdentifier>
+    <ucfd:AddressInfo>
+      <ucfd:AddressLine1 value="PO BOX 392"/>
+      <ucfd:City value="MERCEDES"/>
+      <ucfd:State value="TX"/>
+      <ucfd:PostalCode value="78570"/>
+    </ucfd:AddressInfo>
+    <ucfd:DemographicsInfo>
+      <ucfd:BirthDate value="1949-11-21"/>
+      <ucfd:Gender value="M"/>
+    </ucfd:DemographicsInfo>
+    <hcfd:HealthInsuranceClaimIdentifier value="459842233"/>
+    <hcfd:InsuranceInfo>
+      <hcfd:FilingIndicatorCode value="HM"/>
+      <hcfd:PayerSequenceCode value="P"/>
+      <hcfd:AssignmentPlanParticipationCode value="A"/>
+      <hcfd:BenefitsAssignmentIndicator value="Y"/>
+      <hcfd:ReleaseOfInformation value="Y"/>
+      <hcfd:PayerInfo>
+        <ucfd:PersonIndicator value="2"/>
+        <ucfd:Name value="HUMANA"/>
+        <ucfd:PrimaryIdentifier>
+          <ucf:Qualifier value="PI"/>
+          <ucf:Identifier value="61101"/>
+        </ucfd:PrimaryIdentifier>
+      </hcfd:PayerInfo>
+    </hcfd:InsuranceInfo>
+    <hcfd:EnrollmentInfo>
+      <hcfd:RelationshipToSubscriber value="18"/>
+    </hcfd:EnrollmentInfo>
+  </echcf:SubscriberInfo>
+  <echcf:ClaimIdentificationInfo>
+    <hcfd:ProviderClaimNumber value="911905158A"/>
+    <hcfd:ClearinghouseTraceNumber value="3738132746"/>
+    <hcfd:ClaimType value="ProfClaim"/>
+    <hcfd:ClaimPurpose value="Claim"/>
+    <hcfd:FacilityType value="41"/>
+    <hcfd:ClaimFrequencyCode value="1"/>
+  </echcf:ClaimIdentificationInfo>
+  <echcf:ClaimDetails>
+    <hcfd:AmbulanceServiceInfo>
+      <hcfd:AmbulancePick-Up>
+        <ucfd:AddressLine1 value="LA POLGA DE ALAMO"/>
+        <ucfd:City value="ALAMO"/>
+        <ucfd:State value="TX"/>
+        <ucfd:PostalCode value="78516"/>
+      </hcfd:AmbulancePick-Up>
+      <hcfd:AmbulanceDrop-Off>
+        <ucfd:AddressLine1 value="101 E RIDGE RD"/>
+        <ucfd:City value="MCALLEN"/>
+        <ucfd:State value="TX"/>
+        <ucfd:PostalCode value="78503"/>
+      </hcfd:AmbulanceDrop-Off>
+      <hcfd:AmbulanceDropOffLocationName value="RIO GRANDE REGIONAL HOSPITAL"/>
+      <hcfd:TransportReasonCode value="A"/>
+      <hcfd:TransportDistance>
+        <ucf:Qualifier value="DH"/>
+        <ucf:Value value="8"/>
+      </hcfd:TransportDistance>
+      <hcfd:AmbulanceCertificationInfo>
+        <hcfd:SequenceNumber value="1"/>
+        <hcfd:CertificationConditionIndicator value="true"/>
+        <hcfd:ConditionInfo>
+          <hcfd:ConditionCode value="06"/>
+        </hcfd:ConditionInfo>
+      </hcfd:AmbulanceCertificationInfo>
+    </hcfd:AmbulanceServiceInfo>
+    <hcfd:ClaimContractInfo>
+      <hcfd:ContractIdentifier value="R8358"/>
+    </hcfd:ClaimContractInfo>
+    <hcfd:HealthInformation>
+      <hcfd:PrincipalDiagnosis>
+        <hcfd:SequenceNumber value="1"/>
+        <hcfd:DiagnosisCode value="I748"/>
+        <hcfd:DiagnosisCodeType value="ABK"/>
+      </hcfd:PrincipalDiagnosis>
+      <hcfd:OtherDiagnosis>
+        <hcfd:SequenceNumber value="1"/>
+        <hcfd:DiagnosisCode value="R64"/>
+        <hcfd:DiagnosisCodeType value="ABF"/>
+      </hcfd:OtherDiagnosis>
+      <hcfd:OtherDiagnosis>
+        <hcfd:SequenceNumber value="2"/>
+        <hcfd:DiagnosisCode value="N390"/>
+        <hcfd:DiagnosisCodeType value="ABF"/>
+      </hcfd:OtherDiagnosis>
+    </hcfd:HealthInformation>
+    <hcfd:PriorAuthorizationNumber value="78516"/>
+  </echcf:ClaimDetails>
+  <echcf:ClaimDates>
+    <hcfd:ClaimReceivedDate value="2016-07-18"/>
+    <hcfd:ClaimProcessorReceivedDate value="2016-08-01"/>
+    <hcfd:ServiceDates>
+      <ucf:BeginDate value="2016-03-03"/>
+      <ucf:EndDate value="2016-03-03"/>
+    </hcfd:ServiceDates>
+  </echcf:ClaimDates>
+  <echcf:ClaimAmounts>
+    <hcfd:TotalClaimCharge value="1105"/>
+  </echcf:ClaimAmounts>
+  <echcf:RelatedProvidersInfo>
+    <hcfd:BillingProvider>
+      <ucfd:PersonIndicator value="2"/>
+      <ucfd:Name value="MEDEX TRANSPORTATION SERV"/>
+      <ucfd:PrimaryIdentifier>
+        <ucf:Qualifier value="XX"/>
+        <ucf:Identifier value="1326217738"/>
+      </ucfd:PrimaryIdentifier>
+      <ucfd:OtherIdentifier>
+        <ucf:Qualifier value="EI"/>
+        <ucf:Identifier value="260368797"/>
+      </ucfd:OtherIdentifier>
+      <ucfd:TaxID value="260368797"/>
+      <ucfd:AddressInfo>
+        <ucfd:AddressLine1 value="801 E FERN AVENUE SUITE 140"/>
+        <ucfd:City value="MCALLEN"/>
+        <ucfd:State value="TX"/>
+        <ucfd:PostalCode value="785011496"/>
+      </ucfd:AddressInfo>
+      <ucfd:ContactInfo>
+        <ucfd:ContactType value="IC"/>
+        <ucfd:ContactName value="MARY"/>
+        <ucfd:CommunicationNumber>
+          <ucf:Qualifier value="TE"/>
+          <ucf:Identifier value="8009281315"/>
+        </ucfd:CommunicationNumber>
+      </ucfd:ContactInfo>
+      <hcfd:NPI value="1326217738"/>
+      <hcfd:TaxonomyCode value="3416L0300X"/>
+      <hcfd:ProviderSignatureOnFile value="Y"/>
+    </hcfd:BillingProvider>
+  </echcf:RelatedProvidersInfo>
+  <echcf:ClaimStatus>
+    <hcfd:CurrentState value="Paid"/>
+  </echcf:ClaimStatus>
+  <echcf:ServiceLineInfo>
+    <ucf:Property name="ServiceCodeFrom837" valueType="STRING" value="A0427"/>
+    <hcfd:ClaimProcessorServiceLineID value="1"/>
+    <hcfd:AssignedNumber value="1"/>
+    <hcfd:LineItemControlNumber value="543601"/>
+    <hcfd:ServiceInfo>
+      <hcfd:ServiceCodeInfo>
+        <hcfd:Qualifier value="HC"/>
+        <hcfd:Value value="A0427"/>
+        <hcfd:ModifierInfo>
+          <hcfd:ModifierCode value="SH"/>
+        </hcfd:ModifierInfo>
+      </hcfd:ServiceCodeInfo>
+      <hcfd:LineChargeAmount value="950"/>
+      <hcfd:UnitMeasurementCode value="UN"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-03"/>
+        <ucf:EndDate value="2016-03-03"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="1"/>
+      <hcfd:DiagnosisCode value="I748"/>
+      <hcfd:DiagnosisCodeType value="ABK"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="2"/>
+      <hcfd:DiagnosisCode value="R64"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="3"/>
+      <hcfd:DiagnosisCode value="N390"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:SubmittedServiceLineID value="1"/>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <ucf:Property name="ServiceCodeFrom837" valueType="STRING" value="A0425"/>
+    <hcfd:ClaimProcessorServiceLineID value="2"/>
+    <hcfd:AssignedNumber value="2"/>
+    <hcfd:LineItemControlNumber value="543602"/>
+    <hcfd:ServiceInfo>
+      <hcfd:ServiceCodeInfo>
+        <hcfd:Qualifier value="HC"/>
+        <hcfd:Value value="A0425"/>
+        <hcfd:ModifierInfo>
+          <hcfd:ModifierCode value="SH"/>
+        </hcfd:ModifierInfo>
+      </hcfd:ServiceCodeInfo>
+      <hcfd:LineChargeAmount value="80"/>
+      <hcfd:UnitMeasurementCode value="UN"/>
+      <hcfd:Quantity value="8"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-03"/>
+        <ucf:EndDate value="2016-03-03"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="4"/>
+      <hcfd:DiagnosisCode value="I748"/>
+      <hcfd:DiagnosisCodeType value="ABK"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="5"/>
+      <hcfd:DiagnosisCode value="R64"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="6"/>
+      <hcfd:DiagnosisCode value="N390"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:SubmittedServiceLineID value="2"/>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <ucf:Property name="ServiceCodeFrom837" valueType="STRING" value="A0422"/>
+    <hcfd:ClaimProcessorServiceLineID value="3"/>
+    <hcfd:AssignedNumber value="3"/>
+    <hcfd:LineItemControlNumber value="543603"/>
+    <hcfd:ServiceInfo>
+      <hcfd:ServiceCodeInfo>
+        <hcfd:Qualifier value="HC"/>
+        <hcfd:Value value="A0422"/>
+        <hcfd:ModifierInfo>
+          <hcfd:ModifierCode value="SH"/>
+        </hcfd:ModifierInfo>
+      </hcfd:ServiceCodeInfo>
+      <hcfd:LineChargeAmount value="25"/>
+      <hcfd:UnitMeasurementCode value="UN"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-03"/>
+        <ucf:EndDate value="2016-03-03"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="7"/>
+      <hcfd:DiagnosisCode value="I748"/>
+      <hcfd:DiagnosisCodeType value="ABK"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="8"/>
+      <hcfd:DiagnosisCode value="R64"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="9"/>
+      <hcfd:DiagnosisCode value="N390"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:SubmittedServiceLineID value="3"/>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <ucf:Property name="ServiceCodeFrom837" valueType="STRING" value="A0394"/>
+    <hcfd:ClaimProcessorServiceLineID value="4"/>
+    <hcfd:AssignedNumber value="4"/>
+    <hcfd:LineItemControlNumber value="543604"/>
+    <hcfd:ServiceInfo>
+      <hcfd:ServiceCodeInfo>
+        <hcfd:Qualifier value="HC"/>
+        <hcfd:Value value="A0394"/>
+        <hcfd:ModifierInfo>
+          <hcfd:ModifierCode value="SH"/>
+        </hcfd:ModifierInfo>
+      </hcfd:ServiceCodeInfo>
+      <hcfd:LineChargeAmount value="50"/>
+      <hcfd:UnitMeasurementCode value="UN"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-03"/>
+        <ucf:EndDate value="2016-03-03"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="10"/>
+      <hcfd:DiagnosisCode value="I748"/>
+      <hcfd:DiagnosisCodeType value="ABK"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="11"/>
+      <hcfd:DiagnosisCode value="R64"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="12"/>
+      <hcfd:DiagnosisCode value="N390"/>
+      <hcfd:DiagnosisCodeType value="ABF"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:SubmittedServiceLineID value="4"/>
+  </echcf:ServiceLineInfo>
+</echcf:Claim>

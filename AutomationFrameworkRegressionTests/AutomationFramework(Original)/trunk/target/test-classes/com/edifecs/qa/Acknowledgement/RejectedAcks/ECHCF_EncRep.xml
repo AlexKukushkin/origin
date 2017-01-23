@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.2">
+    <ucf:LifecycleUpdateInfo>
+    </ucf:LifecycleUpdateInfo>
+    <echcf:OriginalClaimID value="0000002156472300010000100001"/>
+    <echcf:SubmittedClaimID value="0000002156472300010000100001"/>
+    <echcf:InternalClaimID value="$TargetTrackingID"/>
+    <echcf:ClaimProcessorID value="CE1"/>
+    <echcf:PatientInfo>
+        <ucfd:Role value="IL"/>
+        <ucfd:FirstName value="BERNARD"/>
+        <ucfd:LastName value="RUBIN"/>
+        <ucfd:PrimaryIdentifier>
+            <ucf:Qualifier value="MI"/>
+            <ucf:Identifier value="H01579749"/>
+        </ucfd:PrimaryIdentifier>
+        <ucfd:AddressInfo>
+            <ucfd:AddressLine1 value="2120 SW 93 WAY"/>
+            <ucfd:AddressLine2 value="1401"/>
+            <ucfd:City value="PLANTATION"/>
+            <ucfd:State value="FL"/>
+            <ucfd:PostalCode value="33324"/>
+        </ucfd:AddressInfo>
+        <ucfd:DemographicsInfo>
+            <ucfd:BirthDate value="1919-04-07"/>
+            <ucfd:Gender value="M"/>
+        </ucfd:DemographicsInfo>
+        <hcfd:EnrollmentInfo>
+            <hcfd:RelationshipToSubscriber value="18"/>
+        </hcfd:EnrollmentInfo>
+    </echcf:PatientInfo>
+    <echcf:SubscriberInfo>
+        <hcfd:HealthInsuranceClaimIdentifier value="155097336A"/>
+        <hcfd:InsuranceInfo>
+            <hcfd:InsuranceTypeCode value="12"/>
+        </hcfd:InsuranceInfo>
+    </echcf:SubscriberInfo>
+    <!-- <echcf:ClaimIdentificationInfo>
+        <hcfd:ClaimPurpose value="1"/>
+    </echcf:ClaimIdentificationInfo>-->
+    <echcf:ClaimDates>
+        <hcfd:ServiceDates>
+            <ucf:BeginDate value="2013-05-06"/>
+        </hcfd:ServiceDates>
+    </echcf:ClaimDates>
+    <echcf:ClaimPaymentInfo>
+        <hcfd:PaymentIssueDate value="2013-06-14"/>
+        <hcfd:PaymentMethod value="NON"/>
+        <hcfd:CheckorEFTNumber value="NO-PAY-0043"/>
+        <hcfd:ProductionDate value="2013-06-14"/>
+        <hcfd:OriginalPayerClaimControlNumber value="346286133"/>
+        <hcfd:PayerTotalClaimCharge value="510"/>
+        <hcfd:TotalClaimPaidAmount value="0"/>
+        <hcfd:PatientResponsibilityAmount value="10"/>
+        <hcfd:ClaimStatusCode value="1"/>
+        <hcfd:PaymentOrAdjudicationDate value="2013-06-14"/>
+        <hcfd:CorrectedOtherInsuranceInfo>
+            <hcfd:CorrectedPayerSubscriberInfo>
+                <ucfd:FirstName value="BERNARD"/>
+                <ucfd:LastName value="RUBIN"/>
+                <ucfd:PrimaryIdentifier>
+                    <ucf:Qualifier value="C"/>
+                    <ucf:Identifier value="H01579749"/>
+                </ucfd:PrimaryIdentifier>
+            </hcfd:CorrectedPayerSubscriberInfo>
+        </hcfd:CorrectedOtherInsuranceInfo>
+    </echcf:ClaimPaymentInfo>
+    <echcf:ClaimStatus>
+        <hcfd:CurrentState value="TriggerEncounterReporting"/>
+        <!--hcfd:Disposition value="Finalized"/-->
+    </echcf:ClaimStatus>
+    <echcf:ServiceLineInfo>
+        <hcfd:ClaimProcessorServiceLineID  value="CP35BJ4P3TR66"/>
+        <hcfd:LineItemControlNumber value="CP35BJ4P3TR6"/>
+        <hcfd:ServiceInfo>
+            <hcfd:RevenueCode value="0112"/>
+            <hcfd:ServiceCodeInfo>
+                <hcfd:Qualifier value="HC"/>
+                <hcfd:Value value="A0021"/>
+            </hcfd:ServiceCodeInfo>
+        </hcfd:ServiceInfo>
+        <hcfd:ServiceRelatedDates>
+            <hcfd:ServiceDates>
+                <ucf:BeginDate value="2013-05-06"/>
+            </hcfd:ServiceDates>
+        </hcfd:ServiceRelatedDates>
+        <hcfd:SubmittedServiceLineID value="46123784"/>
+        <hcfd:ServiceLineStatus>
+            <hcfd:CurrentState value="TriggerEncounterReporting"/>
+            <hcfd:Disposition value="Finalized"/>
+        </hcfd:ServiceLineStatus>
+
+        <hcfd:ServicePaymentHistory>
+            <hcfd:ServiceRelatedDates>
+                <hcfd:ServiceDates>
+                    <ucf:BeginDate value="2013-03-28"/>
+                    <ucf:EndDate value="2013-03-28"/>
+                </hcfd:ServiceDates>
+            </hcfd:ServiceRelatedDates>
+            <hcfd:ProcessedServiceInfo>
+                <hcfd:ServiceCodeInfo>
+                    <hcfd:Qualifier value="HC"/>
+                    <hcfd:Value value="99214"/>
+                    <hcfd:ModifierInfo>
+                        <hcfd:ModifierCode value="76"/>
+                    </hcfd:ModifierInfo>
+                </hcfd:ServiceCodeInfo>
+                <hcfd:LineChargeAmount value="285"/>
+            </hcfd:ProcessedServiceInfo>
+            <hcfd:LinePaidAmount value="0"/>
+            <hcfd:ProcessedQuantity value="1"/>
+            <hcfd:ServiceAdjustment>
+                <hcfd:GroupCode value="PI"/>
+                <hcfd:ReasonCode value="18"/>
+                <hcfd:Amount value="285"/>
+            </hcfd:ServiceAdjustment>
+            <hcfd:PaymentOrAdjudicationDate value="2013-05-09">
+            </hcfd:PaymentOrAdjudicationDate>
+            <hcfd:ServiceRemarkCode>
+                <hcfd:ServiceRemarkCode value="N111"/>
+            </hcfd:ServiceRemarkCode>
+        </hcfd:ServicePaymentHistory>
+    </echcf:ServiceLineInfo>
+</echcf:Claim>

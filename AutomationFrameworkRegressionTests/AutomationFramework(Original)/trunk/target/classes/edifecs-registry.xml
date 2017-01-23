@@ -1,0 +1,2396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry>
+   <!-- The CommerceDesk product is a web-based e-commerce and EDI -->
+   <!-- collaboration environment. -->
+   <product name="CommerceDesk">
+       <property name="Caption">
+           <value>Transaction Management</value>
+       </property>
+      <!-- Flag indicating whether Partner Help is enabled -->
+      <property name="PartnerHelpEnabled">
+          <value>true</value>
+      </property>
+      <!-- Defines the maximum number of unique IDs that  can be fetched from DB and kept in memory for a given item -->
+      <property name="IDInterval">
+          <value>300</value>
+      </property>
+       <component name="FileStoreDescriptors">
+          <component name="FileStoreDescriptor1">
+                <property name="Protocol">
+                   <value>rmi</value>
+                </property>
+                <property name="Host">
+                   <value>localhost</value>
+                </property>
+                <property name="Port">
+                   <value>1090</value>
+                </property>
+                <property name="ServiceName">
+                   <value>ServiceManagerFileStore</value>
+                </property>
+                <property name="IsMaster">
+                   <value>true</value>
+                </property>
+          </component>
+       </component>
+      <!-- LocalRegistry provides methods for storing and retrieving remote object references bound with arbitrary string names -->
+      <component name="GuidelineDescriptors">
+          <component name="GuidelineDescriptor1">
+                <property name="Protocol">
+                   <value>rmi</value>
+                </property>
+                <property name="Host">
+                   <value>localhost</value>
+                </property>
+                <property name="Port">
+                   <value>1090</value>
+               </property>
+                <property name="ServiceName">
+                   <value>ServiceManagerGuideline</value>
+                </property>
+         </component>
+       </component>
+<component name="LocalRegistry">
+         <!-- Name of the host where the registry is started -->
+         <property name="HostName">
+            <value>localhost</value>
+         </property>
+         <!-- RMI port. Default value 1090-->
+         <property name="RMIPort">
+            <value>1090</value>
+         </property>
+         <!-- HTTP port -->
+         <property name="HTTPPort">
+            <value>2222</value>
+         </property>
+         <!-- RMI server name -->
+         <property name="RMIServerName">
+            <value>RemoteRegistry</value>
+         </property>
+         <!-- Stub transfer protocol -->
+         <property name="StubTransferProtocol">
+            <value>http</value>
+         </property>
+         <!-- Code base path -->
+         <property name="CodeBasePath">
+            <value>${[CDeskRoot]}/classes</value>
+         </property>
+      </component>
+      <!-- Aliases are used as shortcut names to the actual properties in the registry -->
+      <component name="aliases">
+         <property name="EventBus">
+            <value>[host]/EventBus</value>
+         </property>
+         <component name="RMI">
+            <property name="class">
+               <value>[CDeskComponent]/class</value>
+            </property>
+            <property name="Name">
+               <value>[CDeskComponent]/Name</value>
+            </property>
+            <property name="HostName">
+               <value>[CDeskComponent]/HostName</value>
+            </property>
+            <property name="HTTPPort">
+               <value>[CDeskComponent]/HTTPPort</value>
+            </property>
+            <property name="RMIPort">
+               <value>[CDeskComponent]/RMIPort</value>
+            </property>
+            <property name="RMIServerName">
+               <value>[CDeskComponent]/RMIServerName</value>
+            </property>
+            <property name="StubTransferProtocol">
+               <value>[CDeskComponent]/StubTransferProtocol</value>
+            </property>
+            <property name="java.security.policy">
+               <value>[CDeskComponent]/java.security.policy</value>
+            </property>
+            <property name="JavaSecurityPolicy">
+               <value>[CDeskComponent]/JavaSecurityPolicy</value>
+            </property>
+            <property name="CodeBasePath">
+               <value>[CDeskComponent]/CodeBasePath</value>
+            </property>
+         </component>
+         <component name="AdminConsole">
+            <property name="logs">
+               <value>[AdminConsole]/LogPage/logs</value>
+            </property>
+            <property name="LogPath">
+               <value>[AdminConsole/logs]/[log]/path</value>
+            </property>
+            <property name="LogDescription">
+               <value>[AdminConsole/logs]/[log]/desc</value>
+            </property>
+         </component>
+         <!-- persistence aliases -->
+         <component name="persistence">
+            <property name="logfile">
+               <value>persistence/logfile</value>
+            </property>
+            <property name="logfilename">
+               <value>[persistence/logfile]/filename</value>
+            </property>
+            <property name="loglevel">
+               <value>[persistence/logfile]/loglevel</value>
+            </property>
+            <property name="driver">
+               <value>persistence/driver</value>
+            </property>
+            <property name="databases">
+               <value>persistence/databases</value>
+            </property>
+            <property name="database">
+               <value>[persistence/databases]/[database]</value>
+            </property>
+            <property name="url">
+               <value>[persistence/database]/url</value>
+            </property>
+            <property name="package">
+               <value>[persistence/database]/package</value>
+            </property>
+            <property name="username">
+               <value>[persistence/database]/username</value>
+            </property>
+            <property name="password">
+               <value>[persistence/database]/password</value>
+            </property>
+            <property name="initconns">
+               <value>[persistence/database]/initconns</value>
+            </property>
+            <property name="maxconns">
+               <value>[persistence/database]/maxconns</value>
+            </property>
+            <property name="timeout">
+               <value>[persistence/database]/timeout</value>
+            </property>
+            <property name="idletimeout">
+               <value>[persistence/database]/idletimeout</value>
+            </property>
+             <property name="querytimeout">
+                 <value>[persistence/database]/querytimeout</value>
+             </property>
+             <property name="databasedriver">
+                 <value>[persistence/database]/driver</value>
+             </property>
+         </component>
+         <property name="FileStoreClass">
+            <value>ApplicationServer/FileStoreClass</value>
+         </property>
+         <property name="CDeskClass">
+            <value>[CDeskComponent]/class</value>
+         </property>
+         <property name="TaskManager">
+            <value>[host]/TaskManager</value>
+         </property>
+         <property name="FileStoreService">
+            <value>[TaskManager]/File Store Service</value>
+         </property>
+         <property name="FileStoreArchiveService">
+            <value>[TaskManager]/File Store Archive Service</value>
+         </property>
+         <property name="FileStorePurgeService">
+            <value>[TaskManager]/File Store Purge Service</value>
+         </property>
+         <property name="TaskManager property">
+            <value>[TaskManager]/[task]/[property]</value>
+         </property>
+         <property name="TaskManager properties">
+            <value>[TaskManager]/[task]</value>
+         </property>
+         <property name="EnrollmentNotRespondingDays">
+            <value>Enrollment/EnrollmentNotRespondingDays</value>
+         </property>
+         <property name="PartnerNotRespondingDays">
+            <value>Partner/PartnerNotRespondingDays</value>
+         </property>
+         <property name="PartnerNoActivityDays">
+            <value>Partner/PartnerNoActivityDays</value>
+         </property>
+         <property name="AdminConsole">
+            <value>[host]/AdminConsole</value>
+         </property>
+         <property name="TempHome">
+            <value>ApplicationServer/tempHome</value>
+         </property>
+         <property name="CDeskRoot">
+            <value>ApplicationServer/CDeskRoot</value>
+         </property>
+         <property name="jsp_root">
+            <value>ApplicationServer/jsp_root</value>
+         </property>
+         <property name="fax_lock">
+            <value>ApplicationServer/fax_lock</value>
+         </property>
+         <property name="smtpServerHostName">
+            <value>ApplicationServer/smtpServerHostName</value>
+         </property>
+         <property name="returnEmailAddress">
+            <value>ApplicationServer/returnEmailAddress</value>
+         </property>
+         <property name="CriticalErrorEMail">
+            <value>ApplicationServer/CriticalErrorEMail</value>
+         </property>
+         <property name="notificationPublishType">
+            <value>ApplicationServer/notificationPublishType</value>
+         </property>
+         <property name="RowsToDisplayDefault">
+            <value>ApplicationServer/RowsToDisplayDefault</value>
+         </property>
+         <property name="MaxFileUploadSize">
+            <value>ApplicationServer/MaxFileUploadSize</value>
+         </property>
+         <property name="XMLValidationMaxFileUploadSize">
+            <value>ApplicationServer/XMLValidationMaxFileUploadSize</value>
+         </property>
+         <property name="MaxRecordsPerCSVFile">
+            <value>ApplicationServer/MaxRecordsPerCSVFile</value>
+         </property>
+         <property name="externalTimeoutRedirect">
+            <value>ApplicationServer/externalTimeoutRedirect</value>
+         </property>
+         <property name="CDRootPath">
+            <value>ApplicationServer/CDRootPath</value>
+         </property>
+         <property name="CDSettingsPath">
+            <value>ApplicationServer/CDSettingsPath</value>
+         </property>
+         <property name="CDAnalyzerOptionsFileName">
+            <value>ApplicationServer/CDAnalyzerOptionsFileName</value>
+         </property>
+         <property name="logLocation">
+            <value>Log/logLocation</value>
+         </property>
+         <property name="LogPage">
+            <value>ApplicationServer/LogPage</value>
+         </property>
+         <property name="externalLogonErrorRedirect">
+            <value>ApplicationServer/externalLogonErrorRedirect</value>
+         </property>
+         <property name="defaultSiteID">
+            <value>ApplicationServer/defaultSiteID</value>
+         </property>
+         <property name="defaultSiteFriendlyKey">
+            <value>ApplicationServer/defaultSiteFriendlyKey</value>
+         </property>
+         <property name="Mode">
+            <value>ApplicationServer/Mode</value>
+         </property>
+         <property name="version">
+            <value>ApplicationServer/version</value>
+         </property>
+         <property name="DirectoryEnabled">
+            <value>ApplicationServer/DirectoryEnabled</value>
+         </property>
+         <property name="AccountLockoutDuration">
+             <value>ApplicationServer/AccountLockoutDuration</value>
+         </property>
+         <property name="AccountLockoutThreshold">
+             <value>ApplicationServer/AccountLockoutThreshold</value>
+         </property>
+         <property name="AccountLockoutCounterResetInterval">
+             <value>ApplicationServer/AccountLockoutCounterResetInterval</value>
+         </property>
+         <property name="DeadLockEngineEnabled">
+             <value>ApplicationServer/DeadLockEngineEnabled</value>
+         </property>
+         <property name="ServletContextPath">
+             <value>ApplicationServer/ServletContextPath</value>
+         </property>
+         <property name="WebContextPath">
+             <value>ApplicationServer/WebContextPath</value>
+         </property>
+          <property name="TMInbound">
+              <value>[host]/ETL/TMInbound</value>
+          </property>
+         <property name="TestDataTaskMacroCSVMaxFileSize">
+            <value>ApplicationServer/TestDataTaskMacroCSVMaxFileSize</value>
+         </property>
+         <property name="TestDataTaskMacroCSVMaxErrorCount">
+            <value>ApplicationServer/TestDataTaskMacroCSVMaxErrorCount</value>
+         </property>
+         <property name="TestDataTaskJavaScriptEnabled">
+            <value>ApplicationServer/TestDataTaskJavaScriptEnabled</value>
+         </property>
+         <property name="ValidationTaskDefaultErrorLimit">
+            <value>ApplicationServer/ValidationTaskDefaultErrorLimit</value>
+         </property>
+         <property name="ValidationTaskMaxErrorLimit">
+            <value>ApplicationServer/ValidationTaskMaxErrorLimit</value>
+         </property>
+      <property name="GuidelineService">
+            <value>[TaskManager]/Guideline Service</value>
+         
+            </property>
+</component>
+      <!--Application server specific properties -->
+      <component name="ApplicationServer">
+         <!-- Defines the default categories for Tasks, Document, Issue, Partner and Contact -->
+         <component name="Categories">
+            <property name="DefaultTaskCategories">
+               <value>Other, Profile, Requirements, Testing</value>
+            </property>
+            <property name="DefaultDocumentCategories">
+               <value>Other, Requirements, Testing</value>
+            </property>
+            <property name="DefaultIssueCategories">
+               <value>Other, Profile Question, Requirements Question, Suggestion, Testing Question</value>
+            </property>
+            <property name="DefaultPartnerCategories">
+               <value>Customer, Distributor, Manufacturer, Reseller, Supplier, VAR</value>
+            </property>
+            <property name="DefaultContactCategories">
+               <value>Business Analyst, Compliance Officer, EDI Coordinator, Information Technology, Program Manager, Project Manager, Quality Assurance</value>
+            </property>
+         </component>
+
+         <!-- Maximum number of cached guideline html pages -->
+         <property name="DBDataCacheMaxSize">
+             <value>900000</value>
+         </property>
+         <!-- Maximum number of items kept in the object cache (for faster retrieval rather than querying the database) -->
+          <property name="ObjectCacheMaxSize">
+             <value>30000</value>
+          </property>
+         <property name="externalTimeoutRedirect">
+            <value/>
+         </property>
+         <property name="externalLogonErrorRedirect">
+            <value>/index.html</value>
+         </property>
+         <!-- The version which gets automatically updated by the build process -->
+         <property name="version">
+            <value>Version 7.0.11 (Build 950833)</value>
+         </property>
+         <property name="defaultSiteID">
+            <value/>
+         </property>
+         <!-- The default site alias that will be used in case it is not specified in the URL to the logon page -->
+         <property name="defaultSiteFriendlyKey">
+            <value>default</value>
+         </property>
+         <!-- CommerceDesk root installation folder -->
+         <property name="CDeskRoot">
+            <value>C:\Edifecs\TM\ServiceManager</value>
+         </property>
+         <!-- The classes directory where all the scripts, configuration files and report templates can be found -->
+         <property name="ClassesDirectory">
+            <value>${[CDeskRoot]}/classes</value>
+         </property>
+         <!-- Temporary directory used by application to store the files uploaded by users -->
+         <property name="tempHome">
+            <value>${[CDeskRoot]}/upload</value>
+         </property>
+         <property name="fax_lock">
+            <value>C:/32BITFAX/SEND2FAX.DEL</value>
+         </property>
+         <!-- The default return e-mail address for e-mails sent out by the product, unless overridden by the user. -->
+         <property name="returnEmailAddress">
+            <value>support@yourorg.com</value>
+         </property>
+         <!-- Email address where critical error messages will be sent in case there is a serious
+         problem in the application that needs immediate attention -->
+         <property name="CriticalErrorEMail">
+            <value>critical-error@yourorg.com</value>
+         </property>
+         <property name="notificationPublishType">
+            <value>Email;Fax;EmailFax;FaxEmail</value>
+         </property>
+         <!-- SMTP server used to send email notifications from CommerceDesk -->
+         <property name="smtpServerHostName">
+            <value>smtp.yourorg.com</value>
+         </property>
+         <!-- Default number of rows per page to be displayed in a view if not customized yet by user -->
+         <property name="RowsToDisplayDefault">
+            <value>30</value>
+         </property>
+         <!-- The maximum allowed size of a file to be uploaded through CommerceDesk.
+         Zero value means unlimited size. -->
+         <property name="MaxFileUploadSize">
+            <value>15M</value>
+         </property>
+         <!-- The maximum allowed size of a test file submitted for XML validation.
+         Zero value means unlimitted size. -->
+         <property name="XMLValidationMaxFileUploadSize">
+            <value>0</value>
+         </property>
+         <!-- Maximum number of rows that may be imported from a CSV file to a view -->
+         <property name="MaxRecordsPerCSVFile">
+            <value>500</value>
+         </property>
+         <!-- The CommerceDesk working mode: Debug or Release -->
+         <!-- In debug mode there is extended logging and debug controls in UI -->
+         <property name="Mode">
+            <value>Release</value>
+         </property>
+         <!-- The FileStore is the storage mechanism used by this host -->
+         <property name="FileStoreClass">
+            <value>com.edifecs.shared.repository.storage.raih.RAIHFileStore</value>
+         </property>
+         <!-- Flag indicating whether or not it is allowed to display a directory of Consultant
+         organizations in the repository tree. -->
+         <property name="DirectoryEnabled">
+            <value>false</value>
+         </property>
+
+         <!-- Specifies how long the account is going to be locked out after a certain amount of
+              unsuccessful logon attempts. The entered value specifies the interval in minutes. A
+              special value of 0 means that the account is locked out until the Site / Community
+              Admin explicitly unlocks the account. -->
+         <property name="AccountLockoutDuration">
+             <value>30</value>
+         </property>
+
+         <!-- Specifies how many unsuccessfull logon attempts should happen before an account is
+              locked. The value 0 means that the account is never going to be locked, i.e. locking out
+              mechanism is disabled. -->
+         <property name="AccountLockoutThreshold">
+             <value>0</value>
+         </property>
+
+         <!-- Specifies the interval in minutes that needs to pass since the last logon attempt
+              automatically reset the number of unsuccessful logon attempts to 0. -->
+         <property name="AccountLockoutCounterResetInterval">
+             <value>0</value>
+         </property>
+         <property name="DeadLockEngineEnabled">
+             <value>false</value>
+         </property>
+         <property name="ServletContextPath">
+             <value>tm</value>
+         </property>
+         <property name="WebContextPath">
+             <value>tm</value>
+         </property>
+         <!-- Flag indicating whether to disable or not the guideline viewer feature in CommerceDesk. -->
+         <property name="DisableGV">
+            <value>false</value>
+         </property>
+         <!-- Flag indicating whether to disable or not the Data Pre-processing feature during validation test wizard. -->
+         <property name="DisableDPP">
+            <value>false</value>
+         </property>
+         <!-- Specifies if the ServiceManagers will send regularly "I'm alive" messages and
+            a ServiceManagerMonitoringThread thread will be started to check that.
+            This thread verifies if the ServiceManagers are alive or not.
+            If the property is absent than the default value <code>false</code> is used. -->
+         <property name="ServiceMonitoringEnabled">
+             <value>true</value>
+         </property>
+         <!-- Specifies the time interval between two "I'm alive" messages send by a ServiceManager.
+              The entered value specifies the interval in seconds and should be bigger than 60.
+              If the property is absent or if value is less that 60 than the default value 60 seconds is used. -->
+         <property name="AliveSendInterval">
+             <value>60</value>
+         </property>
+         <!-- Specifies the default value for [NotRespondMaxInterval] property for all services.
+              The entered value specifies the interval in seconds and should be bigger than the longest task
+              executed by services (e.g., a report can be published during 10-15 minutes).
+              If the property is absent than the default value 3600 seconds is used. -->
+         <property name="TasksNotRespondMaxInterval">
+             <value>3600</value>
+         </property>
+
+         <!-- The maximum allowed size of a Macro Definition CSV File to be uploaded for a dynamic Test Data Task item. -->
+         <property name="TestDataTaskMacroCSVMaxFileSize">
+            <value>1M</value>
+         </property>
+         <!-- The maximum count of validation errors to be displayed for a Macro Definition CSV file of a Test Data Task item. -->
+         <property name="TestDataTaskMacroCSVMaxErrorCount">
+            <value>10</value>
+         </property>
+         <!-- Flag indicating whether the Java Script is enabled or not for validation rules and persistence format. -->
+         <property name="TestDataTaskJavaScriptEnabled">
+            <value>false</value>
+         </property>
+         <!-- Default number of errors to be reported if not set by user during validation. -->
+         <property name="ValidationTaskDefaultErrorLimit">
+            <value>300</value>
+         </property>
+         <!-- Maximum number of errors a user is allowed to set to be reported during validation. -->
+         <property name="ValidationTaskMaxErrorLimit">
+            <value>3000</value>
+         </property>
+         <!--Error Report Biz Item Configuration -->
+         <component name="ErrorReportBizItemConfig">
+            <component name="Claim_Config">
+               <property name="Transaction">
+                  <value>837</value>
+               </property>
+               <property name="Caption">
+                  <value>Claim</value>
+               </property>
+               <property name="LDNSGroupName">
+                  <value>Claim</value>
+               </property>
+            </component>
+            <component name="Claim_Payment_Config">
+               <property name="Transaction">
+                  <value>835</value>
+               </property>
+               <property name="Caption">
+                  <value>Claim Payment</value>
+               </property>
+               <property name="LDNSGroupName">
+                  <value>Claim</value>
+               </property>
+            </component>
+         </component>
+      </component>
+
+      <!--  TM Logger --> 
+      <component name="Log">
+          <!--
+          The following options are supported OFF | FATAL | ERROR | WARN | INFO | DEBUG | TRACE | ALL
+      The most used options are DEBUG and INFO.
+           -->
+         <property name="logLevel">
+            <value>info</value>
+         </property>
+         <property name="logLocation">
+            <value>${[CDeskRoot]}/logs</value>
+         </property>
+      </component>
+
+      <!-- Persistence Component contains all information needed to connect to and use the database
+      for persisting/retrieving application data.  -->
+      <component name="persistence">
+          <!-- database server type, possible values: MSSQL, Oracle11g, DB2, etc -->
+          <property name="database.type">
+              <value>MSSQL</value>
+          </property>
+          <!-- The driver class name.                                      -->
+             <property name="driver">
+                <value>net.sourceforge.jtds.jdbc.Driver</value>
+<!--                 <value>oracle.jdbc.OracleDriver</value>-->
+<!--                 <value>com.ibm.db2.jcc.DB2Driver</value>-->
+                 <!-- The log4jdbc driver is for debug purpose only.
+     Some underlying jdbc drivers like DB2Driver are not supported by default and should be configured
+     using the system property: -Dlog4jdbc.drivers=<driverclass>[,<driverclass>...]
+     Please specify manually the "jdbc:log4" prefix for "url" property for desired databases.
+     Also, don't forget to uncomment desired jdbc loggers in TMLogger.cfg file.     -->
+                 <!--<value>net.sf.log4jdbc.DriverSpy</value>-->
+             </property>
+
+          <!-- The property defines how many times persistence will retry to load data for failed batches -->
+<!--
+          <property name="BatchMaxRetryAttempts">
+             <value>0</value>
+          </property>
+-->
+          <!-- Delay, defined in milliseconds, between persistence failed batch retrial -->
+<!--
+          <property name="BatchRetryDelay">
+             <value>60000</value>
+          </property>
+-->
+          <!-- The list of database definitions.                           -->
+          <!-- Note: the only valid database' component names are          -->
+          <!-- commercedesk and repository. All other are ignored.         -->
+         <!-- The persistence's log file's definition. -->
+         <!-- CommerceDesk may connect and use several databases. This component
+         encapsulates information specific to each database. -->
+         <component name="databases">
+            <!-- This is an example how a database component might look  -->
+            <!-- like. It includes all possible database properties.     -->
+
+            <!-- Enablement Database on SQL Server -->
+            <component name="enablement">
+               <!-- The URL used to connect to the database -->
+               <property name="url">
+                  <value>jdbc:jtds:sqlserver://localhost/EcEnablement;sendStringParametersAsUnicode=false</value>
+<!--                  <value>jdbc:log4jdbc:jtds:sqlserver://localhost/EcEnablement</value>-->
+               </property>
+               <!-- User Name. -->
+               <property name="username">
+                  <value>CDWeb</value>
+               </property>
+               <!-- User Password.
+               Use run_string_encrypter.bat tool to encrypt strings and add the attribute type="encrypted" to properties.
+               For example: <property name="password" type="encrypted"><value>U4Wi47iHluc=</value></property> -->
+               <property name="password" type="encrypted">
+                  <value>U4Wi47iHluc=</value>
+               </property>
+               <!-- Number of initial connections that will be stored in the connection pool at application startup. -->
+               <property name="initconns">
+                  <value>1</value>
+               </property>
+               <!-- Maximum number of connections that can be stored in the connection pool. -->
+               <property name="maxconns">
+                  <value>70</value>
+               </property>
+               <!-- Query timeout in milliseconds. If any SQL operation (SELECT, INSERT, UPDATE, DELETE etc.) takes longer to execute
+               than this value in milliseconds, then an exception will be raised and the operation will be cancelled. Zero (0) value means that
+               the timeout is unlimited (the query will never timeout). -->
+               <property name="querytimeout">
+                   <value>120</value>
+               </property>
+            <property name="database.type">
+<value>MSSQL</value>
+</property>
+            <property name="instance">
+<value/>
+</property>
+            </component>
+            <!-- Active Database on SQL Server -->
+            <component name="active">
+               <property name="url">
+                  <value>jdbc:jtds:sqlserver://localhost/EcActive;sendStringParametersAsUnicode=false</value>
+                  <!--<value>jdbc:log4jdbc:jtds:sqlserver://localhost/EcActive</value>-->
+               </property>
+               <property name="username">
+                  <value>CDWeb</value>
+               </property>
+               <property name="password" type="encrypted">
+                  <value>U4Wi47iHluc=</value>
+               </property>
+               <property name="initconns">
+                  <value>1</value>
+               </property>
+               <property name="maxconns">
+                  <value>100</value>
+               </property>
+               <property name="querytimeout">
+                   <value>120</value>
+               </property>
+            <property name="database.type">
+<value>MSSQL</value>
+</property>
+            <property name="instance">
+<value/>
+</property>
+            </component>
+             <component name="reporting">
+                <property name="url">
+                   <value>jdbc:jtds:sqlserver://localhost/EcActive;sendStringParametersAsUnicode=false</value>
+                </property>
+                <property name="username">
+                   <value>CDWeb</value>
+                </property>
+                <property name="password" type="encrypted">
+                   <value>U4Wi47iHluc=</value>
+                </property>
+                <property name="initconns">
+                   <value>1</value>
+                </property>
+                <property name="maxconns">
+                   <value>100</value>
+                </property>
+                <property name="querytimeout">
+                    <value>120</value>
+                </property>
+             <property name="database.type">
+<value>MSSQL</value>
+</property>
+             <property name="instance">
+<value/>
+</property>
+             </component>
+             <!-- Party Hypersonic Database used in memory by indexing and ETL -->
+             <component name="index">
+                 <!-- The driver class name. -->
+                <property name="driver">
+                       <value>org.hsqldb.jdbcDriver</value>
+                </property>
+                <property name="url">
+                   <value>jdbc:hsqldb:mem:index</value>
+                </property>
+                <property name="username">
+                   <value>sa</value>
+                </property>
+                <property name="password">
+                   <value/>
+                </property>
+                <property name="initconns">
+                   <value>1</value>
+                </property>
+                <property name="maxconns">
+                   <value>30</value>
+                </property>
+                <property name="querytimeout">
+                    <value>120</value>
+                </property>
+             </component>
+         </component>
+      </component>
+      <component name="Partner">
+         <property name="PartnerNotRespondingDays">
+            <value>7</value>
+         </property>
+         <property name="PartnerNoActivityDays">
+            <value>30</value>
+         </property>
+      </component>      
+      <component name="Enrollment">
+         <property name="EnrollmentNotRespondingDays">
+            <value>7</value>
+         </property>
+      </component>
+      <!-- The application can reside on multiple hosts. Each host defines its own specific properties. -->
+      <host name="localhost">
+         <!-- The EventBus is used to synchronize data between the Web Component and the Service Manager Component.
+         Exactly one EventBus is automatically started on each machine running either the Web Component or Service Manager
+         Component. If these two components are running on the same machine, they will automatically use the same local
+         EventBus to see each other and no configuration is necessary. If these components are running on different machines,
+         the EventBus on each machine must be configured to see the EventBus on the other machine. -->
+         <component name="EventBus">
+            <!-- Fully qualified name of the class implementing the com.edifecs.shared.events.IEventBus. -->
+            <property name="class">
+               <value>com.edifecs.shared.events.EventBus</value>
+            </property>
+            <!-- The RMI port used to lookup or create the RMI Registry. -->
+            <property name="RMIPort">
+               <value>1090</value>
+            </property>
+            <!-- Alternative HTTP port used to lookup or create the RMI Registry. -->
+            <property name="HTTPPort">
+               <value>8012</value>
+            </property>
+            <!-- Name of the service in the RMI Registry under which the EventBus will be registered. -->
+            <property name="RMIServerName">
+               <value>EventBus</value>
+            </property>
+            <!-- RMI Stub transfer protocol. -->
+            <property name="StubTransferProtocol">
+               <value>http</value>
+            </property>
+            <!-- RMI code base path. -->
+            <property name="CodeBasePath">
+               <value>${[CDeskRoot]}/classes</value>
+            </property>
+            <!-- Host name used to lookup or create the RMI Registry. -->
+            <property name="HostName">
+               <value>localhost</value>
+            </property>
+            <!-- May contain a list of remote event buses to where all local events should be propagated.
+            Needed in case of a distributed installation. The values must be in the form of a URI to connect to a remote EventBus.
+            For example, "rmi://<host>:1090/EventBus" where host is the name of the remote machine on the network. -->
+            <property name="RemoteEventBus">
+            </property>
+
+            <!-- Maximum concurrent publishing events count controls maximum number of queued events to be published-->
+            <!--<property name="MaxConcurrentPublishingEventsCount">-->
+                <!--<value>1000</value>-->
+            <!--</property>-->
+         </component>
+         <component name="ETL">
+            <component name="TMInbound">
+               <!-- Location where serialized packages are stored. -->
+               <component name="Location">
+                  <!-- NetworkShare - the location is a network share folder. To use in a distributed environment. Note: Does not work without a network. -->
+                  <!-- LocalDirectory - the location is a local directory. To use in a non distributed environment. -->
+                  <property name="LocationType">
+                      <value>NetworkShare</value>
+                  </property>
+                  <!-- For LocalDirectory location type the Path value must be a physical directory path. -->
+                  <property name="Path">
+                      <value>inbound</value>
+                  </property>
+               </component>
+               <!-- The host name where TMInbound is running. The "localhost" value is not a valid value for NetworkShare location type. -->
+               <property name="HostName">
+                  <value>127.0.0.1</value>
+               </property>
+                <!-- The interval in seconds to notify the Adapter about processed or processing timeout InboundPackage packages. -->
+               <property name="PullQueryInterval">
+                  <value>120</value>
+               </property>
+               <!-- All packages processed more than this interval are moved to Adapter's FailedFiles folder. -->
+               <property name="ProcessingTimeOutSeconds">
+                  <value>432000</value>
+               </property>
+                <!-- The DB with InboundPackage table. -->
+               <property name="Database">
+                  <value>active</value>
+               </property>
+                <!-- Count of failed attempts to execute a DB statement before a DB exception is thrown. -->
+                <property name="FailedAttemptCount">
+                    <value>5</value>
+                </property>
+                <!-- Pause before next attempt to execute a failed DB statement.  -->
+                <property name="AttemptPause">
+                    <value>1000</value>
+                </property>
+            </component>
+            <!-- ETL category default properties. Any of the loader props may be overridden from ETL Service -->
+            <component name="Loader">
+                <property name="AvgTPS">
+                   <value>2000</value>
+                </property>
+                <!-- Describes where loader will apply statements. LoaderApplicator has possible values:
+                DUMMY;                               *******  Data will not be loaded
+                TSQL_FILE;                           *******  Serialize records to file as TSQL DML statements
+                TSQL_PREPARED_STATEMENT_BATCH_FILE;  *******  Serialize merged and ordered records to file as TSQL DML statements
+                RECORDS;                             *******  Data will be serialized to file in a binary format (under development)
+                DATABASE_SIMPLE;                     *******  Load as TSQL DML statements, executed ONE BY ONE, used for debug purpose
+                DATABASE_BATCH;                      *******  Load as TSQL DML statements,
+                PREPARED_STATEMENT;                  *******  Load as parametrized prepared statements
+                PREPARED_STATEMENT_BATCH;            *******  Merge and order statements and load them in batches of parametrized prepared statements
+                HIBERNATE;                           *******  Data will be loaded using Hibernate Domain (under development)
+                 -->
+                <property name="LoaderApplicator">
+                   <value>PREPARED_STATEMENT</value>
+                </property>
+                <!-- Max database connections count got per Database Loader. -->
+                <property name="DatabaseConnectionsCount">
+                    <value>5</value>
+                </property>
+                <!-- Database batch size -->
+                <property name="MaxBatchSize">
+                   <value>1000</value>
+                </property>
+                <!-- ETL threads action interval -->
+                <property name="ThreadsActionInterval">
+                   <value>0</value>
+                </property>
+                <property name="LoaderResultsFolder">
+                   <value>${[CDeskRoot]}/EtlProcessorTempFolder/Results</value>
+                </property>
+<!--
+                <property name="DatabaseProfile">
+                    <value>active</value>
+                </property>
+-->
+            </component>
+            <!-- ETL queues capacity Max count. The property is added for more accurate ETL tuning.
+                 To make ETL effective, do not set the count less then 20000 -->
+            <property name="QueueCapacitySize">
+                <value>5000</value>
+            </property>
+            <property name="TransformerQueueSize">
+                <value>5000</value>
+            </property>
+            <property name="LoaderQueueSize">
+                <value>1000</value>
+            </property>
+            <!-- Max number of inbound packages  being processed by ETL.
+             This number should be increased in case only small files are processed
+         For example: for 1K files the value should be 20  -->
+            <property name="MaxConcurrentInboundPackages">
+                <value>1</value>
+            </property>
+            <!-- The value added for biz items while being processed with ETL.
+          The possible values are stored in csCurrentActivityState code set.
+          The default value should be set to '(Unknown Code)' to make sure that ETL is not part of business life cycle workflow.
+          If the value is set to anything other than '(Unknown Code)' then ETL will be considered part of business life cycle workflow.
+          Value of (Unknown Code) is '- -1' (without space) -->
+            <property name="EtlCurrentActivityState">
+            	<value>CP</value>
+            </property>
+            <!-- Number of retries in case the CID is not fond in DB -->
+            <property name="CIDLookupRetryCount">
+                <value>20</value>
+            </property>
+            <!-- Interval in milliseconds to wait between CID lookup retries -->
+            <property name="CIDLookupRetryWait">
+                <value>2000</value>
+            </property>
+             <!-- Indicates whether the ETL will fail or not if duplicate CID found
+             true: the ETL will fail with the proper exception event
+             false: the ETL will create a warning event for every duplicate CID found. -->
+             <property name="DuplicateCIDExceptionEnabled">
+                <value>false</value>
+             </property>
+             <!-- Number of ETL retries of transmissions that were not processed due to ETL crash/restart -->
+             <!--<property name="MaxEtlAttemptCount">-->
+                 <!--<value>3</value>-->
+             <!--</property>-->
+         </component>
+         <!-- The CommerceDesk TaskManager is used to manage scheduler Tasks. -->
+         <component name="TaskManager">
+            <!-- Fully qualified name of the class implementing com.edifecs.shared.scheduler.ITaskManager.  -->
+            <property name="class">
+               <value>com.edifecs.shared.scheduler.TaskManager</value>
+            </property>
+            <property name="RMIPort">
+               <value>1090</value>
+            </property>
+            <property name="HTTPPort">
+               <value>8010</value>
+            </property>
+            <property name="RMIServerName">
+               <value>ServiceManager.servicemanager</value>
+            </property>
+            <property name="StubTransferProtocol">
+               <value>http</value>
+            </property>
+            <property name="CodeBasePath">
+               <value>${[CDeskRoot]}/classes</value>
+            </property>
+            <property name="HostName">
+               <value>localhost</value>
+            </property>
+            <!-- File Store Service is used to remotely store and retrieve files (attachments). -->
+            <component name="File Store Service">
+               <!-- Description of the service. -->
+               <property name="Description">
+                  <value>Provides storage and access services for file-based data. Files are stored in a self-managed directory structure designed to handle a very large number of files. It also supports encryption and compression capabilities.</value>
+               </property>
+               <!-- Name of the class. -->
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.scheduler.FileStoreService</value>
+               </property>
+               <!-- Action interval in milliseconds at which the service will be "woke up" to perform its action. -->
+               <property name="ActionInterval">
+                  <value>300000</value>
+               </property>
+               <!-- File Store service stores the files in a directory structure. This property defines the maximum
+               number of files that may be stored in a folder. -->
+               <property name="MaxFilesPerFolder">
+                  <value>1000</value>
+               </property>
+               <!-- Repository folder where the directory structure and files are being stored. -->
+               <property name="RepositoryLocation">
+                  <value>${[CDeskRoot]}/repository</value>
+               </property>
+               <!-- Startup type, possible values:
+               Auto - service will start automatically at application startup.
+               Disabled - the service is disabled and it will never start unless changing this property in registry and restarting the application. -->
+               <property name="Startup">
+                  <value>Auto</value>
+               </property>
+               <!-- RMI specific properties. See descriptions above. -->
+               <property name="RMIPort">
+                  <value>1090</value>
+               </property>
+               <property name="HTTPPort">
+                  <value>8010</value>
+               </property>
+               <property name="RMIServerName">
+                  <value>ServiceManagerFileStore</value>
+               </property>
+               <property name="StubTransferProtocol">
+                  <value>http</value>
+               </property>
+               <property name="CodeBasePath">
+                  <value>${[CDeskRoot]}/classes</value>
+               </property>
+               <property name="HostName">
+                  <value>localhost</value>
+               </property>
+               <!-- Flag indicating whether or not the service will be monitored. -->
+               <property name="TaskMonitoringEnabled">
+                  <value>true</value>
+               </property>
+               <!-- Do not change this value because this service is in reality an RMI server. -->
+               <property name="NotRespondMaxInterval">
+                  <value>30</value>
+               </property>
+            </component>
+            <!-- File Store Archive Service archives the older files in the repository based on user defined rules. -->
+            <component name="File Store Archive Service">
+               <property name="Description">
+                  <value>Archives old files in the file repository based on user defined rules.</value>
+               </property>
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.scheduler.FileStoreArchiveService</value>
+               </property>
+               <property name="ActionInterval">
+                  <value>86400000</value>
+               </property>
+               <property name="Startup">
+                  <value>Auto</value>
+               </property>
+               <property name="TaskMonitoringEnabled">
+                  <value>true</value>
+               </property>
+                <!-- If  TaskMonitoringEnabled=true then an email notification will be sent if the service has not responded
+         within the interval specified by this value in seconds. -->
+               <property name="NotRespondMaxInterval">
+                  <value>1800</value>
+               </property>
+               <!-- Only files matching the filter defined below will be archived. 
+                    Each filter value consists of three property=value pairs separated by ';'.
+                    The pairs can be in any order but the property names are limited to:
+                    1. name
+                    2. type
+                    3. value
+                    
+                    name  - can take any column name from FileStoreFile table which contains
+                            metadata about the files in the file repository.
+                    type  - defines the filter type, it can take any of the following values:
+                            1 - Equal
+                            2 - Not Equal
+                            5 - Greater Than
+                            6 - Less Than
+                    value - the actual value of the filter       
+               -->
+               <component name="Filters">
+                  <property name="FilterCreatedDate">
+                     <value>name=CreatedDate;type=6;value='2002-01-01'</value>
+                  </property>
+                  <property name="FilterLastAccessedDate">
+                     <value>name=LastAccessedDate;type=6;value='2002-01-01'</value>
+                  </property>
+               </component>
+            <property name="Start Time">
+                 <value>0:00:00 AM</value>
+           </property>
+</component>
+            <!-- File Store Purge Service deletes the files from repository based on user defined rules. -->
+            <component name="File Store Purge Service">
+               <property name="Description">
+                  <value>Purges logically deleted files from the file repository based on user defined rules.</value>
+               </property>
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.scheduler.FileStorePurgeService</value>
+               </property>
+               <property name="ActionInterval">
+                  <value>86400000</value>
+               </property>
+               <property name="Startup">
+                  <value>Auto</value>
+               </property>
+               <property name="TaskMonitoringEnabled">
+                  <value>true</value>
+               </property>
+               <property name="NotRespondMaxInterval">
+                  <value>1800</value>
+               </property>
+               
+               <!-- Only files matching the filter defined below will be purged. 
+                    Each filter value consists of three property=value pairs separated by ';'.
+                    The pairs can be in any order but the property names are limited to:
+                    1. name
+                    2. type
+                    3. value
+                    
+                    name  - can take any column name from FileStoreFile table which contains
+                            metadata about the files in the file repository.
+                    type  - defines the filter type, it can take any of the following values:
+                            1 - Equal
+                            2 - Not Equal
+                            5 - Greater Than
+                            6 - Less Than
+                    value - the actual value of the filter       
+               -->
+               <component name="Filters">
+                  <property name="FilterCreatedDate">
+                     <value>name=CreatedDate;type=6;value='2000-01-01'</value>
+                  </property>
+                  <property name="FilterLastAccessedDate">
+                     <value>name=LastAccessedDate;type=6;value='2000-01-01'</value>
+                  </property>
+               </component>
+            <property name="Start Time">
+                 <value>0:00:00 AM</value>
+           </property>
+</component>
+            <!-- The Validator task is used to validate incoming data files -->
+            <!-- against an EDI guideline (ECS format). -->
+            <component name="ECS Validation Task">
+               <!-- Services may have an optional Category property. It can take any value -->
+               <property name="Category">
+                  <value>Validation</value>
+               </property>
+               <!-- Description -->
+               <property name="Description">
+                  <value>Validates EDI test data files against user-specified ECS guidelines associated with validation tasks.</value>
+               </property>
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.validator.ECSValidator</value>
+               </property>
+               <!-- Number of threads, i.e. the number of services that will run simultaneously -->
+               <property name="ThreadsCount">
+                  <value>1</value>
+               </property>
+               <!-- Action interval in milliseconds in which the service will be "woke up"
+               to perform its action -->
+               <property name="ActionInterval">
+                  <value>60000</value>
+               </property>
+               <!-- Startup type, possible values:
+               Auto - service will start automatically at application startup.
+               Disabled - the service is disabled and it will never start unless changing this property in registry and restarting the application. -->
+               <property name="Startup">
+                  <value>Auto</value>
+               </property>
+               <!-- XSLxxx properties define the XSL file that will be used to create various validation
+               error reports. -->
+               <property name="XSLFile">
+                  <value>${[CDeskRoot]}/classes/results.xsl</value>
+               </property>
+               <property name="XSLFileSecure">
+                  <value>${[CDeskRoot]}/classes/results_secure.xsl</value>
+               </property>
+               <property name="XSLFilePrinterVersion">
+                  <value>${[CDeskRoot]}/classes/results_printer_version.xsl</value>
+               </property>
+               <property name="XSLFilePrinterVersionSecure">
+                  <value>${[CDeskRoot]}/classes/results_printer_version_secure.xsl</value>
+               </property>
+               <property name="XSLFileInterleaved">
+                  <value>${[CDeskRoot]}/classes/InterleavedReport.xsl</value>
+               </property>
+               <property name="XSLFileSummarySimple">
+                  <value>${[CDeskRoot]}/classes/SummarySimpleReport.xsl</value>
+               </property>
+               <property name="XSLFileSummaryInterleaved">
+                  <value>${[CDeskRoot]}/classes/SummaryInterleavedReport.xsl</value>
+               </property>
+               <!-- UI Map file contains information needed to create the validation error report. -->
+               <property name="UIMapFile">
+                  <value>${[CDeskRoot]}/classes/UIMap.xml</value>
+               </property>
+               <!-- Minimum allowed size in bytes of a submitted test file for validation. -->
+               <property name="ValidatedFileMinSize">
+                  <value>0</value>
+               </property>
+               <!-- Maximum allowed size in bytes of a submitted test file for validation.
+               Zero (0) means not limited size is allowed. -->
+               <property name="ValidatedFileMaxSize">
+                  <value>0</value>
+               </property>
+               <!-- Flag indicating whether or not this task (service) will be monitored. -->
+               <property name="TaskMonitoringEnabled">
+                  <value>true</value>
+               </property>
+               <!-- If  TaskMonitoringEnabled=true then an email notification will be sent if the service has not responded
+               within the interval specified by this value in milliseconds. -->
+               <property name="NotRespondMaxInterval">
+                  <value>300</value>
+               </property>
+               <!-- Maximum processing time for a validation task in seconds. If it takes longer than this value
+               to validate a file then a critical email notification will be sent. -->
+               <property name="ValidationMaxProcessingTime">
+                  <value>1800</value>
+               </property>
+               <!-- Maximum number of lines allowed in an interleaved report. -->
+               <property name="InterleavedReportMaxLines">
+                  <value>400</value>
+               </property>
+               <!-- List of event names which can be sent through Event Bus on which
+               the service will be "waken up" to perform its action. -->
+               <property name="StartEvents">
+                   <value>EDITestUploadEvent</value>
+               </property>
+            </component>
+            <!-- The Validator task is used to validate incoming datafiles -->
+            <!-- against an XSD schema file(XSD format). -->
+            <component name="XML Validation Task">
+               <property name="Category">
+                  <value>Validation</value>
+               </property>
+               <property name="Description">
+                  <value>Validates data file according to XSD schema</value>
+               </property>
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.validator.XMLValidatorService</value>
+               </property>
+               <property name="ThreadsCount">
+                  <value>1</value>
+               </property>
+               <property name="ActionInterval">
+                  <value>60000</value>
+               </property>
+               <property name="Startup">
+                  <value>Auto</value>
+               </property>
+               <property name="XSLFile">
+                  <value>${[CDeskRoot]}/classes/XMLValidationResults.xsl</value>
+               </property>
+               <property name="XSLFileSecure">
+                  <value>${[CDeskRoot]}/classes/XMLValidationResultsSecure.xsl</value>
+               </property>
+               <property name="XSLFilePrinterVersion">
+                  <value>${[CDeskRoot]}/classes/XMLValidationResultsPrinterVersion.xsl</value>
+               </property>
+               <property name="XSLFilePrinterVersionSecure">
+                  <value>${[CDeskRoot]}/classes/XMLValidationResultsPrinterVersionSecure.xsl</value>
+               </property>
+               <property name="UIMapFile">
+                  <value>${[CDeskRoot]}/classes/UIMap.xml</value>
+               </property>
+               <property name="ValidatedFileMinSize">
+                  <value>0</value>
+               </property>
+               <property name="ValidatedFileMaxSize">
+                  <value>0</value>
+               </property>
+               <property name="TaskMonitoringEnabled">
+                  <value>true</value>
+               </property>
+               <property name="NotRespondMaxInterval">
+                  <value>1800</value>
+               </property>
+                <property name="ValidationMaxProcessingTime">
+                   <value>1800</value>
+                </property>
+               <property name="InterleavedReportMaxLines">
+                  <value>400</value>
+               </property>
+               <property name="StartEvents">
+                   <value>XMLTestUploadEvent</value>
+               </property>
+            </component>
+            <!-- The Notification Scheduler task is used to send queued -->
+            <!-- notifications. -->
+            <component name="Notification Scheduler Task">
+               <property name="Description">
+                  <value>Sends queued notifications created in the Notification Wizard.</value>
+               </property>
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.scheduler.NotificationScheduler</value>
+               </property>
+               <property name="ActionInterval">
+                  <value>60000</value>
+               </property>
+               <property name="Startup">
+                  <value>Auto</value>
+               </property>
+                <property name="TaskMonitoringEnabled">
+                   <value>true</value>
+                </property>
+                <property name="NotRespondMaxInterval">
+                   <value>60</value>
+                </property>
+            </component>
+            <component name="XEServer Drop File Service">
+               <property name="Description">
+                  <value>Delivers files uploaded via Web to a user specified folder, typically to XEngine Server file connector.</value>
+               </property>
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.item.transaction.connector.xes.XEDropFileService</value>
+               </property>
+               <property name="ActionInterval">
+                  <value>60000</value>
+               </property>
+               <property name="Startup">
+                  <value>Auto</value>
+               </property>
+               <property name="TaskMonitoringEnabled">
+                  <value>true</value>
+               </property>
+               <property name="NotRespondMaxInterval">
+                  <value>300</value>
+               </property>
+               <!-- Directory were inbound files are dropped. -->
+               <property name="TMInboundDir">
+                  <value>C:\Edifecs\XEServer\profiles\TM\workspace\tm\inbound\native_inbound_batch</value>
+               </property>
+                <!-- Directory were outbound files are dropped. -->
+               <property name="TMOutboundDir">
+                  <value>C:\Edifecs\XEServer\profiles\TM\workspace\tm\inbound\native_outbound_batch</value>
+               </property>
+               <property name="StartEvents">
+                   <value>WebUploadForXEFinishedEvent</value>
+               </property>
+                <!-- Truncates the web uploaded file name, e.g. WEB[transmissionSID]_TruncatedFilename -->
+                <property name="FilenameLength">
+                    <value>40</value>
+                </property>
+            </component>
+            <component name="ETL Monitor Service">
+               <property name="Description">
+                  <value>Collects performance and usage statistics about the ETL process.</value>
+               </property>
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.tm.monitor.ETLMonitorService</value>
+               </property>
+               <property name="ActionInterval">
+                  <value>60000</value>
+               </property>
+               <property name="Startup">
+                  <value>Disabled</value>
+               </property>
+               <property name="TaskMonitoringEnabled">
+                  <value>true</value>
+               </property>
+               <property name="NotRespondMaxInterval">
+                  <value>300</value>
+               </property>
+            </component>
+            
+            <component name="Update Enrollment Status Service">
+               <property name="Start Time">
+                  <value>3:00:00 AM</value>
+               </property>
+               <property name="Description">
+                  <value>Updates the status of each partner program enrollment, based on the partner settings.</value>
+               </property>
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.scheduler.EnrollmentsUpdateStatusTask</value>
+               </property>
+               <property name="ActionInterval">
+                  <value>86400000</value>
+               </property>
+               <property name="Startup">
+                  <value>Auto</value>
+               </property>
+               <property name="TaskMonitoringEnabled">
+                  <value>true</value>
+               </property>
+               <property name="NotRespondMaxInterval">
+                  <value>60</value>
+               </property>
+            </component>
+            
+            <component name="Update Partner Status Service">
+               <property name="Start Time">
+                  <value>4:00:00 AM</value>
+               </property>
+               <property name="Description">
+                  <value>Updates the status of each partner community enrollment, based on the partner settings.</value>
+               </property>
+               <property name="ClassName">
+                  <value>com.edifecs.cdesk.scheduler.PartnersUpdateStatusTask</value>
+               </property>
+               <property name="ActionInterval">
+                  <value>86400000</value>
+               </property>
+               <property name="Startup">
+                  <value>Auto</value>
+               </property>
+               <property name="TaskMonitoringEnabled">
+                  <value>true</value>
+               </property>
+               <property name="NotRespondMaxInterval">
+                  <value>60</value>
+               </property>
+            </component>
+            
+            
+
+            <component name="Attachment Purge Service">
+               <property name="Start Time">
+                  <value>1:00:00 AM</value>
+               </property>
+                <property name="Description">
+                    <value>A service task used to periodically delete expired attachments.</value>
+                </property>
+                <property name="ClassName">
+                    <value>com.edifecs.cdesk.scheduler.AttachmentPurgeTask</value>
+                </property>
+                <property name="ActionInterval">
+                    <value>604800000</value>
+                </property>
+                <property name="Startup">
+                    <value>Disabled</value>
+                </property>
+                <property name="TaskMonitoringEnabled">
+                   <value>true</value>
+                </property>
+                <property name="NotRespondMaxInterval">
+                   <value>1800</value>
+                </property>
+            </component>
+            <component name="Business Rules Engine">
+                <property name="Description">
+                    <value>Checks the conditions associated with business rules and if conditions are met, an event occurs, such as notification being sent.</value>
+                </property>
+                <property name="ClassName">
+                    <value>com.edifecs.cdesk.scheduler.BusinessRulesService</value>
+                </property>
+                <property name="ActionInterval">
+                    <value>60000</value>
+                </property>
+                <property name="Startup">
+                    <value>Auto</value>
+                </property>
+                <property name="TaskMonitoringEnabled">
+                   <value>true</value>
+                </property>
+                <property name="NotRespondMaxInterval">
+                   <value>60</value>
+                </property>
+            </component>
+            <!-- This service is for development purpose.
+             Now it display on the standard output emails to be sent for each EMAIL package received from XEAdapter.  -->
+             <component name="EmailPackageProcessor">
+                 <property name="Description">
+                     <value>Sends an email for each EMAIL package created by 'XE Adapter' services.</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.cdesk.tm.integration.EmailPackageProcessor</value>
+                 </property>
+                <property name="ActionInterval">
+                    <value>1000</value>
+                </property>
+                <property name="Startup">
+                    <value>Disabled</value>
+                </property>
+                <property name="TaskMonitoringEnabled">
+                   <value>true</value>
+                </property>
+                <property name="NotRespondMaxInterval">
+                   <value>60</value>
+                </property>
+                <property name="ServiceID">
+                   <value>servicemanager_EmailPackageProcessor1</value>
+                </property>
+                <property name="NotificationProfileName">
+                   <value>Validation Notification</value>
+                </property>
+             </component>
+
+             <!-- Used to process ETL packages created by TM Route (XES 7.0 and up). -->
+             <component name="JMSEtlProcessor">
+                 <property name="ThreadsCount">
+                     <value>1</value>
+                 </property>
+                 <property name="Description">
+                     <value>Extracts and Transforms EDI data that was intercepted by HTR/TM application and then loads the transformation results into database.</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.cdesk.tm.etl.EtlProcessor</value>
+                 </property>
+                 <property name="ServiceID">
+                    <value>servicemanager_JMSETLProcessor</value>
+                 </property>
+                 <property name="ActionInterval">
+                     <value>1000</value>
+                 </property>
+                 <property name="QueryMinInterval">
+                     <value>100</value>
+                 </property>
+                 <!-- default value 5 min=5*60*1000 ms -->
+                 <property name="QueryMaxInterval">
+                    <value>300000</value>
+                 </property>
+                 <!-- Service not responding max interval (given in seconds). NOTE: the
+                      interval shouldn't be less then the QueryMaxInterval -->
+                 <property name="NotRespondMaxInterval">
+                    <value>1800</value>
+                 </property>
+                 <property name="Startup">
+                     <value>Auto</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                    <value>true</value>
+                 </property>
+                 <!-- The number of maximum errors inside of LDNS report.
+                 This property should be congruent with the XE setting for max error -->
+                 <property name="LdnsErrorsMaxNumber">
+                    <value>1000</value>
+                 </property>
+                 <!-- The comma separated services name list, on which the service depends on.
+                  If there are dependencies, the service will start after the provided in property services will running,
+                  but will stop before. WARNING: the dependency order is important,
+                  ex: "File Store Service, EmailPackageProcessor" will start first
+                  "File Store Service", "EmailPackageProcessor", and finally the JMSEtlProcessor (if none external depends on it). -->
+                 <property name="DependendingServices">
+                    <value>File Store Service</value>
+                 </property>
+                 <!-- The directory all the Level files will be created temporary before
+         putting them into File Repository.  -->
+                 <property name="DataIndexerDirectory">
+                    <value>${[TempHome]}/dataindexer</value>
+                 </property>
+                 <!-- Indicates whether the ETL Data Indexer is enabled or not.
+            true: the IndexedFile will be created (used for XDataView, DataView)
+            false: the IndexFile will not be created. -->
+                 <property name="DataIndexerEnabled">
+                    <value>true</value>
+                 </property>
+
+                 <!-- The EtlInbound2 receives ETL packages from XES 7.0 routes. -->
+                 <property name="PackageProviderService">
+                     <value>EtlInbound2</value>
+                 </property>
+
+                 <!-- How long to wait before next check resources attempt (in ms). -->
+                <property name="CheckResourcesInitialDelay">
+                   <value>5000</value>
+                </property>
+                 <!-- The maximum amount of time we ever wait between check resources attempts (in ms). -->
+                <property name="CheckResourcesMaxDelay">
+                   <value>300000</value>
+                </property>
+                <!-- Should an exponential backoff be used between check resources attempts. -->
+                <property name="CheckResourcesUseExponentialBackOff">
+                   <value>true</value>
+                </property>
+                 <!-- The exponent used in the exponential backoff attempts. -->
+                <property name="CheckResourcesBackOffMultiplier">
+                   <value>2.0</value>
+                </property>
+                <!-- If not 0, then this is the maximum number of check resources attempts before the service is stopped. -->
+                <property name="CheckResourcesMaxAttempts">
+                   <value>100</value>
+                </property>
+             <property name="EtlCurrentActivityState">
+<value>--2</value>
+</property>
+             </component>
+
+             <!-- Used to process ETL packages created by XEA 
+                  or TM_queue_package_producer JMS outbound connector (XES 6.8.1). -->
+             <component name="EtlProcessor">
+                 <property name="ThreadsCount">
+                     <value>1</value>
+                 </property>
+                 <property name="Description">
+                     <value>Extracts and Transforms EDI data that was intercepted by HTR/TM application and then loads the transformation results into database.</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.cdesk.tm.etl.EtlProcessor</value>
+                 </property>
+                 <property name="ServiceID">
+                    <value>servicemanager_ETLProcessor</value>
+                 </property>
+                 <property name="ActionInterval">
+                     <value>1000</value>
+                 </property>
+                 <property name="QueryMinInterval">
+                     <value>100</value>
+                 </property>
+                 <!-- default value 5 min=5*60*1000 ms -->
+                 <property name="QueryMaxInterval">
+                    <value>300000</value>
+                 </property>
+                 <!-- Service not responding max interval (given in seconds). NOTE: the
+                      interval shouldn't be less then the QueryMaxInterval -->
+                 <property name="NotRespondMaxInterval">
+                    <value>1800</value>
+                 </property>
+                 <property name="Startup">
+                     <value>Disabled</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                    <value>true</value>
+                 </property>
+                 <!-- The number of maximum errors inside of LDNS report.
+                 This property should be congruent with the XE setting for max error -->
+                 <property name="LdnsErrorsMaxNumber">
+                    <value>1000</value>
+                 </property>
+                 <!--Comma separated list of report types to be attached to the transmission.
+                     Will be attached only if XEngine is configured to generate them and are part of
+                     the InboundPackage. 
+                     Possible values:
+                     1  - LDNS Report
+                     2  - Acknowledgement
+                     3  - Split (good and bad)
+                     4  - Error Report
+                     7  - XData
+                     11 - Error HTML Report
+                     12 - Ldns HTML Report
+                     13 - Summary HTML Report
+                     14 - Other HTML Reports
+                     Example:11,7,4
+                 -->
+                 <property name="ReportTypeAttachmentSet">
+                    <value>11,13</value>
+                 </property>
+                 <!-- Specifies when html error report will be attached:
+                    true:  report is always attached
+                    auto:  report is attached only if there are errors
+                    false: report is never attached -->
+                 <property name="HtmlErrorReportAttachmentEnabled">
+                    <value>auto</value>
+                 </property>
+                 <!-- The comma separated services name list, on which the service depends on.
+                  If there are dependencies, the service will start after the provided in property services will running,
+                  but will stop before. WARNING: the dependency order is important,
+                  ex: "File Store Service, EmailPackageProcessor" will start first
+                  "File Store Service", "EmailPackageProcessor", and finally the EtlProcessor (if none external depends on it). -->
+                 <property name="DependendingServices">
+                    <value>File Store Service</value>
+                 </property>
+                 <!-- The directory all the Level files will be created temporary before
+         putting them into File Repository.  -->
+                 <property name="DataIndexerDirectory">
+                    <value>${[TempHome]}/dataindexer</value>
+                 </property>
+                 <!-- Indicates whether the ETL Data Indexer is enabled or not.
+            true: the IndexedFile will be created (used for XDataView, DataView)
+            false: the IndexFile will not be created. -->
+                 <property name="DataIndexerEnabled">
+                    <value>true</value>
+                 </property>
+                 <!-- Comma separated list of categories. Each category should be an int. Allows spaces.
+                    Category intervals can be specified using "minValue - maxValue" construction.
+                    minValue is not required, maxValue is required.
+                    Valid values: "1,2,3,4,5,6,7", "1,2-10", "-7,9", "  1  , 2  -   10 "
+                    Invalid values: "25,65,27,65,6A,87,8", "0,2-", "2 0,3,4,5" -->
+                 <!--<property name="Categories">
+                     <value></value>
+                 </property>-->
+                 <!--The number of running EtlProcessors. Used for N/P load balancing,
+                 see Project 1841 for details-->
+                 <!--<property name="EtlProcessorInstancesCount">
+                     <value>3</value>
+                 </property>-->
+
+                 <!-- Use 'TmInbound' to receives ETL packages from XEA/TmInbound.
+                      Use 'EtlInbound' to receives ETL packages (created 
+                      by TM_queue_package_producer JMS outbound connector) from JMS queue. -->
+                 <property name="PackageProviderService">
+                     <value>TmInbound</value>
+                 </property>
+             </component>
+             <!-- PGP File Decrypter Service -->
+             <component name="PGP File Decrypter Service">
+                <property name="Description">
+                   <value>PGP File Decrypter Service</value>
+                </property>
+                <property name="ClassName">
+                   <value>com.edifecs.cdesk.scheduler.PGPFileDecrypterService</value>
+                </property>
+                <property name="ActionInterval">
+                   <value>3000</value>
+                </property>
+                <property name="Startup">
+                   <value>Disabled</value>
+                </property>
+                <property name="TaskMonitoringEnabled">
+                   <value>true</value>
+                </property>
+                <property name="NotRespondMaxInterval">
+                   <value>300</value>
+                </property>
+                <property name="SourceFolder">
+                   <value>c:/pgp/source</value>
+                </property>
+                <property name="TargetFolder">
+                   <value>c:/pgp/target</value>
+                </property>
+                <property name="ArchiveFolder">
+                   <value>c:/pgp/archive</value>
+                </property>
+                <property name="TempFolder">
+                   <value>c:/pgp/tmp</value>
+                </property>
+                <property name="SecretKeyRingFile">
+                   <value>c:/pgp/keys/support_secret.key</value>
+                </property>
+                <property name="PassPhrase">
+                   <value>Ed!fecs</value>
+                </property>
+                <property name="RecipientsList">
+                   <value>TestS@edifecs.com</value>
+                </property>
+             </component>
+              <!-- SFTP Transport Service -->
+             <component name="SFTP Transport Service">
+                <property name="Description">
+                   <value>SFTP Transport Service.</value>
+                </property>
+                <property name="ClassName">
+                   <value>com.edifecs.cdesk.scheduler.SFTPTransportService</value>
+                </property>
+                <property name="ActionInterval">
+                   <value>3000</value>
+                </property>
+                <property name="Startup">
+                   <value>Disabled</value>
+                </property>
+                <property name="TaskMonitoringEnabled">
+                   <value>true</value>
+                </property>
+                <property name="NotRespondMaxInterval">
+                   <value>60</value>
+                </property>
+                <property name="LocalSourceFolder">
+                   <value>c:/sftp/source</value>
+                </property>
+                <property name="LocalArchiveFolder">
+                   <value>c:/sftp/archive</value>
+                </property>
+                <property name="SFTPHost">
+                   <value>192.168.100.90</value>
+                </property>
+                <property name="SFTPPort">
+                   <value>22</value>
+                </property>
+                <property name="SFTPUsername">
+                   <value>SalesDemo</value>
+                </property>
+                <property name="SFTPPassword">
+                   <value>TBD</value>
+                </property>
+                <property name="SFTPTargetFolder">
+                   <value>.</value>
+                </property>
+                <property name="RecipientsList">                                                                                                                                                  
+                   <value>TestS@edifecs.com</value>
+                </property>
+             </component>
+             <!-- MonitorService -->
+             <component name="MonitorService">
+                   <property name="Description">
+                      <value>Monitors the Application Server by trying to log on to the web application.</value>
+                   </property>
+                   <property name="ClassName">
+                      <value>com.edifecs.cdesk.scheduler.monitorservice.MonitorService</value>
+                   </property>
+                   <property name="Startup">
+                      <value>Disabled</value>
+                   </property>
+                   <property name="ActionInterval">
+                      <value>600000</value>
+                   </property>
+                   <property name="TestUserName">
+                      <value>testuser</value>
+                   </property>
+                   <property name="TestUserPassword">
+                      <value>testpassword</value>
+                   </property>
+                   <property name="AdminConsoleUserName">
+                      <value>adminconsole</value>
+                   </property>
+                   <property name="AdminConsoleUserPassword">
+                      <value/>
+                   </property>
+                   <property name="TestCommunityAlias">
+                      <value>cdesk</value>
+                   </property>
+                   <property name="TestOrganizationName">
+                      <value>Sample Community Owner</value>
+                   </property>
+                   <property name="TestCommunityName">
+                      <value>Sample Community</value>
+                   </property>
+                   <property name="CDeskHost">
+                      <value>http://localhost</value>
+                   </property>
+                   <property name="EmailList">
+                      <value>monitor@yourorg.com</value>
+                   </property>
+                   <property name="LogFile">
+                      <value>${[CDeskRoot]}/logs/MonitorService.csv</value>
+                   </property>
+                   <property name="TaskMonitoringEnabled">
+                      <value>true</value>
+                   </property>
+                   <property name="NotRespondMaxInterval">
+                      <value>60</value>
+                   </property>
+             </component>
+             <!-- Tpm Synchronization Service -->
+             <component name="TpmSynchronizationService">
+                   <property name="Description">
+                      <value>Monitors the events related to changes in TPM and notifies all the registered applications.</value>
+                   </property>
+                   <property name="ClassName">
+                      <value>com.edifecs.tpm.integration.impl.TpmSynchronizationService</value>
+                   </property>
+                   <property name="Startup">
+                      <value>Auto</value>
+                   </property>
+                   <property name="ActionInterval">
+                      <value>3600000</value>
+                   </property>
+                   <property name="NotRespondMaxInterval">
+                      <value>300</value>
+                   </property>
+                 <property name="TaskMonitoringEnabled">
+                    <value>false</value>
+                 </property>
+                 <!-- Defines a time interval (in milliseconds) between two consecutive attempts to perform TPM synchronization.
+                      If this property is not defined or its value is set to 0 then the next TPM synchronization will occur on a TPM event or at Midnight -->
+                 <property name="TpmSynchronizationActionInterval">
+                    <value>1800000</value>
+                 </property>
+                 <!-- TPM back-end synchronizer start time property -->
+                 <property name="TpmBackEndSynchronizerStartTime">
+                    <value>1:00 AM</value>
+                 </property>
+             </component>
+             <!-- This service monitors a folder for files and attaches them to a Partner -->
+             <component name="PartnerAttachmentService">
+                 <property name="Description">
+                    <value>This service monitors a folder for files and attaches them to a Partner.</value>
+                 </property>
+                 <property name="ClassName">
+                    <value>com.edifecs.tpm.integration.impl.partnerattachment.PartnerAttachmentService</value>
+                 </property>
+                 <property name="ActionInterval">
+                    <value>1000</value>
+                 </property>
+                 <property name="Startup">
+                    <value>Disabled</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                    <value>true</value>
+                 </property>
+                 <property name="NotRespondMaxInterval">
+                    <value>60</value>
+                 </property>
+                 <property name="InFolderLocation">
+                    <value>${[CDeskRoot]}/partner-files/in</value>
+                 </property>
+                 <!-- The InFolderLocation and ErrorFolderLocation folders should be located on the same volume -->
+                 <property name="ErrorFolderLocation">
+                   <value>${[CDeskRoot]}/partner-files/error</value>
+                 </property>
+             </component>
+             <component name="Htr Purge Service">
+                 <property name="Start Time">
+                     <value>0:00:00 AM</value>
+                 </property>
+                 <property name="Description">
+                     <value>A service for executing tasks to purge HTR records like Transmissions marked for deletion, Events, Reporting cleanup</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.cdesk.tm.tool.purge.HtrPurgeService</value>
+                 </property>
+                 <property name="ActionInterval">
+                     <value>500</value>
+                 </property>
+                 <property name="Startup">
+                     <value>Disabled</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                     <value>true</value>
+                 </property>
+                 <property name="NotRespondMaxInterval">
+                     <value>60</value>
+                 </property>
+                 <property name="EndTime">
+                     <value>3:00 AM</value>
+                 </property>
+
+                 <!-- comma separated database profile names, defined in edifecs-registry (active or reporting),
+                      from which transmission data will be deleted, default (if not defined) is 'active' -->
+                 <property name="DeletedTransmissionsDatasources">
+                     <value>active</value>
+                 </property>
+                 <!-- property indicates whether transmission should be deleted or not, possible values true or false,
+                      default (if not defined) is true -->
+                 <property name="DeleteTransmissionRecord">
+                     <value>true</value>
+                 </property>
+                 <!-- property indicates whether attachments should be deleted or not, possible values true or false,
+                      default (if not defined) is true -->
+                 <property name="DeleteTransmissionAttachments">
+                     <value>true</value>
+                 </property>
+                 <!-- Defined in days, for which Htr Events are considered as expired and can be deleted
+                      if there are no Transmissions associated with event -->
+                 <property name="HtrEventsExpirationDays">
+                     <value>365</value>
+                 </property>
+            </component>
+             <component name="DataMartBusinessDocumentService">
+                 <property name="Start Time">
+                     <value>0:15:00 AM</value>
+                 </property>
+                 <property name="Description">
+                     <value>Datamart service to load business document datamart.</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.htr.datamart.DataMartBusinessDocumentService</value>
+                 </property>
+                 <property name="ActionInterval">
+                     <value>86400000</value>    <!-- 24 Hours of action interval -->
+                 </property>
+                 <property name="Startup">
+                     <value>Auto</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                     <value>true</value>
+                 </property>
+                 <property name="NotRespondMaxInterval">
+                     <value>86400000</value>
+                 </property>
+                 <property name="EndTime">
+                     <value>0:00 AM</value>
+                 </property>
+            </component>
+             <component name="DataMartValidationErrorService">
+                 <property name="Start Time">
+                     <value>0:30:00 AM</value>
+                 </property>
+                 <property name="Description">
+                     <value>Datamart service to load Validation error datamart.</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.htr.datamart.DataMartValidationErrorService</value>
+                 </property>
+                 <property name="ActionInterval">
+                     <value>86400000</value>    <!-- 24 Hours of action interval -->
+                 </property>
+                 <property name="Startup">
+                     <value>Auto</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                     <value>true</value>
+                 </property>
+                 <property name="NotRespondMaxInterval">
+                     <value>86400000</value>
+                 </property>
+                 <property name="EndTime">
+                     <value>0:00 AM</value>
+                 </property>
+            </component>
+             <component name="ID Provider Service">
+                <property name="Description">
+                   <value>Provides a new ID or an ID interval for specified item type.</value>
+                </property>
+                <property name="ClassName">
+                   <value>com.edifecs.cdesk.tm.service.idprovider.IdProviderService</value>
+                </property>
+                <property name="ActionInterval">
+                   <value>60000</value>
+                </property>
+                <property name="Startup">
+                   <value>Auto</value>
+                </property>
+                <property name="TaskMonitoringEnabled">
+                   <value>true</value>
+                </property>
+                <property name="NotRespondMaxInterval">
+                   <value>300</value>
+                </property>
+                <!--  The address of the JMX API connector server created by this service.
+                      If missing, the service will create it using HostName and JMXPort properties. -->
+                <!--
+                <property name="JMXServiceURL">
+                   <value>service:jmx:jmxmp://localhost:5678/tmserver</value>
+                </property>
+                -->
+                <property name="HostName">
+                   <value>localhost</value>
+                </property>
+                <property name="JMXPort">
+                   <value>5678</value>
+                </property>
+             </component>
+
+             <!-- Used to consume XES events (XES 7.0 and up). Currently handles only N2X validation events. -->
+             <component name="XES Event Consumer Service">
+                 <property name="ThreadsCount">
+                     <value>1</value>
+                 </property>
+                <property name="Description">
+                   <value>Consumer for XES events.</value>
+                </property>
+                <property name="ClassName">
+                   <value>com.edifecs.cdesk.tm.service.xeseventconsumer.XesEventConsumerService</value>
+                </property>
+                 <property name="ServiceID">
+                    <value>servicemanager_XesEventConsumer</value>
+                 </property>
+                <property name="ActionInterval">
+                   <value>1000</value>
+                </property>
+                <property name="Startup">
+                   <value>Auto</value>
+                </property>
+                <property name="TaskMonitoringEnabled">
+                   <value>true</value>
+                </property>
+                <property name="NotRespondMaxInterval">
+                   <value>300</value>
+                </property>
+                <!-- Indicates to start the task even if resources (JMS and databases) are not available. -->
+                <property name="StartOnResourcesNotAvailable">
+                   <value>true</value>
+                </property>
+                 <!-- How long to wait before next check resources attempt (in ms). -->
+                <property name="CheckResourcesInitialDelay">
+                   <value>5000</value>
+                </property>
+                 <!-- The maximum amount of time we ever wait between check resources attempts (in ms). -->
+                <property name="CheckResourcesMaxDelay">
+                   <value>300000</value>
+                </property>
+                <!-- Should an exponential backoff be used between check resources attempts. -->
+                <property name="CheckResourcesUseExponentialBackOff">
+                   <value>true</value>
+                </property>
+                 <!-- The exponent used in the exponential backoff attempts. -->
+                <property name="CheckResourcesBackOffMultiplier">
+                   <value>2.0</value>
+                </property>
+                <!-- If not 0, then this is the maximum number of check resources attempts before the service is stopped. -->
+                <property name="CheckResourcesMaxAttempts">
+                   <value>100</value>
+                </property>
+             </component>
+             <!-- The GuidelineLoader service for ETL can be deployed in any Service Manager.
+                  Should be only one service instance per TM cluster to avoid duplicated guidelines in File Repository. -->
+             <component name="ETL Guideline Loader">
+                 <property name="Description">
+                     <value>The GuidelineLoader service loads guidelines to File Repository. It requires guideline files to be present on same machine.</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.cdesk.tm.service.guidelineloader.GuidelineLoaderService</value>
+                 </property>
+                 <property name="ActionInterval">
+                     <value>60000</value>
+                 </property>
+                 <property name="Startup">
+                     <value>Auto</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                    <value>true</value>
+                 </property>
+                 <property name="NotRespondMaxInterval">
+                    <value>300</value>
+                 </property>
+                 <!-- The comma separated list of adapters for which to load guidelines.
+                      The current "XE Adapter" is automatically included if found (when running inside TM plug-in).
+                      A 'EtlInbound' adapter should be specified only once per TM cluster. -->
+                 <property name="AdapterIdList">
+                    <value>EtlInbound,EtlInbound2</value>
+                 </property>
+             </component>
+     		<component name="EIP Services">
+        		<property name="Description">
+          		 	<value>EIP Services</value>
+        		</property>
+        		<property name="ClassName">
+           			<value>com.edifecs.shared.scheduler.ClassLoaderTask</value>
+       		 </property>
+        		<property name="ActionInterval">
+           			<value>60000</value>
+        		</property>
+        		<property name="Startup">
+           			<value>Auto</value>
+        		</property>
+         		<property name="TaskMonitoringEnabled">
+         		   <value>true</value>
+         		</property>
+         		<property name="NotRespondMaxInterval">
+        		    <value>60</value>
+         		</property>
+         		<property name="RootFolder">
+        		    <value>${[CDeskRoot]}/EIPServices</value>
+         		</property>
+         		<property name="SeparateClassLoaderService">
+         		   <value>com.edifecs.elm.eip.EIPService</value>
+         		</property>
+         		<property name="CamelContextFile">
+         		   <value>eip-camel-context.xml</value>
+         		</property>
+     		</component>
+			<component name="TrackingInfo Identification Service">
+                 <property name="ThreadsCount">
+                     <value>5</value>
+                 </property>
+                 <property name="Description">
+                     <value>Performs Business Items identification, usually by Correlation Id (CID)</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.elm.trackinginfo.service.TrackingInfoIdentificationService</value>
+                 </property>
+                 <property name="ServiceID">
+                     <value>TrackingInfoIdentification</value>
+                 </property>
+                 <property name="ActionInterval">
+                     <value>5000</value>
+                 </property>
+                 <!-- The maximum delay between two actions (in ms). To disable the smart action interval use 0. -->
+                 <property name="ActionIntervalMaxDelay">
+                     <value>30000</value>
+                 </property>
+                 <!-- Should an exponential backoff be used for increasing the action interval. -->
+                 <property name="ActionIntervalUseExponentialBackOff">
+                     <value>true</value>
+                 </property>
+                 <!-- The exponent used in the exponential backoff attempts. -->
+                 <property name="ActionIntervalBackOffMultiplier">
+                     <value>1.001</value>
+                 </property>
+                 <property name="Startup">
+                     <value>Auto</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                     <value>true</value>
+                 </property>
+                 <property name="NotRespondMaxInterval">
+                     <value>300</value>
+                 </property>
+                 <!-- Indicates to start the task even if resources (databases) are not available. -->
+                 <property name="StartOnResourcesNotAvailable">
+                    <value>true</value>
+                 </property>
+                  <!-- How long to wait before next check resources attempt (in ms). -->
+                 <property name="CheckResourcesInitialDelay">
+                    <value>5000</value>
+                 </property>
+                  <!-- The maximum amount of time we ever wait between check resources attempts (in ms). -->
+                 <property name="CheckResourcesMaxDelay">
+                    <value>300000</value>
+                 </property>
+                 <!-- Should an exponential backoff be used between check resources attempts. -->
+                 <property name="CheckResourcesUseExponentialBackOff">
+                    <value>true</value>
+                 </property>
+                  <!-- The exponent used in the exponential backoff attempts. -->
+                 <property name="CheckResourcesBackOffMultiplier">
+                    <value>2.0</value>
+                 </property>
+                 <!-- If not 0, then this is the maximum number of check resources attempts before the service is stopped. -->
+                 <property name="CheckResourcesMaxAttempts">
+                    <value>100</value>
+                 </property>
+                 <!-- Indicates how many business items to identify in one batch. -->
+                 <property name="MaxBatchSize">
+                     <value>250</value>
+                 </property>
+                 <!-- Indicates maximum identification attempts for a business item before marking it as failed. -->
+                 <property name="MaxRetryAttempts">
+                     <value>100</value>
+                 </property>
+                 <!-- Initial retry interval in ms. Each next attempt the interval is increased to [attempt_count * InitialRetryInterval]. -->
+                 <property name="InitialRetryInterval">
+                     <value>300000</value>
+                 </property>
+                 <!-- Indicates the interval for logging identification statistics. -->
+                 <property name="StatisticsInterval">
+                     <value>60000</value>
+                 </property>
+              </component>
+              <component name="TrackingInfo Loader Service">
+                 <property name="ThreadsCount">
+                     <value>3</value>
+                 </property>
+                 <property name="Description">
+                     <value>Loads TrackingInfo Business Items to HTR</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.elm.trackinginfo.service.TrackingInfoLoaderService</value>
+                 </property>
+                 <property name="ServiceID">
+                     <value>TrackingInfoLoader</value>
+                 </property>
+                 <property name="ActionInterval">
+                     <value>10000</value>
+                 </property>
+                 <!-- The maximum delay between two actions (in ms). To disable the smart action interval use 0. -->
+                 <property name="ActionIntervalMaxDelay">
+                     <value>60000</value>
+                 </property>
+                 <!-- Should an exponential backoff be used for increasing the action interval. -->
+                 <property name="ActionIntervalUseExponentialBackOff">
+                     <value>true</value>
+                 </property>
+                 <!-- The exponent used in the exponential backoff attempts. -->
+                 <property name="ActionIntervalBackOffMultiplier">
+                     <value>1.001</value>
+                 </property>
+                 <property name="Startup">
+                     <value>Auto</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                     <value>true</value>
+                 </property>
+                 <property name="NotRespondMaxInterval">
+                     <value>1800</value>
+                 </property>
+                 <!-- Indicates to start the task even if resources (databases or File Store) are not available. -->
+                 <property name="StartOnResourcesNotAvailable">
+                    <value>true</value>
+                 </property>
+                  <!-- How long to wait before next check resources attempt (in ms). -->
+                 <property name="CheckResourcesInitialDelay">
+                    <value>5000</value>
+                 </property>
+                  <!-- The maximum amount of time we ever wait between check resources attempts (in ms). -->
+                 <property name="CheckResourcesMaxDelay">
+                    <value>300000</value>
+                 </property>
+                 <!-- Should an exponential backoff be used between check resources attempts. -->
+                 <property name="CheckResourcesUseExponentialBackOff">
+                    <value>true</value>
+                 </property>
+                  <!-- The exponent used in the exponential backoff attempts. -->
+                 <property name="CheckResourcesBackOffMultiplier">
+                    <value>2.0</value>
+                 </property>
+                 <!-- If not 0, then this is the maximum number of check resources attempts before the service is stopped. -->
+                 <property name="CheckResourcesMaxAttempts">
+                    <value>100</value>
+                 </property>
+                 <!-- Maximum count of business items to be loaded in one batch. -->
+                 <property name="MaxBatchSize">
+                     <value>2000</value>
+                 </property>
+                 <property name="StatisticsInterval">
+                     <value>60000</value>
+                 </property>
+              </component>
+              <component name="TrackingInfo Notification Service">
+                 <property name="Description">
+                     <value>Notifies about failed TI items.</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.elm.trackinginfo.service.notification.TrackingInfoNotificationService</value>
+                 </property>
+                 <!-- By default email notifications are sent each hour. To send once a day set 86400000 ms. -->
+                 <property name="ActionInterval">
+                     <value>3600000</value>
+                 </property>
+                 <property name="Startup">
+                     <value>Auto</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                     <value>true</value>
+                 </property>
+                 <property name="NotRespondMaxInterval">
+                     <value>1800</value>
+                 </property>
+                 <!-- Indicates to start the task even if resources (databases) are not available. -->
+                 <property name="StartOnResourcesNotAvailable">
+                    <value>true</value>
+                 </property>
+                  <!-- How long to wait before next check resources attempt (in ms). -->
+                 <property name="CheckResourcesInitialDelay">
+                    <value>5000</value>
+                 </property>
+                  <!-- The maximum amount of time we ever wait between check resources attempts (in ms). -->
+                 <property name="CheckResourcesMaxDelay">
+                    <value>300000</value>
+                 </property>
+                 <!-- Should an exponential backoff be used between check resources attempts. -->
+                 <property name="CheckResourcesUseExponentialBackOff">
+                    <value>true</value>
+                 </property>
+                  <!-- The exponent used in the exponential backoff attempts. -->
+                 <property name="CheckResourcesBackOffMultiplier">
+                    <value>2.0</value>
+                 </property>
+                 <!-- If not 0, then this is the maximum number of check resources attempts before the service is stopped. -->
+                 <property name="CheckResourcesMaxAttempts">
+                    <value>100</value>
+                 </property>
+                 <!-- Truncates error message in notification. Maximum possible length is 1000. -->
+                 <property name="ErrorMessageLength">
+                     <value>100</value>
+                 </property>
+                 <!-- Maximum number of error messages to be include in notification. -->
+                 <property name="ErrorMessageLimit">
+                     <value>100</value>
+                 </property>
+              </component>
+         <component name="JMSEtlProcessor Resubmission">
+                 <property name="ThreadsCount">
+                     <value>1</value>
+                 </property>
+                 <property name="Description">
+                     <value>Deletes the content and resets the transmission before performing the regular ETL processing.</value>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.cdesk.tm.etl.EtlProcessor</value>
+                 </property>
+                 <property name="ServiceID">
+                    <value>servicemanager_JMSETLProcessorResubmission</value>
+                 </property>
+                 <property name="ActionInterval">
+                     <value>1000</value>
+                 </property>
+                 <property name="QueryMinInterval">
+                     <value>100</value>
+                 </property>
+                 <!-- default value 5 min=5*60*1000 ms -->
+                 <property name="QueryMaxInterval">
+                    <value>300000</value>
+                 </property>
+                 <!-- Service not responding max interval (given in seconds). NOTE: the
+                      interval shouldn't be less then the QueryMaxInterval and maximum transmission deletion time (2h). -->
+                 <property name="NotRespondMaxInterval">
+                    <value>7200</value>
+                 </property>
+                 <property name="Startup">
+                     <value>Disabled</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                    <value>true</value>
+                 </property>
+                 <!-- The number of maximum errors inside of LDNS report.
+                 This property should be congruent with the XE setting for max error -->
+                 <property name="LdnsErrorsMaxNumber">
+                    <value>1000</value>
+                 </property>
+                 <!-- The comma separated services name list, on which the service depends on.
+                  If there are dependencies, the service will start after the provided in property services will running,
+                  but will stop before. WARNING: the dependency order is important,
+                  ex: "File Store Service, EmailPackageProcessor" will start first
+                  "File Store Service", "EmailPackageProcessor", and finally the 'JMSEtlProcessor Resubmission' (if none external depends on it). -->
+                 <property name="DependendingServices">
+                    <value>File Store Service</value>
+                 </property>
+                 <!-- The directory all the Level files will be created temporary before
+         putting them into File Repository.  -->
+                 <property name="DataIndexerDirectory">
+                    <value>${[TempHome]}/dataindexer</value>
+                 </property>
+                 <!-- Indicates whether the ETL Data Indexer is enabled or not.
+            true: the IndexedFile will be created (used for XDataView, DataView)
+            false: the IndexFile will not be created. -->
+                 <property name="DataIndexerEnabled">
+                    <value>true</value>
+                 </property>
+
+                 <!-- The ResubmissionEtlInbound2 receives ETL packages from resubmission queue. -->
+                 <property name="PackageProviderService">
+                     <value>ResubmissionEtlInbound2</value>
+                 </property>
+
+                 <!-- How long to wait before next check resources attempt (in ms). -->
+                <property name="CheckResourcesInitialDelay">
+                   <value>5000</value>
+                </property>
+                 <!-- The maximum amount of time we ever wait between check resources attempts (in ms). -->
+                <property name="CheckResourcesMaxDelay">
+                   <value>300000</value>
+                </property>
+                <!-- Should an exponential backoff be used between check resources attempts. -->
+                <property name="CheckResourcesUseExponentialBackOff">
+                   <value>true</value>
+                </property>
+                 <!-- The exponent used in the exponential backoff attempts. -->
+                <property name="CheckResourcesBackOffMultiplier">
+                   <value>2.0</value>
+                </property>
+                <!-- If not 0, then this is the maximum number of check resources attempts before the service is stopped. -->
+                <property name="CheckResourcesMaxAttempts">
+                   <value>100</value>
+                </property>
+
+                 <!-- Number of ETL retries of transmissions that were not processed due to ETL crash/restart -->
+                 <property name="MaxEtlAttemptCount">
+                   <value>3</value>
+                </property>
+             
+            </component>
+<component name="Guideline Service">
+                 <property name="Description">
+                     <value/>
+                 </property>
+                 <property name="ClassName">
+                     <value>com.edifecs.cdesk.scheduler.GuidelineService</value>
+                 </property>
+                 <property name="RootFolder">
+                     <value>${[CDeskRoot]}/upload/GuidelineViewer</value>
+                 </property>
+                 <property name="Startup">
+                    <value>Auto</value>
+                 </property>
+                 <property name="RMIPort">
+                     <value>1090</value>
+                 </property>
+                 <property name="HTTPPort">
+                     <value>8010</value>
+                 </property>
+                 <property name="RMIServerName">
+                     <value>ServiceManagerGuideline</value>
+                 </property>
+                <property name="StubTransferProtocol">
+                     <value>http</value>
+                 </property>
+                 <property name="CodeBasePath">
+                     <value>${[CDeskRoot]}/classes</value>
+                 </property>
+                 <property name="HostName">
+                     <value>localhost</value>
+                 </property>
+                 <property name="TaskMonitoringEnabled">
+                     <value>true</value>
+                 </property>
+                 <property name="ActionInterval">
+                  <value>200000</value>
+                 </property>
+                 <property name="NotRespondMaxInterval">
+                     <value>30</value>
+                 </property>
+             
+            </component>
+</component>
+      </host>
+   </product>
+</registry>

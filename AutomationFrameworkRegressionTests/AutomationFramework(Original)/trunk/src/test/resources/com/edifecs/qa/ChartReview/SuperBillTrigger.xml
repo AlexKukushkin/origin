@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Claim xmlns:ns0="http://xml.edifecs.com/schema/ECHCF" xmlns:ns3="http://xml.edifecs.com/schema/HCFD"
+           version="1.1.1.3">
+    <!--<ns0:InternalClaimID value="$TargetTrackingID"/>-->
+    <ns0:SubmittedClaimID value="$TargetTrackingID"/>
+    <ns0:Classifications>
+        <ns3:IsChartReviewInitiatedAdjustment value="true"/>
+    </ns0:Classifications>
+    <ns0:SubscriberInfo>
+        <ns3:HealthInsuranceClaimIdentifier value="366361251A"/>
+    </ns0:SubscriberInfo>
+    <ns0:ClaimStatus>
+        <ns3:CurrentState value="paid"/>
+    </ns0:ClaimStatus>
+</ns0:Claim>

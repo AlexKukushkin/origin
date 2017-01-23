@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Acknowledgement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://xml.edifecs.com/schema/EACKHCF" xmlns:ns1="http://xml.edifecs.com/schema/UCF" xmlns:ns2="http://xml.edifecs.com/schema/UCFD" change="UNCHANGED" version="1.1.1.3">
+    <ns0:Packaging change="UNCHANGED">
+        <ns2:MessageProtocolInfo change="UNCHANGED">
+            <ns2:Name change="UNCHANGED" value="Encounter Data Processing Status Report"/>
+            <ns2:Protocol change="UNCHANGED" value="MAO"/>
+            <ns2:Date change="UNCHANGED" value="2013-12-31"/>
+        </ns2:MessageProtocolInfo>
+    </ns0:Packaging>
+    <ns0:AcknowledgementType change="UNCHANGED" value="MAO-002"/>
+    <ns0:AcknowledgementReceivedDate change="UNCHANGED" value="2013-12-31"/>
+    <ns0:AcknowledgementReceivedTime change="UNCHANGED" value="15:40:11.395"/>
+    <ns0:AcknowledgedBatchInfo change="UNCHANGED">
+        <ns2:Name change="UNCHANGED" value="Interchange"/>
+        <ns2:ControlNumber change="UNCHANGED" value="$TargetTrackingID"/>
+        <ns2:Protocol change="UNCHANGED" value="MAO"/>
+        <ns2:Date change="UNCHANGED" value="2013-12-31"/>
+        <ns2:Receiver change="UNCHANGED">
+            <ns1:Identifier change="UNCHANGED" value="ENH101910111111"/>
+        </ns2:Receiver>
+        <ns2:ItemCode change="UNCHANGED" value="H1019"/>
+        <ns2:MetricsInfo change="UNCHANGED">
+            <ns2:TotalCount change="UNCHANGED" value="00000004"/>
+            <ns2:AcceptedCount change="UNCHANGED" value="00000004"/>
+            <ns2:RejectedCount change="UNCHANGED" value="00000000"/>
+        </ns2:MetricsInfo>
+        <ns2:AcknowledgedBatchInfo change="UNCHANGED">
+            <ns2:Name change="UNCHANGED" value="Dummy"/>
+            <ns2:AcknowledgedItemInfo change="UNCHANGED">
+                <ns1:Property change="UNCHANGED" name="PayerClaimControlNumber" value="123456789" valueType="STRING"/>
+                <ns2:Name change="UNCHANGED" value="Claim"/>
+                <ns2:ControlNumber change="UNCHANGED" value="$TargetTrackingID"/>
+                <ns2:LifecycleUpdateInfo>
+                	<ns1:BusinessItemCID>
+                		<ns1:Name value="MAO002ID"/>
+                		<ns1:Value value="$MAO002ID"/>
+                	</ns1:BusinessItemCID>
+                	<ns1:GroupIdentifier>
+                		<ns1:Name value="MAO002Group"/>
+                		<ns1:Value value="$MAO002ID"/>
+                		<ns1:Role value="Encounter"/>
+                	</ns1:GroupIdentifier>
+                 	<ns1:GroupIdentifier>
+                		<ns1:Name value="MAO002Report"/>
+                		<ns1:Value value="$MAO002ID"/>
+                		<ns1:Role value="Encounter"/>
+                	</ns1:GroupIdentifier>
+               </ns2:LifecycleUpdateInfo>
+                <ns2:AcknowledgementStatus change="UNCHANGED" value="Accepted"/>
+               <!-- <ns2:AcknowledgedLineItemInfo change="UNCHANGED">
+                    <ns2:Name change="UNCHANGED" value="ServiceLine"/>
+                    <ns2:ControlNumber change="UNCHANGED" value="001"/>
+                    <ns2:AcknowledgementStatus change="UNCHANGED" value="Accepted"/>
+                    <ns2:StatusInfo change="UNCHANGED">
+                        <ns1:ErrorID change="UNCHANGED" value="00010"/>
+                        <ns1:Severity change="UNCHANGED" value="Information"/>
+                        <ns1:TechErrorMessage change="UNCHANGED" value="MAO-002 error 00010 reported on CMS ICN E212045001080TEST at Service Line 001, severity set by report content."/>
+                        <ns1:BizErrorMessage change="UNCHANGED" value="I:Telehealth Service                    "/>
+                    </ns2:StatusInfo>
+                </ns2:AcknowledgedLineItemInfo> -->
+                <ns2:AcknowledgedLineItemInfo change="UNCHANGED">
+                    <ns2:Name change="UNCHANGED" value="ServiceLine"/>
+                    <ns2:ControlNumber change="UNCHANGED" value="001"/>
+                    <ns2:AcknowledgementStatus change="UNCHANGED" value="Accepted"/>
+                    <ns2:StatusInfo change="UNCHANGED">
+                        <ns1:ErrorID change="UNCHANGED" value="98500"/>
+                        <ns1:Severity change="UNCHANGED" value="Normal"/>
+                        <ns1:TechErrorMessage change="UNCHANGED" value="MAO-002 error 98500 reported on CMS ICN E212045001080TEST at Service Line 002, severity set by external table."/>
+                        <ns1:BizErrorMessage change="UNCHANGED" value="Multiple Claims for Surgery             "/>
+                    </ns2:StatusInfo>
+                </ns2:AcknowledgedLineItemInfo>
+              <!--  <ns2:AcknowledgedLineItemInfo change="UNCHANGED">
+                    <ns2:Name change="UNCHANGED" value="ServiceLine"/>
+                    <ns2:ControlNumber change="UNCHANGED" value="003"/>
+                    <ns2:AcknowledgementStatus change="UNCHANGED" value="Accepted"/>
+                    <ns2:StatusInfo change="UNCHANGED">
+                        <ns1:ErrorID change="UNCHANGED" value="98500"/>
+                        <ns1:Severity change="UNCHANGED" value="Information"/>
+                        <ns1:TechErrorMessage change="UNCHANGED" value="MAO-002 error 98500 reported on CMS ICN E212045001080TEST at Service Line 003, severity set by external table."/>
+                        <ns1:BizErrorMessage change="UNCHANGED" value="Multiple Claims for Surgery             "/>
+                    </ns2:StatusInfo>
+                </ns2:AcknowledgedLineItemInfo>  -->
+            </ns2:AcknowledgedItemInfo>
+        </ns2:AcknowledgedBatchInfo>
+    </ns0:AcknowledgedBatchInfo>
+</ns0:Acknowledgement>

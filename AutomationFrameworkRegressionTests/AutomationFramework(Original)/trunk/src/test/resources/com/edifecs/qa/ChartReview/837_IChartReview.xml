@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.3">
+    <echcf:SubmittedClaimID effective="2016-10-19T13:18:36Z" value="$TargetTrackingID" change="UNCHANGED"/>
+    <echcf:InternalClaimID value="$TargetTrackingID"/>
+    <echcf:Classifications >
+        <!--<hcfd:IsChartReviewInitiatedAdjustment  value="true"/>   -->
+        <ucf:Property name="IsChartReviewClaim" valueType="BOOLEAN" value="true"/>
+    </echcf:Classifications>
+    <echcf:ClaimDetails >
+        <hcfd:HealthInformation >
+            <hcfd:PrincipalDiagnosis >
+                <hcfd:DiagnosisCode  value="25000"/>
+                <hcfd:DiagnosisCodeType  value="BK"/>
+            </hcfd:PrincipalDiagnosis>
+            <hcfd:OtherDiagnosis >
+                <hcfd:DiagnosisCode  value="4019"/>
+                <hcfd:DiagnosisCodeType  value="BF"/>
+            </hcfd:OtherDiagnosis>
+        </hcfd:HealthInformation>
+    </echcf:ClaimDetails>
+    <echcf:ClaimStatus>
+        <hcfd:CurrentState value="Received"/>
+    </echcf:ClaimStatus>
+</echcf:Claim>

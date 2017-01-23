@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.3">
+  <echcf:Packaging>
+    <ucfd:MessageProtocolInfo>
+      <ucfd:Name value="ISA"/>
+      <ucfd:ControlNumber value="820170607"/>
+      <ucfd:Version value="00501"/>
+      <ucfd:Date value="2016-10-28"/>
+      <ucfd:Time value="15:21:00"/>
+      <ucfd:Sender>
+        <ucf:Qualifier value="01"/>
+        <ucf:Identifier value="030240928      "/>
+      </ucfd:Sender>
+      <ucfd:Receiver>
+        <ucf:Qualifier value="14"/>
+        <ucf:Identifier value="0499441430000  "/>
+      </ucfd:Receiver>
+    </ucfd:MessageProtocolInfo>
+    <ucfd:MessageProtocolInfo>
+      <ucfd:Name value="GS"/>
+      <ucfd:ControlNumber value="1"/>
+      <ucfd:Version value="005010X222A1"/>
+      <ucfd:Date value="2016-10-28"/>
+      <ucfd:Time value="15:21:40"/>
+      <ucfd:Sender>
+        <ucf:Qualifier value="ZZ"/>
+        <ucf:Identifier value="61101WCB"/>
+      </ucfd:Sender>
+      <ucfd:Receiver>
+        <ucf:Qualifier value="ZZ"/>
+        <ucf:Identifier value="0499441430000"/>
+      </ucfd:Receiver>
+    </ucfd:MessageProtocolInfo>
+  </echcf:Packaging>
+  <echcf:ClaimSubmitterInfo>
+    <ucfd:PersonIndicator value="2"/>
+    <ucfd:Name value="REALMED CORPORATION"/>
+    <ucfd:BatchIdentifier value="2165106326"/>
+    <ucfd:BatchDate value="2016-10-28"/>
+    <ucfd:BatchTime value="15:02:00"/>
+    <ucfd:BatchPurpose value="00"/>
+    <ucfd:ElectronicIdentificationNumber value="H8285"/>
+    <ucfd:ContactInfo>
+      <ucfd:ContactType value="IC"/>
+      <ucfd:ContactName value="REALMED"/>
+      <ucfd:CommunicationNumber>
+        <ucf:Qualifier value="TE"/>
+        <ucf:Identifier value="8779278000"/>
+      </ucfd:CommunicationNumber>
+    </ucfd:ContactInfo>
+  </echcf:ClaimSubmitterInfo>
+  <echcf:ClaimReceiverInfo>
+    <ucfd:Name value="HUMANA"/>
+    <ucfd:ElectronicIdentificationNumber value="049944143"/>
+  </echcf:ClaimReceiverInfo>
+  <echcf:OriginalClaimID value="$TargetTrackingID"/>
+  <echcf:SubmittedClaimID value="$TargetTrackingID"/>
+  <echcf:InternalClaimID value="$TargetTrackingID"/>
+  <echcf:ClaimProcessorID value="CE1"/>
+  <echcf:Classifications>
+    <ucf:Property name="IsDME" valueType="BOOLEAN" value="false"/>
+    <hcfd:IsCapitated value="false"/>
+    <hcfd:IsPaperClaimOriginated value="false"/>
+  </echcf:Classifications>
+  <echcf:PatientInfo>
+    <ucfd:Role value="IL"/>
+    <ucfd:FirstName value="JUANITA"/>
+    <ucfd:LastName value="JORDAN-BULLOCK"/>
+    <ucfd:PrimaryIdentifier>
+      <ucf:Qualifier value="MI"/>
+      <ucf:Identifier value="H57384725"/>
+    </ucfd:PrimaryIdentifier>
+    <ucfd:AddressInfo>
+      <ucfd:AddressLine1 value="2011 KING ST"/>
+      <ucfd:City value="PORTSMOUTH"/>
+      <ucfd:State value="VA"/>
+      <ucfd:PostalCode value="237043019"/>
+    </ucfd:AddressInfo>
+    <ucfd:DemographicsInfo>
+      <ucfd:BirthDate value="1976-06-24"/>
+      <ucfd:Gender value="F"/>
+    </ucfd:DemographicsInfo>
+    <hcfd:EnrollmentInfo>
+      <hcfd:RelationshipToSubscriber value="18"/>
+    </hcfd:EnrollmentInfo>
+  </echcf:PatientInfo>
+  <echcf:SubscriberInfo>
+    <ucfd:FirstName value="JUANITA"/>
+    <ucfd:LastName value="JORDAN-BULLOCK"/>
+    <ucfd:PrimaryIdentifier>
+      <ucf:Qualifier value="MI"/>
+      <ucf:Identifier value="H57384725"/>
+    </ucfd:PrimaryIdentifier>
+    <ucfd:AddressInfo>
+      <ucfd:AddressLine1 value="2011 KING ST"/>
+      <ucfd:City value="PORTSMOUTH"/>
+      <ucfd:State value="VA"/>
+      <ucfd:PostalCode value="237043019"/>
+    </ucfd:AddressInfo>
+    <ucfd:DemographicsInfo>
+      <ucfd:BirthDate value="1976-06-24"/>
+      <ucfd:Gender value="F"/>
+    </ucfd:DemographicsInfo>
+    <hcfd:HealthInsuranceClaimIdentifier value="226114885A"/>
+    <hcfd:InsuranceInfo>
+      <hcfd:FilingIndicatorCode value="MB"/>
+      <hcfd:PayerSequenceCode value="P"/>
+      <hcfd:AssignmentPlanParticipationCode value="A"/>
+      <hcfd:BenefitsAssignmentIndicator value="Y"/>
+      <hcfd:ReleaseOfInformation value="Y"/>
+      <hcfd:PayerInfo>
+        <ucfd:PersonIndicator value="2"/>
+        <ucfd:Name value="HUMANA"/>
+        <ucfd:PrimaryIdentifier>
+          <ucf:Qualifier value="PI"/>
+          <ucf:Identifier value="61101"/>
+        </ucfd:PrimaryIdentifier>
+        <ucfd:OtherIdentifier>
+          <ucf:Qualifier value="2U"/>
+          <ucf:Identifier value="H3480"/>
+        </ucfd:OtherIdentifier>
+        <ucfd:AddressInfo>
+          <ucfd:AddressLine1 value="PO BOX 14601"/>
+          <ucfd:City value="LEXINGTON"/>
+          <ucfd:State value="KY"/>
+          <ucfd:PostalCode value="405125601"/>
+        </ucfd:AddressInfo>
+      </hcfd:PayerInfo>
+    </hcfd:InsuranceInfo>
+    <hcfd:EnrollmentInfo>
+      <hcfd:RelationshipToSubscriber value="18"/>
+    </hcfd:EnrollmentInfo>
+  </echcf:SubscriberInfo>
+  <echcf:ClaimIdentificationInfo>
+    <hcfd:ProviderClaimNumber value="132"/>
+    <hcfd:ClearinghouseTraceNumber value="2165106326"/>
+    <hcfd:MedicalRecordNumber value="1271306"/>
+    <hcfd:ClaimType value="ProfClaim"/>
+    <hcfd:ClaimPurpose value="Encounter"/>
+    <hcfd:FacilityType value="23"/>
+    <hcfd:ClaimFrequencyCode value="1"/>
+  </echcf:ClaimIdentificationInfo>
+  <echcf:ClaimDetails>
+    <hcfd:ClaimContractInfo>
+      <hcfd:ContractIdentifier value="1011"/>
+    </hcfd:ClaimContractInfo>
+    <hcfd:HealthInformation>
+      <hcfd:PrincipalDiagnosis>
+        <hcfd:SequenceNumber value="1"/>
+        <hcfd:DiagnosisCode value="L309"/>
+        <hcfd:DiagnosisCodeType value="ABK"/>
+      </hcfd:PrincipalDiagnosis>
+    </hcfd:HealthInformation>
+  </echcf:ClaimDetails>
+  <echcf:ClaimDates>
+    <hcfd:ClaimReceivedDate value="2016-10-31"/>
+    <hcfd:ClaimProcessorReceivedDate value="2016-01-28"/>
+    <hcfd:ServiceDates>
+      <ucf:BeginDate value="2016-10-15"/>
+      <ucf:EndDate value="2016-10-15"/>
+    </hcfd:ServiceDates>
+  </echcf:ClaimDates>
+  <echcf:ClaimAmounts>
+    <hcfd:TotalClaimCharge value="752"/>
+  </echcf:ClaimAmounts>
+  <echcf:RelatedProvidersInfo>
+    <hcfd:BillingProvider>
+      <ucfd:PersonIndicator value="2"/>
+      <ucfd:Name value="ECU BSOM"/>
+      <ucfd:PrimaryIdentifier>
+        <ucf:Qualifier value="XX"/>
+        <ucf:Identifier value="1043260474"/>
+      </ucfd:PrimaryIdentifier>
+      <ucfd:OtherIdentifier>
+        <ucf:Qualifier value="EI"/>
+        <ucf:Identifier value="566000403"/>
+      </ucfd:OtherIdentifier>
+      <ucfd:TaxID value="566000403"/>
+      <ucfd:AddressInfo>
+        <ucfd:AddressLine1 value="600 MOYE BLVD"/>
+        <ucfd:City value="GREENVILLE"/>
+        <ucfd:State value="NC"/>
+        <ucfd:PostalCode value="278345699"/>
+      </ucfd:AddressInfo>
+      <ucfd:ContactInfo>
+        <ucfd:ContactType value="IC"/>
+        <ucfd:ContactName value="PRD"/>
+        <ucfd:CommunicationNumber>
+          <ucf:Qualifier value="TE"/>
+          <ucf:Identifier value="2523289253"/>
+        </ucfd:CommunicationNumber>
+        <ucfd:CommunicationNumber>
+          <ucf:Qualifier value="EM"/>
+          <ucf:Identifier value="OWENSL@ECU.EDU"/>
+        </ucfd:CommunicationNumber>
+      </ucfd:ContactInfo>
+      <hcfd:NPI value="1043260474"/>
+      <hcfd:TaxonomyCode value="207R00000X"/>
+      <hcfd:ProviderSignatureOnFile value="Y"/>
+    </hcfd:BillingProvider>
+    <hcfd:PayToProvider>
+      <ucfd:PersonIndicator value="2"/>
+      <ucfd:AddressInfo>
+        <ucfd:AddressLine1 value="PO BOX 751069"/>
+        <ucfd:City value="CHARLOTTE"/>
+        <ucfd:State value="NC"/>
+        <ucfd:PostalCode value="282751069"/>
+      </ucfd:AddressInfo>
+    </hcfd:PayToProvider>
+    <hcfd:RenderingServiceProviderInfo>
+      <ucfd:PersonIndicator value="1"/>
+      <ucfd:Role value="82"/>
+      <ucfd:FirstName value="MARTIN"/>
+      <ucfd:LastName value="CICHON"/>
+      <ucfd:MiddleName value="P"/>
+      <ucfd:PrimaryIdentifier>
+        <ucf:Qualifier value="XX"/>
+        <ucf:Identifier value="1548469224"/>
+      </ucfd:PrimaryIdentifier>
+      <hcfd:NPI value="1548469224"/>
+      <hcfd:TaxonomyCode value="207P00000X"/>
+      <hcfd:SequenceNumber value="1"/>
+    </hcfd:RenderingServiceProviderInfo>
+    <hcfd:ServiceFacilityInfo>
+      <ucfd:PersonIndicator value="2"/>
+      <ucfd:Role value="77"/>
+      <ucfd:Name value="MED DIRECT PCMH - OUTPATIENT"/>
+      <ucfd:AddressInfo>
+        <ucfd:AddressLine1 value="2100 STANTONSBURG ROAD"/>
+        <ucfd:City value="GREENVILLE"/>
+        <ucfd:State value="NC"/>
+        <ucfd:PostalCode value="278342818"/>
+      </ucfd:AddressInfo>
+    </hcfd:ServiceFacilityInfo>
+  </echcf:RelatedProvidersInfo>
+  <echcf:ClaimStatus>
+    <hcfd:CurrentState value="Paid"/>
+  </echcf:ClaimStatus>
+  <echcf:ServiceLineInfo>
+    <hcfd:ClaimProcessorServiceLineID value="1"/>
+    <hcfd:AssignedNumber value="1"/>
+    <hcfd:LineItemControlNumber value="2622774341"/>
+    <hcfd:ServiceInfo>
+      <hcfd:ServiceCodeInfo>
+        <hcfd:Qualifier value="HC"/>
+        <hcfd:Value value="99284"/>
+      </hcfd:ServiceCodeInfo>
+      <hcfd:LineChargeAmount value="752"/>
+      <hcfd:UnitMeasurementCode value="UN"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-10-15"/>
+        <ucf:EndDate value="2016-10-15"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:RelatedDiagnosisCodeInfo>
+      <hcfd:SequenceNumber value="1"/>
+      <hcfd:DiagnosisCode value="L309"/>
+      <hcfd:DiagnosisCodeType value="ABK"/>
+    </hcfd:RelatedDiagnosisCodeInfo>
+    <hcfd:SubmittedServiceLineID value="1"/>
+  </echcf:ServiceLineInfo>
+</echcf:Claim>

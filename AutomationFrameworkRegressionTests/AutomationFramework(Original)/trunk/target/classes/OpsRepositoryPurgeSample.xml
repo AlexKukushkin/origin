@@ -1,0 +1,8 @@
+<purge itemType="Claim">
+    <criteria>
+        <conjunction>
+            <greaterEqual property="Claimsid">1</greaterEqual>
+          <!-- <greaterThan property="receiptdt">01/01/2010 10:00:00.000 AM</greaterThan>-->
+        </conjunction>
+    </criteria>
+</purge>

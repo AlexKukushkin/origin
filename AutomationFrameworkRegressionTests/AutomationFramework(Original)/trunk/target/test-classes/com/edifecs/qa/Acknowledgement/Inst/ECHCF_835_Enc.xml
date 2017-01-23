@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF"
+             xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD"
+             version="1.1.1.3">
+    <echcf:InternalClaimID value="$TargetTrackingID"/>
+    <echcf:ClaimProcessorID value="CE1"/>
+    <echcf:SubscriberInfo>
+        <hcfd:HealthInsuranceClaimIdentifier value="555121234A"/>
+    </echcf:SubscriberInfo>
+    <echcf:ClaimDetails>
+        <hcfd:ClaimContractInfo>
+            <hcfd:ContractIdentifier value="R5826"/>
+        </hcfd:ClaimContractInfo>
+    </echcf:ClaimDetails>
+    <echcf:ClaimPaymentInfo>
+        <hcfd:PaymentIssueDate value="2012-06-28"/>
+        <hcfd:PaymentMethod value="CHK"/>
+        <hcfd:CheckorEFTNumber value="007869901"/>
+        <hcfd:ProductionDate value="2011-06-29"/>
+        <hcfd:OriginalPayerClaimControlNumber value="346286121"/>
+        <hcfd:PayerTotalClaimCharge value="1239"/>
+        <hcfd:TotalClaimPaidAmount value="1239"/>
+        <hcfd:ClaimStatusCode value="1"/>
+        <hcfd:PaymentOrAdjudicationDate value="2012-06-28"/>
+        <hcfd:RenderingServiceProviderInfo>
+            <ucfd:FirstName value="GARY"/>
+            <ucfd:LastName value="SINGH"/>
+            <ucfd:PrimaryIdentifier>
+                <ucf:Qualifier value="XX"/>
+                <ucf:Identifier value="1730207317"/>
+            </ucfd:PrimaryIdentifier>
+        </hcfd:RenderingServiceProviderInfo>
+    </echcf:ClaimPaymentInfo>
+    <echcf:ClaimStatus>
+        <hcfd:CurrentState value="paid"/>
+        <hcfd:ReportDate value="2013-02-10"/>
+        <hcfd:ReportTime value="11:39:29"/>
+    </echcf:ClaimStatus>
+    <echcf:ServiceLineInfo>
+        <hcfd:ServiceInfo>
+            <hcfd:RevenueCode value="0101"/>
+            <hcfd:ServiceCodeInfo>
+                <hcfd:Qualifier value="HC"/>
+                <hcfd:Value value="A0021"/>
+            </hcfd:ServiceCodeInfo>
+        </hcfd:ServiceInfo>
+        <hcfd:ServiceRelatedDates>
+            <hcfd:ServiceDates>
+                <ucf:BeginDate value="2012-01-01"/>
+            </hcfd:ServiceDates>
+        </hcfd:ServiceRelatedDates>
+        <hcfd:ServiceLineStatus>
+            <hcfd:CurrentState value="paid"/>
+            <hcfd:StatusCode>
+                <ucfd:StatusCategoryCode value="A1"/>
+                <ucfd:StatusCategoryCodeDescription
+                        value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+                <ucfd:StatusCode value="61"/>
+                <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+                <ucfd:StatusDate value="2013-02-10"/>
+                <ucfd:StatusTime value="11:39:29"/>
+            </hcfd:StatusCode>
+        </hcfd:ServiceLineStatus>
+        <hcfd:ServicePaymentHistory>
+            <hcfd:ProcessedServiceInfo>
+                <hcfd:RevenueCode value="0101"/>
+                <hcfd:ServiceCodeInfo>
+                    <hcfd:Qualifier value="HC"/>
+                    <hcfd:Value value="A0021"/>
+                </hcfd:ServiceCodeInfo>
+                <hcfd:LineChargeAmount value="1239"/>
+            </hcfd:ProcessedServiceInfo>
+            <hcfd:LinePaidAmount value="1239"/>
+            <hcfd:ProcessedQuantity value="1"/>
+            <hcfd:PaymentOrAdjudicationDate value="2012-06-28"/>
+            <hcfd:ServiceRemarkCode>
+                <hcfd:ServiceRemarkCode value="N111"/>
+            </hcfd:ServiceRemarkCode>
+        </hcfd:ServicePaymentHistory>
+    </echcf:ServiceLineInfo>
+</echcf:Claim>

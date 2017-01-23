@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF"
+             xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.3">
+    <echcf:InternalClaimID value="$TargetTrackingID"/>
+    <echcf:SubscriberInfo effective="2012-11-30T14:38:48Z">
+        <hcfd:HealthInsuranceClaimIdentifier effective="2012-11-30T14:38:48Z" value="H56786978970"/>
+    </echcf:SubscriberInfo>
+    <echcf:ClaimStatus>
+        <hcfd:CurrentState value="paid"/>
+    </echcf:ClaimStatus>
+    <echcf:ServiceLineInfo>
+        <hcfd:ServiceInfo>
+            <hcfd:ServiceCodeInfo>
+                <hcfd:Qualifier value="HC"/>
+                <hcfd:Value value="99213"/>
+            </hcfd:ServiceCodeInfo>
+        </hcfd:ServiceInfo>
+        <hcfd:ServiceRelatedDates>
+            <hcfd:ServiceDates>
+                <ucf:BeginDate value="2012-03-30"/>
+            </hcfd:ServiceDates>
+        </hcfd:ServiceRelatedDates>
+        <hcfd:ServiceLineStatus>
+            <hcfd:CurrentState value="paid"/>
+            <!-- <hcfd:StatusCode>
+    <hcfd:StatusCategoryCode value="A1"/>
+    <hcfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+    <hcfd:StatusCode value="61"/>
+    <hcfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+                <hcfd:StatusDate value="2013-11-01"/>
+                <hcfd:StatusTime value="21:59:14"/>
+            </hcfd:StatusCode>      -->
+        </hcfd:ServiceLineStatus>
+    </echcf:ServiceLineInfo>
+</echcf:Claim>

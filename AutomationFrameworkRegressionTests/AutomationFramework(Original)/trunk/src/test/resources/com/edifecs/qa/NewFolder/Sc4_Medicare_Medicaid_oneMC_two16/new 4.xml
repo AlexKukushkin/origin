@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" change="CHANGED" effective="2016-01-28T15:57:29Z" version="1.1.1.3">
+  <echcf:OriginalClaimID effective="2016-01-28T15:57:29Z" value="$TargetTrackingID"/>
+  <echcf:SubmittedClaimID effective="2016-01-28T15:57:29Z" value="$TargetTrackingID"/>
+  <echcf:InternalClaimID effective="2016-01-28T15:57:29Z" value="$TargetTrackingID"/>
+  <echcf:ClaimProcessorID effective="2016-01-28T15:57:29Z" value="CE1"/>
+  <echcf:Classifications effective="2016-01-28T15:57:29Z">
+    <ucf:Property name="IsDME" valueType="BOOLEAN" effective="2016-01-28T15:57:29Z" value="false"/>
+    <hcfd:IsCapitated effective="2016-01-28T15:57:29Z" value="false"/>
+    <hcfd:IsPaperClaimOriginated effective="2016-01-28T15:57:29Z" value="false"/>
+  </echcf:Classifications>
+  <echcf:SubscriberInfo effective="2016-01-28T15:57:29Z">
+    <hcfd:HealthInsuranceClaimIdentifier effective="2016-01-28T15:57:29Z" value="226114885A"/>
+  </echcf:SubscriberInfo>
+  <echcf:ClaimDetails effective="2016-01-28T15:57:29Z">
+    <hcfd:ClaimContractInfo effective="2016-01-28T15:57:29Z">
+      <hcfd:ContractIdentifier effective="2016-01-28T15:57:29Z" value="1011"/>
+    </hcfd:ClaimContractInfo>
+  </echcf:ClaimDetails>
+  <echcf:ClaimDates effective="2016-01-28T15:57:29Z">
+    <hcfd:ClaimReceivedDate effective="2016-01-28T15:57:29Z" value="2016-10-28"/>
+  </echcf:ClaimDates>
+  <echcf:ClaimPaymentInfo effective="2016-01-28T15:57:29Z">
+    <ucf:Property name="PaymentType" valueType="STRING" value="MC" />
+    <hcfd:PaymentIssueDate effective="2016-01-28T15:57:29Z" value="2016-10-30"/>
+    <hcfd:PaymentMethod effective="2016-01-28T15:57:29Z" value="CHK"/>
+    <hcfd:CheckorEFTNumber effective="2016-01-28T15:57:29Z" value="005574749"/>
+    <hcfd:ProductionDate effective="2016-01-28T15:57:29Z" value="2016-10-30"/>
+    <hcfd:OriginalPayerClaimControlNumber effective="2016-01-28T15:57:29Z" value="028230337"/>
+    <hcfd:PayerTotalClaimCharge effective="2016-01-28T15:57:29Z" value="0"/>
+    <hcfd:TotalClaimPaidAmount effective="2016-01-28T15:57:29Z" value="600"/>
+    <hcfd:ClaimStatusCode effective="2016-01-28T15:57:29Z" value="1"/>
+    <hcfd:PaymentOrAdjudicationDate effective="2016-01-28T15:57:29Z" value="2016-10-30"/>
+    <hcfd:CorrectedOtherInsuranceInfo effective="2016-01-28T15:57:29Z">
+      <hcfd:CorrectedPayerSubscriberInfo effective="2016-01-28T15:57:29Z">
+        <ucfd:FirstName effective="2016-01-28T15:57:29Z" value="A"/>
+        <ucfd:LastName effective="2016-01-28T15:57:29Z" value="A A"/>
+        <ucfd:PrimaryIdentifier effective="2016-01-28T15:57:29Z">
+          <ucf:Qualifier effective="2016-01-28T15:57:29Z" value="C"/>
+          <ucf:Identifier effective="2016-01-28T15:57:29Z" value="H57384725"/>
+        </ucfd:PrimaryIdentifier>
+      </hcfd:CorrectedPayerSubscriberInfo>
+    </hcfd:CorrectedOtherInsuranceInfo>
+  </echcf:ClaimPaymentInfo>
+  
+  <echcf:ClaimPaymentInfo effective="2016-01-28T15:57:29Z">
+    <ucf:Property name="PaymentType" valueType="STRING" value="MC" />
+    <hcfd:PaymentIssueDate effective="2016-01-28T15:57:29Z" value="2016-10-30"/>
+    <hcfd:PaymentMethod effective="2016-01-28T15:57:29Z" value="CHK"/>
+    <hcfd:CheckorEFTNumber effective="2016-01-28T15:57:29Z" value="005574749"/>
+    <hcfd:ProductionDate effective="2016-01-28T15:57:29Z" value="2016-10-30"/>
+    <hcfd:OriginalPayerClaimControlNumber effective="2016-01-28T15:57:29Z" value="028230337"/>
+    <hcfd:PayerTotalClaimCharge effective="2016-01-28T15:57:29Z" value="0"/>
+    <hcfd:TotalClaimPaidAmount effective="2016-01-28T15:57:29Z" value="600"/>
+    <hcfd:ClaimStatusCode effective="2016-01-28T15:57:29Z" value="1"/>
+    <hcfd:PaymentOrAdjudicationDate effective="2016-01-28T15:57:29Z" value="2016-10-30"/>
+    <hcfd:CorrectedOtherInsuranceInfo effective="2016-01-28T15:57:29Z">
+      <hcfd:CorrectedPayerSubscriberInfo effective="2016-01-28T15:57:29Z">
+        <ucfd:FirstName effective="2016-01-28T15:57:29Z" value="A"/>
+        <ucfd:LastName effective="2016-01-28T15:57:29Z" value="A A"/>
+        <ucfd:PrimaryIdentifier effective="2016-01-28T15:57:29Z">
+          <ucf:Qualifier effective="2016-01-28T15:57:29Z" value="C"/>
+          <ucf:Identifier effective="2016-01-28T15:57:29Z" value="H57384725"/>
+        </ucfd:PrimaryIdentifier>
+      </hcfd:CorrectedPayerSubscriberInfo>
+    </hcfd:CorrectedOtherInsuranceInfo>
+  </echcf:ClaimPaymentInfo>
+  
+  <echcf:ClaimPaymentInfo change="NEW" effective="2016-01-28T15:57:29Z">
+    <ucf:Property name="PaymentType" valueType="STRING" value="16" />
+    <ucf:Property name="COBDualPayerID" valueType="STRING" value="4019" />
+    <hcfd:PaymentIssueDate change="NEW" effective="2016-01-28T15:57:29Z" value="2016-10-31"/>
+    <hcfd:PaymentMethod change="NEW" effective="2016-01-28T15:57:29Z" value="NON"/>
+    <hcfd:CheckorEFTNumber change="NEW" effective="2016-01-28T15:57:29Z" value="0001128472"/>
+    <hcfd:ProductionDate change="NEW" effective="2016-01-28T15:57:29Z" value="2016-10-31"/>
+    <hcfd:OriginalPayerClaimControlNumber change="NEW" effective="2016-01-28T15:57:29Z" value="028230337"/>
+    <hcfd:PayerTotalClaimCharge change="NEW" effective="2016-01-28T15:57:29Z" value="1128"/>
+    <hcfd:TotalClaimPaidAmount change="NEW" effective="2016-01-28T15:57:29Z" value="600"/>
+    <hcfd:ClaimStatusCode change="NEW" effective="2016-01-28T15:57:29Z" value="2"/>
+    <hcfd:PaymentOrAdjudicationDate change="NEW" effective="2016-01-28T15:57:29Z" value="2016-10-31"/>
+    <hcfd:CorrectedOtherInsuranceInfo change="NEW" effective="2016-01-28T15:57:29Z">
+      <hcfd:CorrectedPayerSubscriberInfo change="NEW" effective="2016-01-28T15:57:29Z">
+        <ucfd:FirstName change="NEW" effective="2016-01-28T15:57:29Z" value="B"/>
+        <ucfd:LastName change="NEW" effective="2016-01-28T15:57:29Z" value="B B"/>
+        <ucfd:PrimaryIdentifier change="NEW" effective="2016-01-28T15:57:29Z">
+          <ucf:Qualifier change="NEW" effective="2016-01-28T15:57:29Z" value="C"/>
+          <ucf:Identifier change="NEW" effective="2016-01-28T15:57:29Z" value="H57384725"/>
+        </ucfd:PrimaryIdentifier>
+      </hcfd:CorrectedPayerSubscriberInfo>
+    </hcfd:CorrectedOtherInsuranceInfo>
+  </echcf:ClaimPaymentInfo>
+  
+  <echcf:ClaimStatus>
+    <hcfd:CurrentState value="Paid"/>
+  </echcf:ClaimStatus>
+  <echcf:ServiceLineInfo change="CHANGED" effective="2016-01-28T15:57:29Z">
+    <hcfd:LineItemControlNumber effective="2016-01-28T15:57:29Z" value="2622774341"/>
+    <hcfd:ServiceInfo effective="2016-01-28T15:57:29Z">
+      <hcfd:ServiceCodeInfo effective="2016-01-28T15:57:29Z">
+        <hcfd:Qualifier effective="2016-01-28T15:57:29Z" value="HC"/>
+        <hcfd:Value effective="2016-01-28T15:57:29Z" value="99284"/>
+      </hcfd:ServiceCodeInfo>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates effective="2016-01-28T15:57:29Z">
+      <hcfd:ServiceDates effective="2016-01-28T15:57:29Z">
+        <ucf:BeginDate effective="2016-01-28T15:57:29Z" value="2016-10-15"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus change="CHANGED" effective="2016-01-28T15:57:29Z">
+      <hcfd:CurrentState effective="2016-01-28T15:57:29Z" value="paid"/>
+      <hcfd:StatusCode effective="2016-01-28T15:57:29Z">
+        <ucfd:StatusCategoryCode effective="2016-01-28T15:57:29Z" value="A1"/>
+        <ucfd:StatusCategoryCodeDescription effective="2016-01-28T15:57:29Z" value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode effective="2016-01-28T15:57:29Z" value="61"/>
+        <ucfd:StatusCodeDescription effective="2016-01-28T15:57:29Z" value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate effective="2016-01-28T15:57:29Z" value="2016-01-28"/>
+        <ucfd:StatusTime effective="2016-01-28T15:57:29Z" value="15:57:28"/>
+      </hcfd:StatusCode>
+      <hcfd:StatusCode change="NEW" effective="2016-01-28T15:57:29Z">
+        <ucfd:StatusCategoryCode change="NEW" effective="2016-01-28T15:57:29Z" value="A1"/>
+        <ucfd:StatusCategoryCodeDescription change="NEW" effective="2016-01-28T15:57:29Z" value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode change="NEW" effective="2016-01-28T15:57:29Z" value="61"/>
+        <ucfd:StatusCodeDescription change="NEW" effective="2016-01-28T15:57:29Z" value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate change="NEW" effective="2016-01-28T15:57:29Z" value="2016-01-28"/>
+        <ucfd:StatusTime change="NEW" effective="2016-01-28T15:57:29Z" value="15:57:28"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory effective="2016-01-28T15:57:29Z">
+	  <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC" />
+      <hcfd:ProcessedServiceInfo effective="2016-01-28T15:57:29Z">
+        <hcfd:ServiceCodeInfo effective="2016-01-28T15:57:29Z">
+          <hcfd:Qualifier effective="2016-01-28T15:57:29Z" value="HC"/>
+          <hcfd:Value effective="2016-01-28T15:57:29Z" value="99284"/>
+        </hcfd:ServiceCodeInfo>
+        <hcfd:LineChargeAmount effective="2016-01-28T15:57:29Z" value="0"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount effective="2016-01-28T15:57:29Z" value="0"/>
+      <hcfd:ProcessedQuantity effective="2016-01-28T15:57:29Z" value="1"/>
+      <hcfd:AllowedAmount effective="2016-01-28T15:57:29Z" value="0"/>
+      <hcfd:ServiceAdjustment effective="2016-01-28T15:57:29Z">
+        <hcfd:GroupCode effective="2016-01-28T15:57:29Z" value="CO"/>
+        <hcfd:ReasonCode effective="2016-01-28T15:57:29Z" value="253"/>
+        <hcfd:Amount effective="2016-01-28T15:57:29Z" value="400"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:ServiceAdjustment effective="2016-01-28T15:57:29Z">
+        <hcfd:GroupCode effective="2016-01-28T15:57:29Z" value="CO"/>
+        <hcfd:ReasonCode effective="2016-01-28T15:57:29Z" value="131"/>
+        <hcfd:Amount effective="2016-01-28T15:57:29Z" value="200"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate effective="2016-01-28T15:57:29Z" value="2016-10-30"/>
+    </hcfd:ServicePaymentHistory>
+	
+	<hcfd:ServicePaymentHistory effective="2016-01-28T15:57:29Z">
+	  <ucf:Property name="ServicePaymentType" valueType="STRING" value="16" />
+      <hcfd:ProcessedServiceInfo effective="2016-01-28T15:57:29Z">
+        <hcfd:ServiceCodeInfo effective="2016-01-28T15:57:29Z">
+          <hcfd:Qualifier effective="2016-01-28T15:57:29Z" value="HC"/>
+          <hcfd:Value effective="2016-01-28T15:57:29Z" value="99284"/>
+        </hcfd:ServiceCodeInfo>
+        <hcfd:LineChargeAmount effective="2016-01-28T15:57:29Z" value="0"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount effective="2016-01-28T15:57:29Z" value="0"/>
+      <hcfd:ProcessedQuantity effective="2016-01-28T15:57:29Z" value="1"/>
+      <hcfd:AllowedAmount effective="2016-01-28T15:57:29Z" value="0"/>
+      <hcfd:ServiceAdjustment effective="2016-01-28T15:57:29Z">
+        <hcfd:GroupCode effective="2016-01-28T15:57:29Z" value="CO"/>
+        <hcfd:ReasonCode effective="2016-01-28T15:57:29Z" value="45"/>
+        <hcfd:Amount effective="2016-01-28T15:57:29Z" value="200"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:ServiceAdjustment effective="2016-01-28T15:57:29Z">
+        <hcfd:GroupCode effective="2016-01-28T15:57:29Z" value="CO"/>
+        <hcfd:ReasonCode effective="2016-01-28T15:57:29Z" value="131"/>
+        <hcfd:Amount effective="2016-01-28T15:57:29Z" value="200"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate effective="2016-01-28T15:57:29Z" value="2016-10-30"/>
+    </hcfd:ServicePaymentHistory>
+	
+    <hcfd:ServicePaymentHistory change="NEW" effective="2016-01-28T15:57:29Z">
+	  <ucf:Property name="ServicePaymentType" valueType="STRING" value="16" />
+      <hcfd:ProcessedServiceInfo change="NEW" effective="2016-01-28T15:57:29Z">
+        <hcfd:ServiceCodeInfo change="NEW" effective="2016-01-28T15:57:29Z">
+          <hcfd:Qualifier change="NEW" effective="2016-01-28T15:57:29Z" value="HC"/>
+          <hcfd:Value change="NEW" effective="2016-01-28T15:57:29Z" value="99284"/>
+        </hcfd:ServiceCodeInfo>
+        <hcfd:LineChargeAmount change="NEW" effective="2016-01-28T15:57:29Z" value="0"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount change="NEW" effective="2016-01-28T15:57:29Z" value="0"/>
+      <hcfd:ProcessedQuantity change="NEW" effective="2016-01-28T15:57:29Z" value="1"/>
+      <hcfd:AllowedAmount change="NEW" effective="2016-01-28T15:57:29Z" value="0"/>
+      <hcfd:ServiceAdjustment change="NEW" effective="2016-01-28T15:57:29Z">
+        <hcfd:GroupCode change="NEW" effective="2016-01-28T15:57:29Z" value="CO"/>
+        <hcfd:ReasonCode change="NEW" effective="2016-01-28T15:57:29Z" value="23"/>
+        <hcfd:Amount change="NEW" effective="2016-01-28T15:57:29Z" value="300"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:ServiceAdjustment change="NEW" effective="2016-01-28T15:57:29Z">
+        <hcfd:GroupCode change="NEW" effective="2016-01-28T15:57:29Z" value="CO"/>
+        <hcfd:ReasonCode change="NEW" effective="2016-01-28T15:57:29Z" value="45"/>
+        <hcfd:Amount change="NEW" effective="2016-01-28T15:57:29Z" value="300"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate change="NEW" effective="2016-01-28T15:57:29Z" value="2016-10-31"/>
+    </hcfd:ServicePaymentHistory>
+
+  </echcf:ServiceLineInfo>
+</echcf:Claim>

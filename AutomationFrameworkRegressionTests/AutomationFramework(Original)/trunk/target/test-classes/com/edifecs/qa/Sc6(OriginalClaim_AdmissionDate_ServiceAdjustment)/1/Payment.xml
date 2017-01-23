@@ -1,0 +1,1365 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<echcf:Claim xmlns:echcf="http://xml.edifecs.com/schema/ECHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD" version="1.1.1.3">
+  <echcf:OriginalClaimID value="$TargetTrackingID"/>
+  <echcf:SubmittedClaimID value="$TargetTrackingID"/>
+  <echcf:InternalClaimID value="$TargetTrackingID"/>
+  <echcf:ClaimProcessorID value="CE1"/>
+  <echcf:Classifications>
+    <ucf:Property name="IsDME" valueType="BOOLEAN" value="false"/>
+    <hcfd:IsCapitated value="false"/>
+    <hcfd:IsPaperClaimOriginated value="false"/>
+  </echcf:Classifications>
+  <echcf:SubscriberInfo>
+    <ucfd:PrimaryIdentifier>
+      <ucf:Qualifier value="MI"/>
+      <ucf:Identifier value="157045469"/>
+    </ucfd:PrimaryIdentifier>
+    <hcfd:HealthInsuranceClaimIdentifier value="157045469"/>
+  </echcf:SubscriberInfo>
+  <echcf:ClaimDetails>
+    <hcfd:ClaimContractInfo>
+      <hcfd:ContractIdentifier value="182"/>
+    </hcfd:ClaimContractInfo>
+  </echcf:ClaimDetails>
+  <echcf:ClaimPaymentInfo>
+    <ucf:Property name="PaymentType" valueType="STRING" value="MC"/>
+    <hcfd:PaymentIssueDate value="2016-03-23"/>
+    <hcfd:PaymentMethod value="CHK"/>
+    <hcfd:CheckorEFTNumber value="005884456"/>
+    <hcfd:ProductionDate value="2016-03-23"/>
+    <hcfd:OriginalPayerClaimControlNumber value="093209252"/>
+    <hcfd:PayerTotalClaimCharge value="25908.11"/>
+    <hcfd:TotalClaimPaidAmount value="12099.26"/>
+    <hcfd:ClaimStatusCode value="1"/>
+    <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    <hcfd:CorrectedOtherInsuranceInfo>
+      <hcfd:CorrectedPayerSubscriberInfo>
+        <ucfd:FirstName value="JOHN"/>
+        <ucfd:LastName value="ASHFORD"/>
+        <ucfd:PrimaryIdentifier>
+          <ucf:Qualifier value="C"/>
+          <ucf:Identifier value="H49006723"/>
+        </ucfd:PrimaryIdentifier>
+      </hcfd:CorrectedPayerSubscriberInfo>
+    </hcfd:CorrectedOtherInsuranceInfo>
+  </echcf:ClaimPaymentInfo>
+  <echcf:ClaimStatus>
+    <hcfd:CurrentState value="Paid"/>
+  </echcf:ClaimStatus>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0200"/>
+      <hcfd:LineChargeAmount value="5992"/>
+      <hcfd:Quantity value="4"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0200"/>
+        <hcfd:LineChargeAmount value="5992"/>
+        <hcfd:Quantity value="4"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="5992"/>
+      <hcfd:ProcessedQuantity value="4"/>
+      <hcfd:AllowedAmount value="5992"/>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0250"/>
+      <hcfd:LineChargeAmount value="3627.23"/>
+      <hcfd:Quantity value="92"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0250"/>
+        <hcfd:LineChargeAmount value="3627.23"/>
+        <hcfd:Quantity value="92"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="3627.23"/>
+      <hcfd:ProcessedQuantity value="92"/>
+      <hcfd:AllowedAmount value="3627.23"/>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0258"/>
+      <hcfd:LineChargeAmount value="68.12"/>
+      <hcfd:Quantity value="6"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0258"/>
+        <hcfd:LineChargeAmount value="68.12"/>
+        <hcfd:Quantity value="6"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="68.12"/>
+      <hcfd:ProcessedQuantity value="6"/>
+      <hcfd:AllowedAmount value="68.12"/>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0259"/>
+      <hcfd:LineChargeAmount value="508.31"/>
+      <hcfd:Quantity value="44"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0259"/>
+        <hcfd:LineChargeAmount value="508.31"/>
+        <hcfd:Quantity value="44"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="508.31"/>
+      <hcfd:ProcessedQuantity value="44"/>
+      <hcfd:AllowedAmount value="508.31"/>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0270"/>
+      <hcfd:LineChargeAmount value="208"/>
+      <hcfd:Quantity value="8"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0270"/>
+        <hcfd:LineChargeAmount value="208"/>
+        <hcfd:Quantity value="8"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="208"/>
+      <hcfd:ProcessedQuantity value="8"/>
+      <hcfd:AllowedAmount value="208"/>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0271"/>
+      <hcfd:LineChargeAmount value="118"/>
+      <hcfd:Quantity value="3"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0271"/>
+        <hcfd:LineChargeAmount value="118"/>
+        <hcfd:Quantity value="3"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="118"/>
+      <hcfd:ProcessedQuantity value="3"/>
+      <hcfd:AllowedAmount value="118"/>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0272"/>
+      <hcfd:LineChargeAmount value="245.75"/>
+      <hcfd:Quantity value="14"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0272"/>
+        <hcfd:LineChargeAmount value="245.75"/>
+        <hcfd:Quantity value="14"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="245.75"/>
+      <hcfd:ProcessedQuantity value="14"/>
+      <hcfd:AllowedAmount value="245.75"/>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0279"/>
+      <hcfd:LineChargeAmount value="72"/>
+      <hcfd:Quantity value="2"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0279"/>
+        <hcfd:LineChargeAmount value="72"/>
+        <hcfd:Quantity value="2"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="72"/>
+      <hcfd:ProcessedQuantity value="2"/>
+      <hcfd:AllowedAmount value="72"/>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0324"/>
+      <hcfd:LineChargeAmount value="111"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0324"/>
+        <hcfd:LineChargeAmount value="111"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="111"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:AllowedAmount value="111"/>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0410"/>
+      <hcfd:LineChargeAmount value="7939"/>
+      <hcfd:Quantity value="32"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0410"/>
+        <hcfd:LineChargeAmount value="7939"/>
+        <hcfd:Quantity value="32"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="1148.85"/>
+      <hcfd:ProcessedQuantity value="32"/>
+      <hcfd:AllowedAmount value="1148.85"/>
+      <!--<hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="6703.15"/>
+      </hcfd:ServiceAdjustment>-->
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0981"/>
+      <hcfd:LineChargeAmount value="155"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0981"/>
+        <hcfd:LineChargeAmount value="155"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="89"/>
+        <hcfd:Amount value="155"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+      <hcfd:ServiceRemarkCode>
+        <hcfd:ServiceRemarkCode value="N200"/>
+      </hcfd:ServiceRemarkCode>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0636"/>
+      <hcfd:LineChargeAmount value="342.66"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0636"/>
+        <hcfd:LineChargeAmount value="342.66"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="342.66"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0730"/>
+      <hcfd:LineChargeAmount value="130"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0730"/>
+        <hcfd:LineChargeAmount value="130"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="130"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0801"/>
+      <hcfd:LineChargeAmount value="1169.54"/>
+      <hcfd:Quantity value="2"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0801"/>
+        <hcfd:LineChargeAmount value="1169.54"/>
+        <hcfd:Quantity value="2"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="2"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="1169.54"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0985"/>
+      <hcfd:LineChargeAmount value="11"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0985"/>
+        <hcfd:LineChargeAmount value="11"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="89"/>
+        <hcfd:Amount value="11"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+      <hcfd:ServiceRemarkCode>
+        <hcfd:ServiceRemarkCode value="N200"/>
+      </hcfd:ServiceRemarkCode>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0450"/>
+      <hcfd:LineChargeAmount value="657"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0450"/>
+        <hcfd:LineChargeAmount value="657"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="657"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0300"/>
+      <hcfd:LineChargeAmount value="5"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0300"/>
+        <hcfd:LineChargeAmount value="5"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="5"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0301"/>
+      <hcfd:LineChargeAmount value="1035"/>
+      <hcfd:Quantity value="6"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0301"/>
+        <hcfd:LineChargeAmount value="1035"/>
+        <hcfd:Quantity value="6"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="6"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="1035"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0305"/>
+      <hcfd:LineChargeAmount value="152"/>
+      <hcfd:Quantity value="2"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0305"/>
+        <hcfd:LineChargeAmount value="152"/>
+        <hcfd:Quantity value="2"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="2"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="152"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0306"/>
+      <hcfd:LineChargeAmount value="949.5"/>
+      <hcfd:Quantity value="12"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0306"/>
+        <hcfd:LineChargeAmount value="949.5"/>
+        <hcfd:Quantity value="12"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="12"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="949.5"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0307"/>
+      <hcfd:LineChargeAmount value="64"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0307"/>
+        <hcfd:LineChargeAmount value="64"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="64"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0300"/>
+      <hcfd:LineChargeAmount value="5"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0300"/>
+        <hcfd:LineChargeAmount value="5"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="5"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0301"/>
+      <hcfd:LineChargeAmount value="140"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0301"/>
+        <hcfd:LineChargeAmount value="140"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="140"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0306"/>
+      <hcfd:LineChargeAmount value="166"/>
+      <hcfd:Quantity value="2"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0306"/>
+        <hcfd:LineChargeAmount value="166"/>
+        <hcfd:Quantity value="2"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="2"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="166"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0300"/>
+      <hcfd:LineChargeAmount value="5"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0300"/>
+        <hcfd:LineChargeAmount value="5"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="5"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0301"/>
+      <hcfd:LineChargeAmount value="583"/>
+      <hcfd:Quantity value="3"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0301"/>
+        <hcfd:LineChargeAmount value="583"/>
+        <hcfd:Quantity value="3"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="3"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="583"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0305"/>
+      <hcfd:LineChargeAmount value="87"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0305"/>
+        <hcfd:LineChargeAmount value="87"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="253"/>
+        <hcfd:Amount value="87"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0306"/>
+      <hcfd:LineChargeAmount value="258"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0306"/>
+        <hcfd:LineChargeAmount value="258"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="258"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0300"/>
+      <hcfd:LineChargeAmount value="5"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0300"/>
+        <hcfd:LineChargeAmount value="5"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="5"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0301"/>
+      <hcfd:LineChargeAmount value="443"/>
+      <hcfd:Quantity value="2"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0301"/>
+        <hcfd:LineChargeAmount value="443"/>
+        <hcfd:Quantity value="2"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="2"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="443"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0305"/>
+      <hcfd:LineChargeAmount value="87"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0305"/>
+        <hcfd:LineChargeAmount value="87"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="253"/>
+        <hcfd:Amount value="87"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0300"/>
+      <hcfd:LineChargeAmount value="5"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0300"/>
+        <hcfd:LineChargeAmount value="5"/>
+        <hcfd:Quantity value="1"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="1"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="5"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0301"/>
+      <hcfd:LineChargeAmount value="758"/>
+      <hcfd:Quantity value="3"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+    <hcfd:ServicePaymentHistory>
+      <ucf:Property name="ServicePaymentType" valueType="STRING" value="MC"/>
+      <hcfd:ProcessedServiceInfo>
+        <hcfd:RevenueCode value="0301"/>
+        <hcfd:LineChargeAmount value="758"/>
+        <hcfd:Quantity value="3"/>
+      </hcfd:ProcessedServiceInfo>
+      <hcfd:LinePaidAmount value="0"/>
+      <hcfd:ProcessedQuantity value="3"/>
+      <hcfd:ServiceAdjustment>
+        <hcfd:GroupCode value="CO"/>
+        <hcfd:ReasonCode value="45"/>
+        <hcfd:Amount value="758"/>
+      </hcfd:ServiceAdjustment>
+      <hcfd:PaymentOrAdjudicationDate value="2016-03-23"/>
+    </hcfd:ServicePaymentHistory>
+  </echcf:ServiceLineInfo>
+  <echcf:ServiceLineInfo>
+    <hcfd:ServiceInfo>
+      <hcfd:RevenueCode value="0305"/>
+      <hcfd:LineChargeAmount value="87"/>
+      <hcfd:Quantity value="1"/>
+    </hcfd:ServiceInfo>
+    <hcfd:ServiceRelatedDates>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2016-03-01"/>
+        <ucf:EndDate value="2016-03-05"/>
+      </hcfd:ServiceDates>
+    </hcfd:ServiceRelatedDates>
+    <hcfd:ServiceLineStatus>
+      <hcfd:CurrentState value="paid"/>
+      <hcfd:StatusCode>
+        <ucfd:StatusCategoryCode value="A1"/>
+        <ucfd:StatusCategoryCodeDescription value="Acknowledgement/Receipt-The claim/encounter has been received. This does not mean that the claim has been accepted for adjudication."/>
+        <ucfd:StatusCode value="61"/>
+        <ucfd:StatusCodeDescription value="Finalized/Payment-The claim/line has been paid."/>
+        <ucfd:StatusDate value="2016-07-08"/>
+        <ucfd:StatusTime value="13:18:07"/>
+      </hcfd:StatusCode>
+    </hcfd:ServiceLineStatus>
+
+  </echcf:ServiceLineInfo>
+</echcf:Claim>

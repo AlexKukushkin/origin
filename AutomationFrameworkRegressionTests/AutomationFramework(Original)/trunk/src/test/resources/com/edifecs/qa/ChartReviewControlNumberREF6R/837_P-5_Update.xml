@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ns0:Claim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns0="http://xml.edifecs.com/schema/ECHCF" xmlns:ns1="http://xml.edifecs.com/schema/UCF" xmlns:ns2="http://xml.edifecs.com/schema/UCFD" xmlns:ns3="http://xml.edifecs.com/schema/HCFD"  version="1.1.1.3">
+	<ns0:Packaging >
+		<ns2:MessageProtocolInfo >
+			<ns2:Name  value="ISA"/>
+			<ns2:ControlNumber  value="000000030"/>
+			<ns2:Version  value="00501"/>
+			<ns2:Date  value="2015-09-20"/>
+			<ns2:Time  value="19:54:00"/>
+			<ns2:Sender >
+				<ns1:Qualifier  value="01"/>
+				<ns1:Identifier  value="GREATPLAINGROUP"/>
+			</ns2:Sender>
+			<ns2:Receiver >
+				<ns1:Qualifier  value="01"/>
+				<ns1:Identifier  value="HEALTHYLIFEPLAN"/>
+			</ns2:Receiver>
+		</ns2:MessageProtocolInfo>
+		<ns2:MessageProtocolInfo >
+			<ns2:Name  value="GS"/>
+			<ns2:ControlNumber  value="1"/>
+			<ns2:Version  value="005010X222A1"/>
+			<ns2:Date  value="2015-09-20"/>
+			<ns2:Time  value="19:54:32"/>
+			<ns2:Sender >
+				<ns1:Qualifier  value="ZZ"/>
+				<ns1:Identifier  value="GREATPLAINGROUP"/>
+			</ns2:Sender>
+			<ns2:Receiver >
+				<ns1:Qualifier  value="ZZ"/>
+				<ns1:Identifier  value="HEALTHYLIFEPLAN"/>
+			</ns2:Receiver>
+		</ns2:MessageProtocolInfo>
+	</ns0:Packaging>
+	<ns0:OriginalClaimID  value="$TargetTrackingID"/>
+	<ns0:InternalClaimID value="$TargetTrackingID"/>
+	<ns0:Classifications>
+			<ns3:IsChartReviewInitiatedAdjustment value="true"/>
+	</ns0:Classifications>
+	
+	<ns0:ClaimDetails >
+		<ns3:HealthInformation >
+                                             
+			<ns3:OtherDiagnosis >
+			   <ns1:Property name="RequestedExternalAction" valueType="STRING" value="Add">
+                   <ns1:Version name="encounter" value="true"/>
+               </ns1:Property>                                  
+				<ns3:DiagnosisCode  value="A0100"/>
+				<ns3:DiagnosisCodeType  value="ABF"/>
+			</ns3:OtherDiagnosis>
+
+       
+      <ns3:OtherDiagnosis>
+        <ns1:Property name="RequestedExternalAction" valueType="STRING" value="Add" />
+        <ns3:DiagnosisCode value="A009"/>
+        <ns3:DiagnosisCodeType value="ABK"/>
+      </ns3:OtherDiagnosis>
+      <ns3:OtherDiagnosis>
+        <ns1:Property name="RequestedExternalAction" valueType="STRING" value="Add" />
+        <ns3:DiagnosisCode value="A001"/>
+        <ns3:DiagnosisCodeType value="ABF"/>
+      </ns3:OtherDiagnosis>
+      <ns3:OtherDiagnosis>
+        <ns1:Property name="RequestedExternalAction" valueType="STRING" value="Add"/>
+        <ns3:DiagnosisCode value="A000"/>
+        <ns3:DiagnosisCodeType value="ABF"/>
+      </ns3:OtherDiagnosis>
+                     <!--
+			<ns3:OtherDiagnosis >
+			   <ns1:Property name="RequestedExternalAction" valueType="STRING" value="Delete">
+                   <ns1:Version name="encounter" value="true"/>
+               </ns1:Property>
+				<ns3:SequenceNumber  value="1"/>
+				<ns3:DiagnosisCode  value="4019"/>
+				<ns3:DiagnosisCodeType  value="BF"/>
+			</ns3:OtherDiagnosis>
+			<ns3:OtherDiagnosis >
+			   <ns1:Property name="RequestedExternalAction" valueType="STRING" value="Delete">
+                   <ns1:Version name="encounter" value="true"/>
+               </ns1:Property>
+				<ns3:SequenceNumber  value="1"/>
+				<ns3:DiagnosisCode  value="V7283"/>
+				<ns3:DiagnosisCodeType  value="BF"/>
+			</ns3:OtherDiagnosis>--> 
+		</ns3:HealthInformation>
+	</ns0:ClaimDetails>
+
+	<ns0:ClaimStatus >
+		<ns3:CurrentState value="Update"/>
+	</ns0:ClaimStatus>
+	
+</ns0:Claim>
