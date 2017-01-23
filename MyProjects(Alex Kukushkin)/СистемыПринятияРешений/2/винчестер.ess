@@ -1,0 +1,290 @@
+object TProject
+  Left = 109
+  Top = 186
+  Width = 670
+  Height = 120
+  ScaleType = stDiscrete
+  CriterionList = <>
+  ExpertList = <>
+  LevelFont.Charset = RUSSIAN_CHARSET
+  LevelFont.Color = clWindowText
+  LevelFont.Height = -11
+  LevelFont.Name = 'Arial'
+  LevelFont.Style = [fsBold]
+  NodeFont.Charset = RUSSIAN_CHARSET
+  NodeFont.Color = clWindowText
+  NodeFont.Height = -11
+  NodeFont.Name = 'Times New Roman'
+  NodeFont.Style = []
+  HierarchyList = <
+    item
+      BaseName = #1059#1088#1086#1074#1077#1085#1100
+      Name = #1048#1077#1088#1072#1088#1093#1080#1103'1'
+      LevelList = <
+        item
+          BaseName = #1059#1079#1077#1083
+          Name = #1042#1099#1073#1086#1088' '#1074#1080#1085#1095#1077#1089#1090#1077#1088#1072
+          NodeList = <
+            item
+              Name = #1052#1077#1090#1072
+              LinkList = <>
+              Priority = 1.000000000000000000
+              Matrix.Width = 5
+              Matrix.Height = 5
+              Matrix.Items = (
+                1.000000000000000000
+                0.111111111111111100
+                0.111111111111111100
+                0.111111111111111100
+                9.000000000000000000
+                9.000000000000000000
+                1.000000000000000000
+                0.111111111111111100
+                0.111111111111111100
+                9.000000000000000000
+                9.000000000000000000
+                9.000000000000000000
+                1.000000000000000000
+                9.000000000000000000
+                9.000000000000000000
+                9.000000000000000000
+                9.000000000000000000
+                0.111111111111111100
+                1.000000000000000000
+                9.000000000000000000
+                0.111111111111111100
+                0.111111111111111100
+                0.111111111111111100
+                0.111111111111111100
+                1.000000000000000000)
+            end>
+        end
+        item
+          BaseName = #1059#1079#1077#1083
+          Name = #1055#1072#1088#1072#1084#1077#1090#1088#1099
+          NodeList = <
+            item
+              Name = #1055#1086#1087#1091#1083#1103#1088#1085#1072#1103' '#1084#1072#1088#1082#1072
+              LinkList = <
+                item
+                  Weight = 0.042407284093833100
+                  NodeName = #1042#1099#1073#1086#1088' '#1074#1080#1085#1095#1077#1089#1090#1077#1088#1072'.'#1052#1077#1090#1072
+                end>
+              Priority = 0.042407284093833100
+              Matrix.Width = 3
+              Matrix.Height = 3
+              Matrix.Items = (
+                1.000000000000000000
+                9.000000000000000000
+                9.000000000000000000
+                0.111111111111111100
+                1.000000000000000000
+                9.000000000000000000
+                0.111111111111111100
+                0.111111111111111100
+                1.000000000000000000)
+            end
+            item
+              Name = 'SATA 3Gb/s'
+              LinkList = <
+                item
+                  Weight = 0.102082256626867600
+                  NodeName = #1042#1099#1073#1086#1088' '#1074#1080#1085#1095#1077#1089#1090#1077#1088#1072'.'#1052#1077#1090#1072
+                end>
+              Priority = 0.102082256626867600
+              Matrix.Width = 3
+              Matrix.Height = 3
+              Matrix.Items = (
+                1.000000000000000000
+                0.111111111111111100
+                9.000000000000000000
+                9.000000000000000000
+                1.000000000000000000
+                0.111111111111111100
+                0.111111111111111100
+                9.000000000000000000
+                1.000000000000000000)
+            end
+            item
+              Name = #1045#1084#1082#1086#1089#1090#1085#1099#1081
+              LinkList = <
+                item
+                  Weight = 0.592108261860941600
+                  NodeName = #1042#1099#1073#1086#1088' '#1074#1080#1085#1095#1077#1089#1090#1077#1088#1072'.'#1052#1077#1090#1072
+                end>
+              Priority = 0.592108261860941600
+              Matrix.Width = 2
+              Matrix.Height = 2
+              Matrix.Items = (
+                1.000000000000000000
+                9.000000000000000000
+                0.111111111111111100
+                1.000000000000000000)
+            end
+            item
+              Name = 'SATA 6Gb/s'
+              LinkList = <
+                item
+                  Weight = 0.245791417908030100
+                  NodeName = #1042#1099#1073#1086#1088' '#1074#1080#1085#1095#1077#1089#1090#1077#1088#1072'.'#1052#1077#1090#1072
+                end>
+              Priority = 0.245791417908030100
+              Matrix.Width = 2
+              Matrix.Height = 2
+              Matrix.Items = (
+                1.000000000000000000
+                9.000000000000000000
+                0.111111111111111100
+                1.000000000000000000)
+            end
+            item
+              Name = #1042#1099#1089#1086#1082#1072#1103' '#1094#1077#1085#1072
+              LinkList = <
+                item
+                  Weight = 0.017610779510327620
+                  NodeName = #1042#1099#1073#1086#1088' '#1074#1080#1085#1095#1077#1089#1090#1077#1088#1072'.'#1052#1077#1090#1072
+                end>
+              Priority = 0.017610779510327620
+              Matrix.Width = 3
+              Matrix.Height = 3
+              Matrix.Items = (
+                1.000000000000000000
+                0.111111111111111100
+                9.000000000000000000
+                9.000000000000000000
+                1.000000000000000000
+                0.111111111111111100
+                0.111111111111111100
+                9.000000000000000000
+                1.000000000000000000)
+            end>
+        end
+        item
+          BaseName = #1059#1079#1077#1083
+          Name = #1052#1086#1076#1077#1083#1080
+          NodeList = <
+            item
+              Name = 'Kingston SV200S3D7/64G'
+              LinkList = <
+                item
+                  Weight = 0.900000000000000000
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.SATA 6Gb/s'
+                end
+                item
+                  Weight = 0.778277496820430000
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.'#1055#1086#1087#1091#1083#1103#1088#1085#1072#1103' '#1084#1072#1088#1082#1072
+                end>
+              Priority = 0.254216911028728300
+              Matrix.Width = 0
+              Matrix.Height = 0
+              Matrix.Items = ()
+            end
+            item
+              Name = 'Intel SSDSA2CW300G3B5'
+              LinkList = <
+                item
+                  Weight = 0.333333333333333300
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.SATA 3Gb/s'
+                end
+                item
+                  Weight = 0.333333333333333300
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.'#1042#1099#1089#1086#1082#1072#1103' '#1094#1077#1085#1072
+                end
+                item
+                  Weight = 0.180130671001753700
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.'#1055#1086#1087#1091#1083#1103#1088#1085#1072#1103' '#1084#1072#1088#1082#1072
+                end>
+              Priority = 0.047536531251582570
+              Matrix.Width = 0
+              Matrix.Height = 0
+              Matrix.Items = ()
+            end
+            item
+              Name = 'Kingston SH100S3B/480G'
+              LinkList = <
+                item
+                  Weight = 0.333333333333333300
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.'#1042#1099#1089#1086#1082#1072#1103' '#1094#1077#1085#1072
+                end
+                item
+                  Weight = 0.900000000000000000
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.'#1045#1084#1082#1086#1089#1090#1085#1099#1081
+                end
+                item
+                  Weight = 0.100000000000000000
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.SATA 6Gb/s'
+                end>
+              Priority = 0.563346837302426300
+              Matrix.Width = 0
+              Matrix.Height = 0
+              Matrix.Items = ()
+            end
+            item
+              Name = 'Western Digital WDBAAY0030HNC-ERSN'
+              LinkList = <
+                item
+                  Weight = 0.333333333333333300
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.SATA 3Gb/s'
+                end
+                item
+                  Weight = 0.100000000000000000
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.'#1045#1084#1082#1086#1089#1090#1085#1099#1081
+                end
+                item
+                  Weight = 0.333333333333333300
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.'#1042#1099#1089#1086#1082#1072#1103' '#1094#1077#1085#1072
+                end>
+              Priority = 0.099108504898492570
+              Matrix.Width = 0
+              Matrix.Height = 0
+              Matrix.Items = ()
+            end
+            item
+              Name = 'HP KW347AA'
+              LinkList = <
+                item
+                  Weight = 0.333333333333333300
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.SATA 3Gb/s'
+                end
+                item
+                  Weight = 0.041591832177816290
+                  NodeName = #1055#1072#1088#1072#1084#1077#1090#1088#1099'.'#1055#1086#1087#1091#1083#1103#1088#1085#1072#1103' '#1084#1072#1088#1082#1072
+                end>
+              Priority = 0.035791215518770230
+              Matrix.Width = 0
+              Matrix.Height = 0
+              Matrix.Items = ()
+            end>
+        end>
+    end>
+  HierarchyIndex = 0
+  Alignment = taCenter
+  ShowOptions = [soLevelName, soNodeName]
+  LevelCaptionAlignment = taRightJustify
+  CircleDX = 50
+  CircleDY = 10
+  CircleInterval = 10
+  LevelInterval = 50
+  BackgroundColor = 16580310
+  FrameColor = clBlack
+  FrameWidth = 1
+  LevelCaptionWidth = 130
+  LevelCaptionBackground = 12706047
+  NodeColor = 12058578
+  ZeroNodeColor = 13816575
+  LinkWidth = 2
+  LinkColor = clGray
+  LevelColor = 11263486
+  ViewMode = True
+  NodeStyle = nsEllipse
+  ChartTitle = #1044#1080#1072#1075#1088#1072#1084#1084#1072' '#1088#1077#1079#1091#1083#1100#1090#1072#1090#1072
+  ChartType = ctVBars
+  Multicolored = True
+  DiagramColor = clYellow
+  Calculated = True
+  ExpertRated = False
+  ProjectFilerClassName = 'TSimpleProjectFiler'
+  ShowHint = True
+end
+object TTrackMatrixReceiver
+end

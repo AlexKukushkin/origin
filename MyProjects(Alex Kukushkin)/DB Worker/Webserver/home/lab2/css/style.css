@@ -1,0 +1,94 @@
+body {
+		background-image: url("wolf.jpg"), url("new.jpg"), url("bruce_lee_3.jpg"), url("bruce_lee_4.jpg"), url("bruce_lee_5.jpg"), url("bruce_lee_6.jpg"), url("bruce_lee_7.jpg"), url("image_1.jpg"), url("image_2.jpg"), url("image_3.jpg"), url("image_4.jpg"), url("image_5.jpg"), url("image_6.jpg"), url("image_7.jpg"), url("image_8.jpg"), url("image_10.jpg");
+		background-repeat: no-repeat;
+		background-position: top left, 95% 1%, 97% 14%, 90% 20%, 90% 27%, 90% 32%, 90% 39%, 90% 45%, 90% 50%, 90% 57%, 90% 63%, 90% 70%, 90% 75%, 90% 98%, 90% 86%, 90% 80%;
+		background-color: gray;
+		
+		margin-top: 100px;
+	    margin-right: 450px;
+	    margin-bottom: 10px;
+	    margin-left: 20px;
+		
+		/*DIV {
+			width: 300px; /* Ширина слоя 
+			margin: 7px; /* Значение отступов 
+			padding: 10px; /* Поля вокруг текста 
+			border: 4px solid black; /* Параметры границы 
+			background: #fc0; /* Цвет фона 
+	    }*/
+}
+
+
+h1
+ {
+	color: blue;
+}	
+
+h2
+ {
+	color: blue;
+}
+	
+h3 
+{
+	color: blue;
+}	
+
+#change_1 
+{
+	background: black;
+	color : red;
+}
+	
+#change_2 
+{
+	background: green;
+	color : orange;
+}
+
+#change_3 
+{
+	background: orange;
+	color : blue;
+}
+
+#change_4 
+{
+	background: pink;
+	color : green;
+}
+
+#change_5 
+{
+	background: gold;
+	color : blue;
+}
+
+#change_6 
+{
+	background: pink;
+	color : green;
+}
+
+#change_7 
+{
+	background: red;
+	color : yellow;
+}
+
+p {
+	/*font-style: italic;*/
+	/*font-weight: bold;*/
+	font-size: 14px;
+	font-family: verdana;
+}
+
+a{
+	font-style: italic;
+	color: white;
+}
+
+a:hover
+{
+	font-weight: bold;
+}

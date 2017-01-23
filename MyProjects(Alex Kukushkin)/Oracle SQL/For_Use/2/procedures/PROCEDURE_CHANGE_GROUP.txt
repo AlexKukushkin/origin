@@ -1,0 +1,57 @@
+create or replace
+PROCEDURE CHANGE_GROUP 
+(
+  STUD IN student.id_student%TYPE,
+  GRUP IN student.id_group%TYPE
+) AS 
+
+--Перевод студента в указанную группу--
+CURSOR cur_updt(TEMP_STUD in student.id_student%TYPE) IS
+  SELECT * FROM student
+    WHERE TEMP_STUD = student.id_student
+  FOR UPDATE OF student.id_group;
+
+--Получение текущей группы студента--
+CURSOR cur_group(TEMP_STUD in student.id_student%TYPE) IS
+  SELECT student.id_group FROM student
+    WHERE TEMP_STUD = student.id_student;
+
+--Проверка курса студента--
+CURSOR cur_course(TEMP_GRUP in ugroup.id_group%TYPE) IS
+  SELECT ugroup.course FROM ugroup
+    WHERE TEMP_GRUP = ugroup.id_group;
+    
+get_cur_updt cur_updt%ROWTYPE;
+get_cur_group student.id_group%TYPE;
+get_cur_course_1 ugroup.course%TYPE;
+get_cur_course_2 ugroup.course%TYPE;
+
+
+BEGIN
+    OPEN cur_group(STUD);
+      FETCH cur_group INTO get_cur_group;
+    CLOSE cur_group;
+    
+    OPEN cur_course(get_cur_group);
+      FETCH cur_course INTO get_cur_course_1;
+    CLOSE cur_course;
+    
+    OPEN cur_course(GRUP);
+      FETCH cur_course INTO get_cur_course_2;
+    CLOSE cur_course;
+    
+    if(get_cur_course_1 = get_cur_course_2) then
+       FOR get_cur_updt IN cur_updt(STUD) LOOP
+          UPDATE student
+              SET student.id_group = GRUP
+          WHERE CURRENT OF cur_updt;
+       END LOOP;
+      
+       DBMS_OUTPUT.enable;
+       DBMS_OUTPUT.put_line('Студент переведен в новую группу!');
+    else 
+       DBMS_OUTPUT.enable;
+       DBMS_OUTPUT.put_line('Перевод невозможно произвести, т.к. курсы групп не совпадают. Текущий курс студента : '||get_cur_course_1||
+                            '; курс новой группы : '||get_cur_course_2);
+   end if;
+END CHANGE_GROUP;

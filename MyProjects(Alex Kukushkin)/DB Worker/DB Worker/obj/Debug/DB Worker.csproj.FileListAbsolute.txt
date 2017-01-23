@@ -1,0 +1,266 @@
+G:\DB Worker\DB Worker\bin\Debug\DB Worker.exe.config
+G:\DB Worker\DB Worker\obj\Debug\DB Worker.csprojResolveAssemblyReference.cache
+G:\DB Worker\DB Worker\obj\Debug\MainWindow.baml
+G:\DB Worker\DB Worker\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.baml
+G:\DB Worker\DB Worker\obj\Debug\themes\generic.baml
+G:\DB Worker\DB Worker\obj\Debug\themes\SketchStyles.baml
+G:\DB Worker\DB Worker\obj\Debug\App.baml
+G:\DB Worker\DB Worker\obj\Debug\MainWindow.g.cs
+G:\DB Worker\DB Worker\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.g.cs
+G:\DB Worker\DB Worker\obj\Debug\App.g.cs
+G:\DB Worker\DB Worker\obj\Debug\DB Worker_MarkupCompile.cache
+G:\DB Worker\DB Worker\bin\Debug\DB Worker.exe
+G:\DB Worker\DB Worker\bin\Debug\DB Worker.pdb
+G:\DB Worker\DB Worker\bin\Debug\Microsoft.Expression.Drawing.dll
+G:\DB Worker\DB Worker\bin\Debug\Microsoft.Expression.Interactions.dll
+G:\DB Worker\DB Worker\bin\Debug\Microsoft.Expression.Prototyping.Interactivity.dll
+G:\DB Worker\DB Worker\bin\Debug\Microsoft.Expression.Prototyping.SketchControls.dll
+G:\DB Worker\DB Worker\bin\Debug\System.Windows.Interactivity.dll
+G:\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\de\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\en\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\es\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\it\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+G:\DB Worker\DB Worker\obj\Debug\themes\Bindings.g.cs
+G:\DB Worker\DB Worker\obj\Debug\DB Worker_MarkupCompile.lref
+G:\DB Worker\DB Worker\obj\Debug\themes\Bindings.baml
+G:\DB Worker\DB Worker\obj\Debug\DB Worker.g.resources
+G:\DB Worker\DB Worker\obj\Debug\DB_Worker.Properties.Resources.resources
+G:\DB Worker\DB Worker\obj\Debug\DB Worker.csproj.GenerateResource.Cache
+G:\DB Worker\DB Worker\obj\Debug\DB Worker.exe
+G:\DB Worker\DB Worker\obj\Debug\DB Worker.pdb
+G:\DB Worker\DB Worker\bin\Debug\Core.dll
+G:\DB Worker\DB Worker\bin\Debug\Core.pdb
+G:\DB Worker\DB Worker\obj\Debug\DBViewer.baml
+G:\DB Worker\DB Worker\obj\Debug\DBViewer.g.cs
+J:\VS\DB Worker\DB Worker\bin\Debug\DB Worker.exe.config
+J:\VS\DB Worker\DB Worker\obj\Debug\DB Worker.exe
+J:\VS\DB Worker\DB Worker\obj\Debug\DB Worker.pdb
+J:\VS\DB Worker\DB Worker\obj\Debug\DB Worker.csprojResolveAssemblyReference.cache
+J:\VS\DB Worker\DB Worker\obj\Debug\DBViewer.baml
+J:\VS\DB Worker\DB Worker\obj\Debug\MainWindow.baml
+J:\VS\DB Worker\DB Worker\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.baml
+J:\VS\DB Worker\DB Worker\obj\Debug\themes\generic.baml
+J:\VS\DB Worker\DB Worker\obj\Debug\themes\SketchStyles.baml
+J:\VS\DB Worker\DB Worker\obj\Debug\App.baml
+J:\VS\DB Worker\DB Worker\obj\Debug\DBViewer.g.cs
+J:\VS\DB Worker\DB Worker\obj\Debug\MainWindow.g.cs
+J:\VS\DB Worker\DB Worker\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.g.cs
+J:\VS\DB Worker\DB Worker\obj\Debug\themes\Bindings.g.cs
+J:\VS\DB Worker\DB Worker\obj\Debug\App.g.cs
+J:\VS\DB Worker\DB Worker\obj\Debug\DB Worker_MarkupCompile.cache
+J:\VS\DB Worker\DB Worker\obj\Debug\DB Worker_MarkupCompile.lref
+J:\VS\DB Worker\DB Worker\bin\Debug\DB Worker.exe
+J:\VS\DB Worker\DB Worker\bin\Debug\DB Worker.pdb
+J:\VS\DB Worker\DB Worker\bin\Debug\Core.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\Core.pdb
+J:\VS\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\de\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\en\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\es\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\it\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+J:\VS\DB Worker\DB Worker\obj\Debug\themes\Bindings.baml
+J:\VS\DB Worker\DB Worker\obj\Debug\DB Worker.g.resources
+J:\VS\DB Worker\DB Worker\obj\Debug\DB_Worker.Properties.Resources.resources
+J:\VS\DB Worker\DB Worker\obj\Debug\DB Worker.csproj.GenerateResource.Cache
+D:\sql\DB Worker\DB Worker\bin\Debug\DB Worker.exe.config
+D:\sql\DB Worker\DB Worker\obj\Debug\DB Worker.exe
+D:\sql\DB Worker\DB Worker\obj\Debug\DB Worker.pdb
+D:\sql\DB Worker\DB Worker\bin\Debug\DB Worker.exe
+D:\sql\DB Worker\DB Worker\bin\Debug\DB Worker.pdb
+D:\sql\DB Worker\DB Worker\bin\Debug\Core.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\Microsoft.Expression.Prototyping.Interactivity.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\Microsoft.Expression.Prototyping.SketchControls.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\System.Windows.Interactivity.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\Core.pdb
+D:\sql\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\sql\DB Worker\DB Worker\obj\Debug\DB Worker.csprojResolveAssemblyReference.cache
+D:\sql\DB Worker\DB Worker\obj\Debug\DBViewer.baml
+D:\sql\DB Worker\DB Worker\obj\Debug\MainWindow.baml
+D:\sql\DB Worker\DB Worker\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.baml
+D:\sql\DB Worker\DB Worker\obj\Debug\themes\generic.baml
+D:\sql\DB Worker\DB Worker\obj\Debug\themes\SketchStyles.baml
+D:\sql\DB Worker\DB Worker\obj\Debug\App.baml
+D:\sql\DB Worker\DB Worker\obj\Debug\DBViewer.g.cs
+D:\sql\DB Worker\DB Worker\obj\Debug\MainWindow.g.cs
+D:\sql\DB Worker\DB Worker\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.g.cs
+D:\sql\DB Worker\DB Worker\obj\Debug\themes\Bindings.g.cs
+D:\sql\DB Worker\DB Worker\obj\Debug\App.g.cs
+D:\sql\DB Worker\DB Worker\obj\Debug\DB Worker_MarkupCompile.cache
+D:\sql\DB Worker\DB Worker\obj\Debug\DB Worker_MarkupCompile.lref
+D:\sql\DB Worker\DB Worker\obj\Debug\themes\Bindings.baml
+D:\sql\DB Worker\DB Worker\obj\Debug\DB Worker.g.resources
+D:\sql\DB Worker\DB Worker\obj\Debug\DB_Worker.Properties.Resources.resources
+D:\sql\DB Worker\DB Worker\obj\Debug\DB Worker.csproj.GenerateResource.Cache
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\DB Worker.exe.config
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DB Worker.exe
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DB Worker.pdb
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\DB Worker.exe
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\DB Worker.pdb
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\Core.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\Core.pdb
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ru\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DB Worker.csprojResolveAssemblyReference.cache
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DBViewer.baml
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\MainWindow.baml
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.baml
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\themes\generic.baml
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\themes\SketchStyles.baml
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\App.baml
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DBViewer.g.cs
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\MainWindow.g.cs
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\Styles\CustomizedWindow\VS2012WindowStyle.g.cs
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\themes\Bindings.g.cs
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\App.g.cs
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DB Worker_MarkupCompile.cache
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DB Worker_MarkupCompile.lref
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\themes\Bindings.baml
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DB Worker.g.resources
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DB_Worker.Properties.Resources.resources
+C:\Users\Vlad\Desktop\DB Worker\DB Worker\obj\Debug\DB Worker.csproj.GenerateResource.Cache

@@ -1,0 +1,1 @@
+﻿<h1>Контакты</h1><p>	Email: alextriada777@gmail.com<br/>	Skype: alex.cucushcin1<br/>	Aдрес: г.Ростов-на-Дону, ул.Мечникова 154А</p>

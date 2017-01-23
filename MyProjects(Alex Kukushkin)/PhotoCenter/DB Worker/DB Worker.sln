@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB Worker", "DB Worker\DB Worker.csproj", "{DB1898EA-3E92-4C8D-A479-D44EEDFE4265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{73024B70-570A-4C4A-8BD5-4EED397ADA15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1898EA-3E92-4C8D-A479-D44EEDFE4265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1898EA-3E92-4C8D-A479-D44EEDFE4265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1898EA-3E92-4C8D-A479-D44EEDFE4265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1898EA-3E92-4C8D-A479-D44EEDFE4265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73024B70-570A-4C4A-8BD5-4EED397ADA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73024B70-570A-4C4A-8BD5-4EED397ADA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73024B70-570A-4C4A-8BD5-4EED397ADA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73024B70-570A-4C4A-8BD5-4EED397ADA15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

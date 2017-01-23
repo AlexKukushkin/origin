@@ -1,0 +1,17 @@
+  Спасибо за то что выбрали Radyx.ru.
+
+  Панель управления аккаунтом:
+  Логин: alextriada_613
+  Пароль: am59myt1kr
+  Вход: http://www.radyx.ru/
+
+  Адрес сайта: http://alextriada.gixx.ru/
+  FTP сервер: ftp-6.radyx.ru
+  FTP логин: alextriada_613
+  FTP пароль: fw02tqv5ho
+
+  SQL сервер: sql-4.radyx.ru
+  Порт SQL сервера: 3306
+  База SQL: alextriada613
+  SQL логин: alextriada613
+  SQL пароль: sk18xsv4sx

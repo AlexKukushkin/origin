@@ -1,0 +1,22 @@
+[Sun May 25 17:26:36 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sun May 25 17:26:36 2014] [warn] pid file Z:/usr/local/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 25 17:26:36 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sun May 25 17:26:36 2014] [notice] Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 configured -- resuming normal operations
+[Sun May 25 17:26:36 2014] [notice] Server built: Apr 20 2012 18:42:30
+[Sun May 25 17:26:36 2014] [notice] Parent: Created child process 11128
+[Sun May 25 17:26:36 2014] [notice] Disabled use of AcceptEx() WinSock2 API
+[Sun May 25 17:26:36 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sun May 25 17:26:36 2014] [warn] Init: Name-based SSL virtual hosts only work for clients with TLS server name indication support (RFC 4366)
+[Sun May 25 17:26:36 2014] [notice] Child 11128: Child process is running
+[Sun May 25 17:26:36 2014] [notice] Child 11128: Acquired the start mutex.
+[Sun May 25 17:26:36 2014] [notice] Child 11128: Starting 25 worker threads.
+[Sun May 25 17:26:36 2014] [notice] Child 11128: Listening on port 443.
+[Sun May 25 17:26:36 2014] [notice] Child 11128: Listening on port 8648.
+[Sun May 25 17:26:36 2014] [notice] Child 11128: Listening on port 443.
+[Sun May 25 17:26:36 2014] [notice] Child 11128: Listening on port 80.
+[Sun May 25 20:24:47 2014] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sun May 25 20:24:47 2014] [notice] Child 11128: Exit event signaled. Child process is ending.
+[Sun May 25 20:24:48 2014] [notice] Child 11128: Released the start mutex
+[Sun May 25 20:24:49 2014] [notice] Child 11128: All worker threads have exited.
+[Sun May 25 20:24:49 2014] [notice] Child 11128: Child process is exiting
+[Sun May 25 20:24:49 2014] [notice] Parent: Child process exited successfully.

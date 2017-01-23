@@ -1,0 +1,50 @@
+CREATE OR REPLACE PROCEDURE INCREASE_COURSE AS 
+--Курсор на изменение курса--
+CURSOR cur_upd_course is
+   SELECT * FROM ugroup 
+   WHERE ugroup.course < 6
+   FOR UPDATE OF ugroup.course;
+
+--Курсор на обнуление группы--
+CURSOR cur_upd_group is
+   SELECT * FROM student
+   WHERE student.id_group IN(SELECT ugroup.id_group FROM ugroup WHERE ugroup.course > 5)
+   FOR UPDATE OF student.id_group;
+
+--Курсор на проверку окончания обучения--
+CURSOR cur_upd_stud is 
+  SELECT * FROM student
+  WHERE student.id_group is null;
+
+--Переменные для курсоров--
+get_cur_upd_course cur_upd_course % ROWTYPE;
+get_cur_upd_group cur_upd_group % ROWTYPE;
+get_cur_stud cur_upd_stud % ROWTYPE;
+
+BEGIN
+  FOR get_cur_upd_course IN cur_upd_course
+  LOOP
+     UPDATE ugroup
+     SET ugroup.course = ugroup.course + 1
+     WHERE CURRENT OF cur_upd_course;
+  END LOOP;
+  COMMIT;
+  DBMS_OUTPUT.enable;
+  DBMS_OUTPUT.put_line('Студенты успешно переведены на следующий курс.');
+  
+  
+  FOR get_cur_upd_group IN cur_upd_group
+  LOOP 
+    UPDATE student
+    SET student.id_group = null
+    WHERE CURRENT OF cur_upd_group;
+  END LOOP;
+  COMMIT;
+  
+  FOR get_cur_stud IN cur_upd_stud
+  LOOP 
+    DBMS_OUTPUT.enable;
+    DBMS_OUTPUT.put_line('Студент : '|| get_cur_stud.initials || ' успешно окончил обучение!');
+  END LOOP;
+  COMMIT;
+END INCREASE_COURSE;

@@ -1,0 +1,109 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d Anno"
+	xmlns:local="clr-namespace:SnowboardScreens" 
+	xmlns:ps="clr-namespace:Microsoft.Expression.Prototyping.SketchControls;assembly=Microsoft.Expression.Prototyping.SketchControls" 
+	xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" 
+	xmlns:ic="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions" 
+	xmlns:im="clr-namespace:Microsoft.Expression.Interactivity.Media;assembly=Microsoft.Expression.Interactions" 
+	xmlns:ii="clr-namespace:Microsoft.Expression.Interactivity.Input;assembly=Microsoft.Expression.Interactions" 
+	xmlns:il="clr-namespace:Microsoft.Expression.Interactivity.Layout;assembly=Microsoft.Expression.Interactions"
+	xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity"
+	xmlns:Anno="http://schemas.microsoft.com/expression/blend/extensions/annotations/2008"
+	x:Class="SnowboardScreens.Bindings"
+	x:Name="Bindings_Name" Width="640" Height="480">
+
+	<Anno:AnnotationManager.Annotations>
+		<Anno:Annotation Author="Expression Samples" AuthorInitials="ES" Left="24.17" SerialNumber="1" Timestamp="06/25/2009 19:15:51" Top="125.63" Text="This page illustrates how states can be used in a prototype. Note that the state shows up in the SketchFlow player just like navigation connections.&#xa;You can wire up states to controls by selecting a control and choosing &quot;Activate State&quot; from the context menu."/>
+	</Anno:AnnotationManager.Annotations>
+
+	<Grid x:Name="LayoutRoot" Background="#FFFFFFFF">
+		<VisualStateManager.VisualStateGroups>
+			<VisualStateGroup x:Name="Popups">
+				<VisualStateGroup.Transitions>
+					<VisualTransition GeneratedDuration="00:00:01"/>
+					<VisualTransition From="Cart" GeneratedDuration="00:00:00.2000000" To="NoPopup">
+						<Storyboard>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="sketchRectangleUC" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</VisualTransition>
+					<VisualTransition From="Chat" GeneratedDuration="00:00:00.2000000" To="NoPopup">
+						<Storyboard>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="sketchRectangleUC1" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</VisualTransition>
+				</VisualStateGroup.Transitions>
+				<VisualState x:Name="NoPopup"/>
+				<VisualState x:Name="Cart">
+					<Storyboard>
+						<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="Cart_Popup" Storyboard.TargetProperty="(UIElement.Opacity)">
+							<SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+						</DoubleAnimationUsingKeyFrames>
+						<ColorAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="Cart_Popup" Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)">
+							<SplineColorKeyFrame KeyTime="00:00:00" Value="#FFDBFFB1"/>
+						</ColorAnimationUsingKeyFrames>
+						<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="textBox" Storyboard.TargetProperty="(UIElement.Opacity)">
+							<SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+						</DoubleAnimationUsingKeyFrames>
+					</Storyboard>
+				</VisualState>
+				<VisualState x:Name="Chat">
+					<Storyboard>
+						<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="Chat_Popup" Storyboard.TargetProperty="(UIElement.Opacity)">
+							<SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+						</DoubleAnimationUsingKeyFrames>
+						<ColorAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="Chat_Popup" Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)">
+							<SplineColorKeyFrame KeyTime="00:00:00" Value="#FFACC1CE"/>
+						</ColorAnimationUsingKeyFrames>
+						<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="textBox1" Storyboard.TargetProperty="(UIElement.Opacity)">
+							<SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+						</DoubleAnimationUsingKeyFrames>
+					</Storyboard>
+				</VisualState>
+			</VisualStateGroup>
+		</VisualStateManager.VisualStateGroups>
+		<ps:SketchRectangleUC Margin="8,112,80,8" Style="{DynamicResource Rectangle-Sketch}" Background="{x:Null}"/>
+		<Button HorizontalAlignment="Right" Margin="0,112,8,0" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Top" Width="68" Height="53" Content="View&#xa;cart">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:ActivateStateAction TargetScreen="SnowboardScreens.Bindings" TargetState="Cart"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Button HorizontalAlignment="Right" Margin="0,0,8,8" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Width="68" Height="51" Content="Live &#xa;chat">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="Click">
+					<pb:ActivateStateAction TargetScreen="SnowboardScreens.Bindings" TargetState="Chat"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</Button>
+		<Grid x:Name="Cart_Popup" Margin="0,126,93,98" Opacity="0" Background="#FF000000" HorizontalAlignment="Right" Width="213">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseDown">
+					<pb:ActivateStateAction TargetScreen="SnowboardScreens.Bindings" TargetState="NoPopup"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+			<ps:SketchRectangleUC x:Name="sketchRectangleUC" Style="{DynamicResource Rectangle-Sketch}" Background="{x:Null}"/>
+			<TextBox x:Name="textBox" Margin="8,8,18,0" Style="{DynamicResource Note-Sketch}" VerticalAlignment="Top" Opacity="0" Text="Quick shopping cart overview popup..." TextWrapping="Wrap" Width="Auto" Height="113"/>
+		</Grid>
+		<Grid x:Name="Chat_Popup" Margin="34,0,91,24" Opacity="0" Background="#FF000000" VerticalAlignment="Bottom" Height="200">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseDown">
+					<pb:ActivateStateAction TargetScreen="SnowboardScreens.Bindings" TargetState="NoPopup"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+			<ps:SketchRectangleUC x:Name="sketchRectangleUC1" Style="{DynamicResource Rectangle-Sketch}" Background="{x:Null}"/>
+			<TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="8,8,0,94" Style="{DynamicResource Note-Sketch}" Opacity="0" Text="Chat with a friendly sales representative..." TextWrapping="Wrap" Width="204" Height="Auto"/>
+		</Grid>
+		<!--<local:Menu VerticalAlignment="Top" d:IsPrototypingComposition="True" Margin="0,40,0,0"/>-->
+		<TextBlock HorizontalAlignment="Left" Margin="8,8,0,0" VerticalAlignment="Top" Width="259" Height="26" Text="snowboard online" TextWrapping="Wrap" FontFamily="/Snowboard.Screens;component/Fonts/#Buxton Sketch" FontSize="24"/>
+		<TextBlock HorizontalAlignment="Right" Margin="0,8,8,0" VerticalAlignment="Top" Width="259" Height="26" FontFamily="/Snowboard.Screens;component/Fonts/#Buxton Sketch" FontSize="24" Text="bindings" TextWrapping="Wrap" TextAlignment="Right"/>
+	</Grid>
+</UserControl>

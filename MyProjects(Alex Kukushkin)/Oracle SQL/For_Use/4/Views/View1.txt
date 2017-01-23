@@ -1,0 +1,9 @@
+CREATE OR REPLACE FORCE VIEW "LAB3"."VIEW1" ("Нaзвание товара", "Название группы", "Приходная цена", "Кол_на_складе")
+                           AS
+  SELECT tovar.tovar_name  AS "Нaзвание товара",
+    tovar_group.group_name AS "Название группы",
+    tovar.prihod_cena      AS "Приходная цена",
+    tovar.kol_sklad        AS "Кол_на_складе"
+  FROM tovar
+  INNER JOIN tovar_group
+  ON tovar.id_group = tovar_group.id_group;

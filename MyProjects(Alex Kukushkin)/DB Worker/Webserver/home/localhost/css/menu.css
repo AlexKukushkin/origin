@@ -1,0 +1,33 @@
+#mymenu {
+    float: left;
+    width: 100%;
+    margin: 20px 10px;
+    list-style: none;
+}
+
+#mymenu li {
+    float: left;
+    width: auto;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+#mymenu li ul {
+    display: none;
+    width: 200px;
+}
+
+#mymenu li:hover ul {
+    display: block;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#mymenu li ul li {
+    float: left;
+    width: 200px;
+    padding: 5px 0;
+    font-size: 14px;
+}

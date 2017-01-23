@@ -1,0 +1,1 @@
+﻿<?switch ($data['type']) {    case 'error':		include "registration/registration2_view.php";        break;    case 'added':        echo "Пользователь добавлен!";        break;    case 'created':        echo "Пользователь уже создан!";        break;	case 'user_out':        echo "Вы вышли!";        break;	default:		include "registration/registration2_view.php";}?>

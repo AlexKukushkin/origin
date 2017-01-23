@@ -1,0 +1,1 @@
+<?class Model_Portfolio extends Model{public function get_data(){$arr = array();$db = $GLOBALS['db'];$STH = $db->query('SELECT * from alex_team');$id = 0;while ($row = $STH->fetch()) {    $arr[$id] = $row;	$id++;}return $arr;}}?>

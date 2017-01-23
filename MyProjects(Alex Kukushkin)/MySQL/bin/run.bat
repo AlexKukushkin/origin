@@ -1,0 +1,1 @@
+start /min mysqld.exe --defaults-file="my.ini"

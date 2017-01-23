@@ -1,0 +1,77 @@
+body {
+		background-color: white;
+		background-image: url(back.jpg);
+}		
+h1
+ {
+	color: blue;
+}	
+
+h2
+ {
+	color: blue;
+}
+	
+h3 
+{
+	color: blue;
+}	
+
+#change_1 
+{
+	background: black;
+	color : red;
+}
+	
+#change_2 
+{
+	background: green;
+	color : orange;
+}
+
+#change_3 
+{
+	background: orange;
+	color : blue;
+}
+
+#change_4 
+{
+	background: pink;
+	color : green;
+}
+
+#change_5 
+{
+	background: gold;
+	color : blue;
+}
+
+#change_6 
+{
+	background: pink;
+	color : green;
+}
+
+#change_7 
+{
+	background: red;
+	color : yellow;
+}
+
+p {
+	/*font-style: italic;*/
+	/*font-weight: bold;*/
+	font-size: 14px;
+	font-family: verdana;
+}
+
+a{
+	font-style: italic;
+	color: white;
+}
+
+a:hover
+{
+	font-weight: bold;
+}
